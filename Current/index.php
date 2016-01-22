@@ -86,7 +86,7 @@
 
   </body>
 </html>
-
+<!--
 <style type="text/css">
 body {
   background-image: url(../Images/wallpaper.jpg);
@@ -98,3 +98,4 @@ body {
   background-size: cover;
 }
 </style>
+-->
