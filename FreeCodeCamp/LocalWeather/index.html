@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Weather</title>
+    <meta charset="utf-8">
+
+    <script src="http://code.jquery.com/jquery-1.7.min.js" ></script>
+    <script src="http://code.jquery.com/ui/1.7.0/jquery-ui.js" ></script>
+
+<script>
+
+function getWeather(callback) {
+    var weather = "http://api.openweathermap.org/data/2.5/forecast?lat=51.5072&lon=0.1275&units=metric&APPID=0827376ec4c9c23f284c5938fa0a79e9";
+    $.ajax({
+      dataType: "jsonp",
+      url: weather,
+      success: callback
+    });
+}
+
+// get data:
+
+
+getWeather(function (data){
+  for (i = 0; i < 24; i++){
+    document.write(data.list[i].dt_txt);
+    document.write ('<br>');
+    document.write(data.list[i].main.temp);
+    document.write('<br>');
+
+  }
+});
+
+</script>
+</body>
+</html>
