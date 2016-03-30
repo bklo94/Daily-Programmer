@@ -10,7 +10,7 @@
 <script>
 
 function getWeather(callback) {
-    var weather = "http://api.openweathermap.org/data/2.5/forecast?lat=51.5072&lon=0.1275&units=metric&APPID=0827376ec4c9c23f284c5938fa0a79e9";
+    var weather = "http://api.wunderground.com/api/8c8cdf1ee5fd3f7b/forecast10day/q/CA/San_Francisco.json";
     $.ajax({
       dataType: "jsonp",
       url: weather,
@@ -19,14 +19,15 @@ function getWeather(callback) {
 }
 
 // get data:
-
-
 getWeather(function (data){
-  for (i = 0; i < 24; i++){
-    document.write(data.list[i].dt_txt);
+  for (i = 0; i < 20; i++){
+    document.write(data['forecast']['txt_forecast']['forecastday'][i]['title']);
     document.write ('<br>');
-    document.write(data.list[i].main.temp);
-    document.write('<br>');
+    document.write(data['forecast']['txt_forecast']['forecastday'][i]['fcttext']);
+    document.write ('<br>');
+    document.write(data['forecast']['txt_forecast']['forecastday'][i]['fcttext_metric']);
+    document.write ('<br>');
+    document.write ('<br>');
 
   }
 });
