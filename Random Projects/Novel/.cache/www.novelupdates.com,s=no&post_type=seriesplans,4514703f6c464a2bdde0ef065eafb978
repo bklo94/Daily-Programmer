@@ -1,0 +1,1115 @@
+status: 200
+content-length: 77789
+content-location: http://www.novelupdates.com/?s=no&post_type=seriesplans
+set-cookie: __cfduid=d8f06c3204dd1ef5672e5bf2057e094be1483599463;
+ expires=Fri, 05-Jan-18 06:57:43 GMT; path=/; domain=.novelupdates.com;
+ HttpOnly
+x-powered-by: PHP/7.0.13
+vary: Accept-Encoding
+server: cloudflare-nginx
+connection: keep-alive
+-content-encoding: gzip
+link: <http://www.novelupdates.com/wp-json/>; rel="https://api.w.org/"
+date: Thu, 05 Jan 2017 06:57:43 GMT
+cf-ray: 31c509a6b4d111a1-SJC
+content-type: text/html; charset=UTF-8
+-varied-accept-encoding: gzip, deflate
+
+<!DOCTYPE HTML>
+
+
+
+<html class="" lang="en-US">
+<head>
+	<meta charset="UTF-8">
+	<title>Search Results    no - Novel Updates</title>
+
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+	<meta name="SKYPE_TOOLBAR" content="SKYPE_TOOLBAR_PARSER_COMPATIBLE" />
+
+	<link rel="shortcut icon" href="http://www.novelupdates.com/wp-content/uploads/2015/10/ndfavicon.ico">
+	<link rel='dns-prefetch' href='//www.novelupdates.com' />
+<link rel='dns-prefetch' href='//ajax.googleapis.com' />
+<link rel='dns-prefetch' href='//forum.novelupdates.com' />
+<link rel='dns-prefetch' href='//www.google.com' />
+<link rel='dns-prefetch' href='//fonts.googleapis.com' />
+<link rel='dns-prefetch' href='//s.w.org' />
+<link rel="alternate" type="application/rss+xml" title="Novel Updates &raquo; Feed" href="http://www.novelupdates.com/feed/" />
+<link rel="alternate" type="application/rss+xml" title="Novel Updates &raquo; Comments Feed" href="http://www.novelupdates.com/comments/feed/" />
+<link rel="alternate" type="application/rss+xml" title="Novel Updates &raquo; Series Feed" href="http://www.novelupdates.com/series/feed/" />
+		<script type="text/javascript">
+			window._wpemojiSettings = {"baseUrl":"https:\/\/s.w.org\/images\/core\/emoji\/2.2.1\/72x72\/","ext":".png","svgUrl":"https:\/\/s.w.org\/images\/core\/emoji\/2.2.1\/svg\/","svgExt":".svg","source":{"concatemoji":"http:\/\/www.novelupdates.com\/wp-includes\/js\/wp-emoji-release.min.js?ver=4.7"}};
+			!function(a,b,c){function d(a){var b,c,d,e,f=String.fromCharCode;if(!k||!k.fillText)return!1;switch(k.clearRect(0,0,j.width,j.height),k.textBaseline="top",k.font="600 32px Arial",a){case"flag":return k.fillText(f(55356,56826,55356,56819),0,0),!(j.toDataURL().length<3e3)&&(k.clearRect(0,0,j.width,j.height),k.fillText(f(55356,57331,65039,8205,55356,57096),0,0),b=j.toDataURL(),k.clearRect(0,0,j.width,j.height),k.fillText(f(55356,57331,55356,57096),0,0),c=j.toDataURL(),b!==c);case"emoji4":return k.fillText(f(55357,56425,55356,57341,8205,55357,56507),0,0),d=j.toDataURL(),k.clearRect(0,0,j.width,j.height),k.fillText(f(55357,56425,55356,57341,55357,56507),0,0),e=j.toDataURL(),d!==e}return!1}function e(a){var c=b.createElement("script");c.src=a,c.defer=c.type="text/javascript",b.getElementsByTagName("head")[0].appendChild(c)}var f,g,h,i,j=b.createElement("canvas"),k=j.getContext&&j.getContext("2d");for(i=Array("flag","emoji4"),c.supports={everything:!0,everythingExceptFlag:!0},h=0;h<i.length;h++)c.supports[i[h]]=d(i[h]),c.supports.everything=c.supports.everything&&c.supports[i[h]],"flag"!==i[h]&&(c.supports.everythingExceptFlag=c.supports.everythingExceptFlag&&c.supports[i[h]]);c.supports.everythingExceptFlag=c.supports.everythingExceptFlag&&!c.supports.flag,c.DOMReady=!1,c.readyCallback=function(){c.DOMReady=!0},c.supports.everything||(g=function(){c.readyCallback()},b.addEventListener?(b.addEventListener("DOMContentLoaded",g,!1),a.addEventListener("load",g,!1)):(a.attachEvent("onload",g),b.attachEvent("onreadystatechange",function(){"complete"===b.readyState&&c.readyCallback()})),f=c.source||{},f.concatemoji?e(f.concatemoji):f.wpemoji&&f.twemoji&&(e(f.twemoji),e(f.wpemoji)))}(window,document,window._wpemojiSettings);
+		</script>
+		<style type="text/css">
+img.wp-smiley,
+img.emoji {
+	display: inline !important;
+	border: none !important;
+	box-shadow: none !important;
+	height: 1em !important;
+	width: 1em !important;
+	margin: 0 .07em !important;
+	vertical-align: -0.1em !important;
+	background: none !important;
+	padding: 0 !important;
+}
+</style>
+<link rel='stylesheet' id='theme-my-login-css'  href='http://www.novelupdates.com/wp-content/plugins/theme-my-login/theme-my-login.css?ver=6.4.6' type='text/css' media='all' />
+<link rel='stylesheet' id='bbspoiler-css'  href='http://www.novelupdates.com/wp-content/plugins/bbspoiler/inc/bbspoiler.css?ver=4.7' type='text/css' media='all' />
+<link rel='stylesheet' id='yasrcss-css'  href='http://www.novelupdates.com/wp-content/plugins/yet-another-stars-rating/css/yasr.css' type='text/css' media='all' />
+<link rel='stylesheet' id='yasrcsslightscheme-css'  href='http://www.novelupdates.com/wp-content/plugins/yet-another-stars-rating/css/yasr-table-light.css' type='text/css' media='all' />
+<link rel='stylesheet' id='breadcrumbs-nu-css'  href='http://www.novelupdates.com/wp-content/themes/ndupdates-child/js/breadcrumbs.css?ver=1.1.4' type='text/css' media='' />
+<link rel='stylesheet' id='us-font-1-css'  href='http://fonts.googleapis.com/css?family=Noto+Sans%3A300%2C400%2C700&#038;subset=latin&#038;ver=4.7' type='text/css' media='all' />
+<link rel='stylesheet' id='us-font-2-css'  href='http://fonts.googleapis.com/css?family=Open+Sans%3A400%2C400italic%2C700%2C700italic%2C300&#038;subset=latin&#038;ver=4.7' type='text/css' media='all' />
+<link rel='stylesheet' id='us-motioncss-css'  href='http://www.novelupdates.com/wp-content/themes/ndupdates/css/motioncss.css?ver=3.07' type='text/css' media='all' />
+<link rel='stylesheet' id='us-motioncss-responsive-css'  href='http://www.novelupdates.com/wp-content/themes/ndupdates/css/motioncss-responsive.css?ver=3.07' type='text/css' media='all' />
+<link rel='stylesheet' id='us-font-awesome-css'  href='http://www.novelupdates.com/wp-content/themes/ndupdates/css/font-awesome.css?ver=4.3.0' type='text/css' media='all' />
+<link rel='stylesheet' id='us-style-css'  href='http://www.novelupdates.com/wp-content/themes/ndupdates/css/style.css?ver=3.07' type='text/css' media='all' />
+<link rel='stylesheet' id='us-responsive-css'  href='http://www.novelupdates.com/wp-content/themes/ndupdates/css/responsive.css?ver=3.07' type='text/css' media='all' />
+<link rel='stylesheet' id='ndupdates-style-css'  href='http://www.novelupdates.com/wp-content/themes/ndupdates-child/style.css?ver=3.07' type='text/css' media='all' />
+<link rel='stylesheet' id='nd_custom_css-css'  href='http://www.novelupdates.com/wp-content/uploads/nd_custom/nd_custom_min.css?ver=3.07' type='text/css' media='all' />
+<script type='text/javascript' src='http://ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js'></script>
+<script type='text/javascript'>
+/* <![CDATA[ */
+var title = {"unfolded":"Expand","folded":"Collapse"};
+/* ]]> */
+</script>
+<script type='text/javascript' src='http://www.novelupdates.com/wp-content/plugins/bbspoiler/inc/bbspoiler.js?ver=4.7'></script>
+<script type='text/javascript' src='http://forum.novelupdates.com/api/index.php?assets/sdk&#038;prefix=xfac&#038;ver=4.7'></script>
+<script type='text/javascript' src='http://www.novelupdates.com/wp-content/plugins/xenforo-api-consumer/js/script.js?ver=4.7'></script>
+<script type='text/javascript' src='https://www.google.com/recaptcha/api.js?hl=en-US&#038;ver=4.7'></script>
+<script type='text/javascript' src='http://www.novelupdates.com/wp-content/plugins/theme-my-login/modules/themed-profiles/themed-profiles.js?ver=4.7'></script>
+<script type='text/javascript' src='http://www.novelupdates.com/wp-content/themes/ndupdates-child/js/cookieconsent.min.js?ver=1.0.1'></script>
+<link rel='https://api.w.org/' href='http://www.novelupdates.com/wp-json/' />
+<link rel="EditURI" type="application/rsd+xml" title="RSD" href="http://www.novelupdates.com/xmlrpc.php?rsd" />
+<link rel="wlwmanifest" type="application/wlwmanifest+xml" href="http://www.novelupdates.com/wp-includes/wlwmanifest.xml" /> 
+<meta name="generator" content="WordPress 4.7" />
+<script type="text/javascript">
+	window._se_plugin_version = '8.1.6';
+</script>
+<script>window.xfacClientId = "mysoisr98249898342";window.xfacWpLogin = "http:\/\/www.novelupdates.com\/login\/?xfac=1";</script>    
+	<script type="text/javascript">
+    window.cookieconsent_options = {"message":"This notifcation is required by a new EU cookie law. If you are interested in our privacy policy, go here: ","dismiss":"Accept Cookies","learnMore":"Privacy Policy","link":"http://www.novelupdates.com/privacy-policy/","theme":"dark-bottom"};
+</script>
+</head><body class="archive search search-results post-type-archive post-type-archive-seriesplans l-body us-theme_nd_3-07">
+<!-- CANVAS -->
+
+<div class="l-canvas type_wide col_contside headerlayout_standard headerpos_static">
+
+	<!-- HEADER -->
+	<div class="l-header">
+
+		<div class="l-subheader at_top" style="line-height: 36px; ">
+			<div class="l-subheader-h i-cf">
+						</div>
+		</div>
+				<div class="l-subheader at_middle"  style="line-height: 60px;">
+			<div class="l-subheader-h i-widgets i-cf">
+
+				<div class="w-logo  with_title">
+					<a class="w-logo-link" href="http://www.novelupdates.com/">
+												<span class="w-logo-title">Novel Updates</span>
+					</a>
+				</div>
+
+				
+				
+								<div class="w-search header">
+					<span class="w-search-show"><i class="fa fa-search"></i></span>
+					<form class="w-search-form show_hidden" action="http://www.novelupdates.com/">
+						<div class="w-search-form-h">
+							<div class="w-search-form-row">
+																<div class="w-search-label">
+									<label for="s">Just type and press 'enter'</label>
+								</div>
+								<div class="w-search-input">
+									<input type="text" value="" id="s" name="s"/>
+								</div>
+								<div class="w-search-submit">
+									<input type="submit" id="searchsubmit"  value="Search" />
+								</div>
+								<div class="w-search-close"> &#10005; </div>
+							</div>
+						</div>
+					</form>
+				</div>
+                
+							                
+				<!-- NAV -->
+				<nav class="w-nav layout_hor animation_opacity height_full">
+					<div class="w-nav-control"></div>
+					<ul class="w-nav-list level_1  hover_underline">
+						<li id="menu-item-73" class="menu-item menu-item-type-post_type menu-item-object-page w-nav-item level_1 menu-item-73"><a class="w-nav-anchor level_1"  href="http://www.novelupdates.com/login/"><span class="w-nav-title">Log In</span><span class="w-nav-arrow"></span></a></li>
+   
+                        <li id="menu-item-73" class="menu-item menu-item-type-post_type menu-item-object-page w-nav-item level_1 menu-item-73"><a class="w-nav-anchor level_1" href="http://www.novelupdates.com/register/"><span class="w-nav-title">Register</span><span class="w-nav-arrow"></span></a></li>                    </ul>
+				</nav><!-- /NAV -->
+				
+                
+				
+				
+							</div>
+		</div>
+		
+	</div>
+	<!-- /HEADER -->
+
+	<!-- MAIN -->
+	<div class="l-main">
+
+
+
+
+	
+	<div class="l-submain">
+		<div class="l-submain-h g-html i-cf">
+			<div class="l-content">
+            
+            <h3 class="mypage bc top">Search Results for "no"</h3><div class="breadcrumb_nu">
+					<div id="Breadcrumb_Top" style="max-width:1420px; margin:0px auto;">
+					<dl>
+					<dd><a href="http://www.novelupdates.com/" title="Home">Home</a>&nbsp;&gt;&nbsp;</dd>
+					<dd>Search</dd>
+					</dl>
+					</div></div>				
+<style>
+.pagination .page-numbers
+{
+	text-decoration: none;
+    color: #2c3e50;
+    border-right: 1px solid #2c3e50;
+	border-top: 1px solid #2c3e50;
+	border-bottom: 1px solid #2c3e50;
+	border-radius: 0px;
+	font-size: 15px;
+	box-shadow: none;
+	height: 32px;
+    width: 35px;
+	line-height: 33px;
+	margin:0px;
+}
+.pagination .page-numbers:hover
+{
+	background-color:none;
+}
+.pagination .page-numbers.current
+{
+	background-color:#2c3e50;
+	line-height: 24px;
+}
+.pagination .page-numbers.next:after
+{
+	content: '→';
+	font-size: 14px;
+}
+.pagination .page-numbers.prev:after
+{
+	content: '←';
+	font-size: 14px;
+}
+.pagination .page-numbers:first-child
+{
+	border-left: 1px solid #2c3e50;
+}
+ 
+</style>
+	<div class="w-blog imgpos_atleft imgtype_circle">
+		<div class="w-blog-list">
+			
+<div class="w-blog-entry post-9343 seriesplans type-seriesplans status-publish has-post-thumbnail hentry genre-adult genre-adventure genre-comedy genre-ecchi genre-fantasy genre-gender-bender genre-harem genre-josei genre-mature genre-romance genre-smut stag-female-protagonist stag-otome-game stag-r-18 stag-reincarnation stag-reverse-harem stag-transported-to-another-world nauthor-babutteru-slime nauthor-11049 nartist-mizuno-kagari nartist-11051 language-japanese ntype-web-novel">
+	<div class="w-blog-entry-h">
+	
+		<a class="w-blog-entry-link" href="http://www.novelupdates.com/series/%e3%80%8eshirayukihime-to-7-nin-no-koibito%e3%80%8fto-iu-18-kin-otomege-heroin-ni-tenseishiteshimatta-ore-ga-zenryoku-de-oujitachi-kara-nigeru-hanashi/">
+			
+            
+            
+         <span class="w-blog-entry-preview" style="width:20%; padding-right: 20px; margin-top: 5px; margin-bottom: -20px;"><img width="184" height="230" src="http://www.novelupdates.com/wp-content/uploads/2017/01/9-356630-c400.jpg" class="attachment-blog-small wp-post-image" alt="42_mms"></span>          
+           
+            		<h2 class="w-blog-entry-title" style="margin-left: 20%; font-size: 22px; font-weight: bold; font-family: 'Open Sans';">
+					<span class="w-blog-entry-title-h entry-title"><span id="sid9343"></span>『Shirayukihime to 7 Nin no Koibito』to iu 18 kin Otomege Heroin ni Tenseishiteshimatta Ore ga Zenryoku de Oujitachi kara Nigeru Hanashi</span>
+				</h2>
+		</a>
+        
+        
+    
+		<div class="w-blog-entry-body" style="margin-left: 20%;">
+        
+        <div><span class="userrate search" style="margin-left: 0%; padding: 5px 8px 5px; font-size: 11px; font-weight:normal;">Rating: 3.1 </span></div>
+			<span class="s-genre"><span class="gennew">Adult</span> <span class="gennew">Adventure</span> <span class="gennew">Comedy</span> <span class="gennew">Ecchi</span> <span class="gennew">Fantasy</span> <span class="gennew">Gender Bender</span> <span class="gennew">Harem</span> <span class="gennew">Josei</span> <span class="gennew">Mature</span> <span class="gennew">Romance</span> <span class="gennew">Smut</span></span>
+						<div class="w-blog-entry-short">
+			【Main story completion】After being assaulted by a tentacle monster and its conveniently aphrodisiac mucus, I remembered my past life. It was then I realized that this was the world of a 18 restricted otome game. It seems that I’ve reincarnated into the game『Snow White and the Seven Lovers』as the heroine Snow White. ――In<span class="dots">... </span><span class="morelink list" href="#" onclick="showtext(this); return false;">more>></span><span style="display:none"> this game, no matter which route you take you would be caught and violated by seven men eventually. Then you would be confined in a cabin in the forest, and each evening you would be gangbanged by the seven men. I definitely don’t want that! I haven’t even gone out with a girl yet!! ……Alright, let’s run away.<p style="margin-top:-5px;"></p>
+          The escaping Snow White and the seven men who chase after her. Sex Object ED, Seedbed ED and the looming BAD ED, and licentious beasts and lewd bugs crowd around her one after another. What will become of her（his?）fate!?
+<span class="morelink list" href="#" onclick="hidetext(this); return false;"> &lt;&lt;less</span></span>			</div>
+					</div>
+        
+	</div>
+</div>
+
+
+<div class="w-blog-entry post-9316 seriesplans type-seriesplans status-publish has-post-thumbnail hentry genre-adventure genre-comedy genre-historical genre-shounen-ai genre-yaoi stag-male-protagonist stag-reincarnation stag-revenge stag-second-chance stag-transported-to-another-world nauthor-10985 language-chinese ntype-chinese-novel">
+	<div class="w-blog-entry-h">
+	
+		<a class="w-blog-entry-link" href="http://www.novelupdates.com/series/the-path-of-the-cannon-fodders-counterattack/">
+			
+            
+            
+         <span class="w-blog-entry-preview" style="width:20%; padding-right: 20px; margin-top: 5px; margin-bottom: -20px;"><img width="184" height="230" src="http://www.novelupdates.com/wp-content/uploads/2017/01/the-path-of-the-cannon-folders-counterattack.png" class="attachment-blog-small wp-post-image" alt="42_mms"></span>          
+           
+            		<h2 class="w-blog-entry-title" style="margin-left: 20%; font-size: 22px; font-weight: bold; font-family: 'Open Sans';">
+					<span class="w-blog-entry-title-h entry-title"><span id="sid9316"></span>The Path of the Cannon Fodder’s Counterattack</span>
+				</h2>
+		</a>
+        
+        
+    
+		<div class="w-blog-entry-body" style="margin-left: 20%;">
+        
+        <div><span class="userrate search" style="margin-left: 0%; padding: 5px 8px 5px; font-size: 11px; font-weight:normal;">Rating: 4.6 </span></div>
+			<span class="s-genre"><span class="gennew">Adventure</span> <span class="gennew">Comedy</span> <span class="gennew">Historical</span> <span class="gennew">Shounen Ai</span> <span class="gennew">Yaoi</span></span>
+						<div class="w-blog-entry-short">
+			Ling Xiao was secretly in love with a girl named Mo Qi; because of an accident, they both crossed into the ancient times.<span class="dots">... </span><span class="morelink list" href="#" onclick="showtext(this); return false;">more>></span><span style="display:none"><p style="margin-top:-5px;"></p>
+Mo Qi who was preinstalled with the Mary Sue halo, in these ancient times, walked to the summit with a golden finger.<p style="margin-top:-5px;"></p>
+However, Ling Xiao continued to be exploited by Mo Qi.<p style="margin-top:-5px;"></p>
+After he no longer had any values to exploit, he soon became a pitiful cannon fodder.<p style="margin-top:-5px;"></p>
+The heavens decided to take pity on Ling Xiao.<p style="margin-top:-5px;"></p>
+And gave Ling Xiao an opportunity for rebirth.<p style="margin-top:-5px;"></p>
+After rebirth, he vowed that all his enemies would repay him with a debt of blood!<p style="margin-top:-5px;"></p>
+However, why have all these enemies of his, fallen into the mode of cutting their heads open?<p style="margin-top:-5px;"></p>
+“Hey, are you really that unremarkable person who used to follow behind Mo Qi?”<p style="margin-top:-5px;"></p>
+“So this dance was originally danced by you, sigh……”<p style="margin-top:-5px;"></p>
+“You are obviously a man, yet you move me so much.”<p style="margin-top:-5px;"></p>
+“Enough! Since you have taken the initiative to provoke me, then you must concentrate on me!”<p style="margin-top:-5px;"></p>
+Ling Xiao expressed: If you want to counterattack, then counterattack. As long as your golden finger is bigger than Mo Qi’s.<p style="margin-top:-5px;"></p>
+But how did Mo Qi’s Mary Sue halo end up in his body! He is still a straight man who likes beauties! He definitely, definitely doesn’t want to turn curved!
+<span class="morelink list" href="#" onclick="hidetext(this); return false;"> &lt;&lt;less</span></span>			</div>
+					</div>
+        
+	</div>
+</div>
+
+
+<div class="w-blog-entry post-9311 seriesplans type-seriesplans status-publish hentry genre-action genre-adventure genre-comedy genre-fantasy stag-demon-lord stag-heroes stag-magic stag-male-protagonist stag-swords stag-time-travel nauthor-10976 language-japanese ntype-web-novel">
+	<div class="w-blog-entry-h">
+	
+		<a class="w-blog-entry-link" href="http://www.novelupdates.com/series/mamorubeki-nakama-ya-shimei-o-ushinattanode-mao-to-asonde-kurashimasu/">
+			
+            
+            
+         <span class="w-blog-entry-preview" style="width:20%; padding-right: 20px; margin-top: 5px; margin-bottom: -20px;"><img width="184" height="230" src="http://www.novelupdates.com/img/noimagefound.jpg" class="attachment-blog-small wp-post-image" alt="42_mms"></span>          
+           
+            		<h2 class="w-blog-entry-title" style="margin-left: 20%; font-size: 22px; font-weight: bold; font-family: 'Open Sans';">
+					<span class="w-blog-entry-title-h entry-title"><span id="sid9311"></span>Mamorubeki nakama ya shimei o ushinattanode, mao to asonde kurashimasu</span>
+				</h2>
+		</a>
+        
+        
+    
+		<div class="w-blog-entry-body" style="margin-left: 20%;">
+        
+        <div><span class="userrate search" style="margin-left: 0%; padding: 5px 8px 5px; font-size: 11px; font-weight:normal;">Rating: 4 </span></div>
+			<span class="s-genre"><span class="gennew">Action</span> <span class="gennew">Adventure</span> <span class="gennew">Comedy</span> <span class="gennew">Fantasy</span></span>
+						<div class="w-blog-entry-short">
+			The battle between the Hero and Demon Lord was suppose to have concluded with the one dying. However, through a trick of fate both are<span class="dots">... </span><span class="morelink list" href="#" onclick="showtext(this); return false;">more>></span><span style="display:none"> transferred 1000 years into the future. The Hero who lost his friends and mission, begins a trusting mutual second life with the Demon Lord.
+<span class="morelink list" href="#" onclick="hidetext(this); return false;"> &lt;&lt;less</span></span>			</div>
+					</div>
+        
+	</div>
+</div>
+
+
+<div class="w-blog-entry post-9276 seriesplans type-seriesplans status-publish hentry genre-adventure genre-fantasy genre-gender-bender genre-shoujo-ai genre-slice-of-life stag-age-progression stag-blind-protagonist stag-cute-story stag-female-protagonist stag-heartwarming stag-magic stag-male-to-female stag-r-15 stag-reincarnated-into-another-world stag-reincarnation nauthor-10921 opublisher-alpha-polis language-japanese ntype-web-novel">
+	<div class="w-blog-entry-h">
+	
+		<a class="w-blog-entry-link" href="http://www.novelupdates.com/series/nigotta-hitomi-no-lilianne/">
+			
+            
+            
+         <span class="w-blog-entry-preview" style="width:20%; padding-right: 20px; margin-top: 5px; margin-bottom: -20px;"><img width="184" height="230" src="http://www.novelupdates.com/img/noimagefound.jpg" class="attachment-blog-small wp-post-image" alt="42_mms"></span>          
+           
+            		<h2 class="w-blog-entry-title" style="margin-left: 20%; font-size: 22px; font-weight: bold; font-family: 'Open Sans';">
+					<span class="w-blog-entry-title-h entry-title"><span id="sid9276"></span>Nigotta Hitomi no Lilianne</span>
+				</h2>
+		</a>
+        
+        
+    
+		<div class="w-blog-entry-body" style="margin-left: 20%;">
+        
+        <div><span class="userrate search" style="margin-left: 0%; padding: 5px 8px 5px; font-size: 11px; font-weight:normal;">Rating: 4.3 </span></div>
+			<span class="s-genre"><span class="gennew">Adventure</span> <span class="gennew">Fantasy</span> <span class="gennew">Gender Bender</span> <span class="gennew">Shoujo Ai</span> <span class="gennew">Slice of Life</span></span>
+						<div class="w-blog-entry-short">
+			After coming out of a tunnel… it was pitch dark.<span class="dots">... </span><span class="morelink list" href="#" onclick="showtext(this); return false;">more>></span><span style="display:none"><p style="margin-top:-5px;"></p>
+When I woke up, it was dark.<p style="margin-top:-5px;"></p>
+First, I need to grasp the situation… While in thoughts, white, foggy figures appeared, it’s utterly dark as usual, just what is happening?<p style="margin-top:-5px;"></p>
+When I noticed, I have reincarnated!<p style="margin-top:-5px;"></p>
+Moreover, my gender has changed!?<p style="margin-top:-5px;"></p>
+Wouldn’t you usually get a cheat ability when reincarnating!? God!<p style="margin-top:-5px;"></p>
+Isn’t this conversely a start with a handicap!<p style="margin-top:-5px;"></p>
+*This is a heartwarming story of a little carefree girl.
+<span class="morelink list" href="#" onclick="hidetext(this); return false;"> &lt;&lt;less</span></span>			</div>
+					</div>
+        
+	</div>
+</div>
+
+
+<div class="w-blog-entry post-9269 seriesplans type-seriesplans status-publish hentry genre-comedy genre-romance genre-school-life stag-cute-story stag-misunderstandings stag-otome-game stag-reincarnation stag-short-story nauthor-mizuki-yukimi opublisher-syosetu language-japanese ntype-web-novel">
+	<div class="w-blog-entry-h">
+	
+		<a class="w-blog-entry-link" href="http://www.novelupdates.com/series/otome-gemu-no-akuyaku-demonai-reijo-wa-fianse-o-hitasura-aisuru/">
+			
+            
+            
+         <span class="w-blog-entry-preview" style="width:20%; padding-right: 20px; margin-top: 5px; margin-bottom: -20px;"><img width="184" height="230" src="http://www.novelupdates.com/img/noimagefound.jpg" class="attachment-blog-small wp-post-image" alt="42_mms"></span>          
+           
+            		<h2 class="w-blog-entry-title" style="margin-left: 20%; font-size: 22px; font-weight: bold; font-family: 'Open Sans';">
+					<span class="w-blog-entry-title-h entry-title"><span id="sid9269"></span>Otome Gēmu no Akuyaku Demonai Reijō wa Fianse o Hitasura Aisuru</span>
+				</h2>
+		</a>
+        
+        
+    
+		<div class="w-blog-entry-body" style="margin-left: 20%;">
+        
+        <div><span class="userrate search" style="margin-left: 0%; padding: 5px 8px 5px; font-size: 11px; font-weight:normal;">Rating: 4.2 </span></div>
+			<span class="s-genre"><span class="gennew">Comedy</span> <span class="gennew">Romance</span> <span class="gennew">School Life</span></span>
+						<div class="w-blog-entry-short">
+			Arisa had unexpectedly remember about her previous life.<br style="line-height: 40px;">
+When she remembered that her fiancée was the capture target in that otome game, his fiancée finally met with<span class="dots">... </span><span class="morelink list" href="#" onclick="showtext(this); return false;">more>></span><span style="display:none"> the heroine. There was neither death flag nor ruin flag, this is just a cute story of the rival characters.
+<span class="morelink list" href="#" onclick="hidetext(this); return false;"> &lt;&lt;less</span></span>			</div>
+					</div>
+        
+	</div>
+</div>
+
+
+<div class="w-blog-entry post-8799 seriesplans type-seriesplans status-publish has-post-thumbnail hentry genre-adventure genre-fantasy nauthor-hosoda-mamoru epublisher-yen-press language-japanese ntype-light-novel">
+	<div class="w-blog-entry-h">
+	
+		<a class="w-blog-entry-link" href="http://www.novelupdates.com/series/bakemono-no-ko/">
+			
+            
+            
+         <span class="w-blog-entry-preview" style="width:20%; padding-right: 20px; margin-top: 5px; margin-bottom: -20px;"><img width="184" height="230" src="http://www.novelupdates.com/wp-content/uploads/2016/12/download-1.jpg" class="attachment-blog-small wp-post-image" alt="42_mms"></span>          
+           
+            		<h2 class="w-blog-entry-title" style="margin-left: 20%; font-size: 22px; font-weight: bold; font-family: 'Open Sans';">
+					<span class="w-blog-entry-title-h entry-title"><span id="sid8799"></span>Bakemono No Ko</span>
+				</h2>
+		</a>
+        
+        
+    
+		<div class="w-blog-entry-body" style="margin-left: 20%;">
+        
+        <div><span class="userrate search" style="margin-left: 0%; padding: 5px 8px 5px; font-size: 11px; font-weight:normal;">Rating: N/A </span></div>
+			<span class="s-genre"><span class="gennew">Adventure</span> <span class="gennew">Fantasy</span></span>
+						<div class="w-blog-entry-short">
+			The story is set in the human realm (Tokyo's Shibuya ward) and the bakemono realm (Shibutenmachi). In these two worlds which must not intersect, there<span class="dots">... </span><span class="morelink list" href="#" onclick="showtext(this); return false;">more>></span><span style="display:none"> lives a lonely boy and a lonely bakemono. One day, the boy gets lost in the bakemono world, becomes the disciple of the bakemono Kumatetsu, and is renamed Kyuuta.
+<span class="morelink list" href="#" onclick="hidetext(this); return false;"> &lt;&lt;less</span></span>			</div>
+					</div>
+        
+	</div>
+</div>
+
+
+<div class="w-blog-entry post-9232 seriesplans type-seriesplans status-publish hentry genre-historical genre-psychological genre-romance genre-shounen-ai genre-yaoi language-japanese ntype-light-novel">
+	<div class="w-blog-entry-h">
+	
+		<a class="w-blog-entry-link" href="http://www.novelupdates.com/series/kono-tsumibukaki-yoru-ni/">
+			
+            
+            
+         <span class="w-blog-entry-preview" style="width:20%; padding-right: 20px; margin-top: 5px; margin-bottom: -20px;"><img width="184" height="230" src="http://www.novelupdates.com/img/noimagefound.jpg" class="attachment-blog-small wp-post-image" alt="42_mms"></span>          
+           
+            		<h2 class="w-blog-entry-title" style="margin-left: 20%; font-size: 22px; font-weight: bold; font-family: 'Open Sans';">
+					<span class="w-blog-entry-title-h entry-title"><span id="sid9232"></span>Kono Tsumibukaki Yoru Ni</span>
+				</h2>
+		</a>
+        
+        
+    
+		<div class="w-blog-entry-body" style="margin-left: 20%;">
+        
+        <div><span class="userrate search" style="margin-left: 0%; padding: 5px 8px 5px; font-size: 11px; font-weight:normal;">Rating: 3.2 </span></div>
+			<span class="s-genre"><span class="gennew">Historical</span> <span class="gennew">Psychological</span> <span class="gennew">Romance</span> <span class="gennew">Shounen Ai</span> <span class="gennew">Yaoi</span></span>
+						<div class="w-blog-entry-short">
+			The old family falling into ruin-the Seikanji family. The eldest son, Kunitaka, is by chance reunited with his childhood friend, Ryouichirou, the son of a<span class="dots">... </span><span class="morelink list" href="#" onclick="showtext(this); return false;">more>></span><span style="display:none"> servant. The pair were separated from each other by a trivial misunderstanding, and from their reunion, Kunitaka, leading a constrained life, seeks comfort in Ryouichirou, and is drawn to him.<br />
+However, Ryouichirou has a grave secret, one that is a matter of life and death. Kunitaka, upon knowing this, offers his body to Ryouichirou, trying to save him…
+<span class="morelink list" href="#" onclick="hidetext(this); return false;"> &lt;&lt;less</span></span>			</div>
+					</div>
+        
+	</div>
+</div>
+
+
+<div class="w-blog-entry post-9196 seriesplans type-seriesplans status-publish has-post-thumbnail hentry genre-romance genre-shoujo stag-female-protagonist stag-nobles stag-otome-game stag-politics stag-reincarnation stag-villainess-noble-girl nauthor-puni-chan nauthor-10439 nartist-naruse-akeno nartist-10827 opublisher-kadokawa-shoten opublisher-syosetu language-japanese ntype-light-novel">
+	<div class="w-blog-entry-h">
+	
+		<a class="w-blog-entry-link" href="http://www.novelupdates.com/series/akuyaku-reijou-wa-ringoku-no-oitaishi-ni-dekiai-sareru/">
+			
+            
+            
+         <span class="w-blog-entry-preview" style="width:20%; padding-right: 20px; margin-top: 5px; margin-bottom: -20px;"><img width="184" height="230" src="http://www.novelupdates.com/wp-content/uploads/2017/01/6u94meic1jpwdz06df48clbtfua4_11xu_9q_dr_7b00.jpg" class="attachment-blog-small wp-post-image" alt="42_mms"></span>          
+           
+            		<h2 class="w-blog-entry-title" style="margin-left: 20%; font-size: 22px; font-weight: bold; font-family: 'Open Sans';">
+					<span class="w-blog-entry-title-h entry-title"><span id="sid9196"></span>Akuyaku Reijou wa Ringoku no Oitaishi ni Dekiai Sareru</span>
+				</h2>
+		</a>
+        
+        
+    
+		<div class="w-blog-entry-body" style="margin-left: 20%;">
+        
+        <div><span class="userrate search" style="margin-left: 0%; padding: 5px 8px 5px; font-size: 11px; font-weight:normal;">Rating: 4.6 </span></div>
+			<span class="s-genre"><span class="gennew">Romance</span> <span class="gennew">Shoujo</span></span>
+						<div class="w-blog-entry-short">
+			Tiararose was supposed to be disengaged and exiled from the country.<span class="dots">... </span><span class="morelink list" href="#" onclick="showtext(this); return false;">more>></span><span style="display:none"><p style="margin-top:-5px;"></p>
+“This was the Otome game I had played!” She realized on the day before the story’s ending――…….<p style="margin-top:-5px;"></p>
+Shall I wait for the judgment? But, I did not do anything too cruel……. Thinking so, the ending continues.<p style="margin-top:-5px;"></p>
+But, during the judgement――something that was not possible in the game happened. The neighboring crown prince courted the villainous daughter Tiararose.
+<span class="morelink list" href="#" onclick="hidetext(this); return false;"> &lt;&lt;less</span></span>			</div>
+					</div>
+        
+	</div>
+</div>
+
+
+<div class="w-blog-entry post-9194 seriesplans type-seriesplans status-publish has-post-thumbnail hentry genre-romance nauthor-umidori-aono nartist-miyo-n language-japanese">
+	<div class="w-blog-entry-h">
+	
+		<a class="w-blog-entry-link" href="http://www.novelupdates.com/series/yotogi-no-kuni-no-gekkouhime/">
+			
+            
+            
+         <span class="w-blog-entry-preview" style="width:20%; padding-right: 20px; margin-top: 5px; margin-bottom: -20px;"><img width="184" height="230" src="http://www.novelupdates.com/wp-content/uploads/2016/12/Yotogi-no-Kuni-no-Gekkouhime.jpeg" class="attachment-blog-small wp-post-image" alt="42_mms"></span>          
+           
+            		<h2 class="w-blog-entry-title" style="margin-left: 20%; font-size: 22px; font-weight: bold; font-family: 'Open Sans';">
+					<span class="w-blog-entry-title-h entry-title"><span id="sid9194"></span>Yotogi no Kuni no Gekkouhime</span>
+				</h2>
+		</a>
+        
+        
+    
+		<div class="w-blog-entry-body" style="margin-left: 20%;">
+        
+        <div><span class="userrate search" style="margin-left: 0%; padding: 5px 8px 5px; font-size: 11px; font-weight:normal;">Rating: 3 </span></div>
+			<span class="s-genre"><span class="gennew">Romance</span></span>
+						<div class="w-blog-entry-short">
+						</div>
+					</div>
+        
+	</div>
+</div>
+
+
+<div class="w-blog-entry post-9113 seriesplans type-seriesplans status-publish hentry genre-drama genre-romance genre-shoujo stag-calm-female-lead stag-female-protagonist stag-otome-game stag-reincarnation stag-short-story nauthor-kan nauthor-10703 opublisher-syosetu language-japanese ntype-web-novel">
+	<div class="w-blog-entry-h">
+	
+		<a class="w-blog-entry-link" href="http://www.novelupdates.com/series/watashi-wa-iwayuru-akuyakurashiga-kichinto-batsu-wa-ukeru-node-minogashite-hoshi-to-omou/">
+			
+            
+            
+         <span class="w-blog-entry-preview" style="width:20%; padding-right: 20px; margin-top: 5px; margin-bottom: -20px;"><img width="184" height="230" src="http://www.novelupdates.com/img/noimagefound.jpg" class="attachment-blog-small wp-post-image" alt="42_mms"></span>          
+           
+            		<h2 class="w-blog-entry-title" style="margin-left: 20%; font-size: 22px; font-weight: bold; font-family: 'Open Sans';">
+					<span class="w-blog-entry-title-h entry-title"><span id="sid9113"></span>Watashi wa Iwayuru Akuyakurashiga, Kichinto Batsu wa Ukeru Node Minogashite Hoshi to Omou</span>
+				</h2>
+		</a>
+        
+        
+    
+		<div class="w-blog-entry-body" style="margin-left: 20%;">
+        
+        <div><span class="userrate search" style="margin-left: 0%; padding: 5px 8px 5px; font-size: 11px; font-weight:normal;">Rating: 4.5 </span></div>
+			<span class="s-genre"><span class="gennew">Drama</span> <span class="gennew">Romance</span> <span class="gennew">Shoujo</span></span>
+						<div class="w-blog-entry-short">
+			I, Lilianne Abenster was reincarnated as a villain of a girl game. I am the step-sister of the capture target, the strong knight; as well<span class="dots">... </span><span class="morelink list" href="#" onclick="showtext(this); return false;">more>></span><span style="display:none"> as the fiancée of the future Duke (also a capture target). I am busy doing bad things…Which were actually a lie. After the conviction of the villainous daughter, I will compensate for my sins properly; therefore please let me stay low for the time being.
+<span class="morelink list" href="#" onclick="hidetext(this); return false;"> &lt;&lt;less</span></span>			</div>
+					</div>
+        
+	</div>
+</div>
+
+
+<div class="w-blog-entry post-9096 seriesplans type-seriesplans status-publish hentry genre-action genre-adult genre-adventure genre-drama genre-fantasy genre-yaoi stag-cheats stag-familiars stag-male-protagonist stag-master-servant-relationship stag-otome-game stag-politics-involving-royalty stag-reincarnated-into-another-world stag-reincarnation stag-transported-to-another-world nauthor-bannbu opublisher-syosetsu language-japanese ntype-web-novel">
+	<div class="w-blog-entry-h">
+	
+		<a class="w-blog-entry-link" href="http://www.novelupdates.com/series/mob-sore-mo-waki-mob-no-hazu-nan-desu-kedo/">
+			
+            
+            
+         <span class="w-blog-entry-preview" style="width:20%; padding-right: 20px; margin-top: 5px; margin-bottom: -20px;"><img width="184" height="230" src="http://www.novelupdates.com/img/noimagefound.jpg" class="attachment-blog-small wp-post-image" alt="42_mms"></span>          
+           
+            		<h2 class="w-blog-entry-title" style="margin-left: 20%; font-size: 22px; font-weight: bold; font-family: 'Open Sans';">
+					<span class="w-blog-entry-title-h entry-title"><span id="sid9096"></span>Mob&#8230; Sore mo waki mob no hazu nan desu kedo!?</span>
+				</h2>
+		</a>
+        
+        
+    
+		<div class="w-blog-entry-body" style="margin-left: 20%;">
+        
+        <div><span class="userrate search" style="margin-left: 0%; padding: 5px 8px 5px; font-size: 11px; font-weight:normal;">Rating: 3.8 </span></div>
+			<span class="s-genre"><span class="gennew">Action</span> <span class="gennew">Adult</span> <span class="gennew">Adventure</span> <span class="gennew">Drama</span> <span class="gennew">Fantasy</span> <span class="gennew">Yaoi</span></span>
+						<div class="w-blog-entry-short">
+			Afflicted with an illness at 25, my life should have ended when I was 26 years old. However, when I came to, I had become a 6 year old boy. Not only did I have my past memories, I also retained the memories of my current body that I shouldn’t have. Recognizing the<span class="dots">... </span><span class="morelink list" href="#" onclick="showtext(this); return false;">more>></span><span style="display:none"> six years of memories, I recalled immediately.  <p style="margin-top:-5px;"></p>
+The world I had awakened in was a world I’d read about in a shoujo manga in my previous life. It seems I’m on a parallel world trip ….. No, I have reincarnated. <p style="margin-top:-5px;"></p>
+At the same time as I recognized this world from the shoujo manga, I remembered my status. <p style="margin-top:-5px;"></p>
+In the story, I was the subordinate of a stalking horse who fell in love with the heroine. To compete for the hand of the heroine, by the stalking horse’s orders, I got involved by implementing various interferences to all the other love interests like the prince and sons of dukes which resulted in the death penalty. The stalking horse didn’t even bother to protect his subordinate and covered up his own crimes. <p style="margin-top:-5px;"></p>
+I can’t remember if my final moment was captured or not in a panel. Even when I read it, I just skimmed through it. I was a nameless mob and, in addition to that, a supporting mob. <p style="margin-top:-5px;"></p>
+In the shoujo manga, that was my status in this world. Since I have reincarnated, I would prefer if I didn’t appear in the manga at all. <p style="margin-top:-5px;"></p>
+The six year old me has yet to encounter the stalking horse in that world. Like I’ll follow the story and die! Using the knowledge from my previous life, I’ve made a decision to keep on living. <p style="margin-top:-5px;"></p>
+This is a common tale of the protagonist who strives to keep on living by avoiding the encounter with the main and mob characters, and to avoid being involved with them in order to evade the scenario. 
+<span class="morelink list" href="#" onclick="hidetext(this); return false;"> &lt;&lt;less</span></span>			</div>
+					</div>
+        
+	</div>
+</div>
+
+
+<div class="w-blog-entry post-9046 seriesplans type-seriesplans status-publish has-post-thumbnail hentry genre-adventure genre-fantasy genre-martial-arts genre-romance genre-xianxia stag-alchemy stag-alternate-world stag-male-protagonist stag-time-travel stag-transmigration nauthor-10616 opublisher-qidian language-chinese ntype-chinese-novel">
+	<div class="w-blog-entry-h">
+	
+		<a class="w-blog-entry-link" href="http://www.novelupdates.com/series/the-magic-healer-in-the-another-world/">
+			
+            
+            
+         <span class="w-blog-entry-preview" style="width:20%; padding-right: 20px; margin-top: 5px; margin-bottom: -20px;"><img width="184" height="230" src="http://www.novelupdates.com/wp-content/uploads/2016/12/634912800855732500.jpg" class="attachment-blog-small wp-post-image" alt="42_mms"></span>          
+           
+            		<h2 class="w-blog-entry-title" style="margin-left: 20%; font-size: 22px; font-weight: bold; font-family: 'Open Sans';">
+					<span class="w-blog-entry-title-h entry-title"><span id="sid9046"></span>The Magic Healer in the Another world</span>
+				</h2>
+		</a>
+        
+        
+    
+		<div class="w-blog-entry-body" style="margin-left: 20%;">
+        
+        <div><span class="userrate search" style="margin-left: 0%; padding: 5px 8px 5px; font-size: 11px; font-weight:normal;">Rating: 4.8 </span></div>
+			<span class="s-genre"><span class="gennew">Adventure</span> <span class="gennew">Fantasy</span> <span class="gennew">Martial Arts</span> <span class="gennew">Romance</span> <span class="gennew">Xianxia</span></span>
+						<div class="w-blog-entry-short">
+			The well-known and recognized throughout the Stern continent, strong and mighty, as well as the unique Wizard of magic cures, the most outstanding genius of<span class="dots">... </span><span class="morelink list" href="#" onclick="showtext(this); return false;">more>></span><span style="display:none"> the whole continent, Jason got into the flow of time, back in the uncivilized era during the first failed experiment, 3000 years ago. This was the period when the magic healers didn’t exist. How will Jason apply his knowledge in this backward era, wherever he reach the peak of glory?
+<span class="morelink list" href="#" onclick="hidetext(this); return false;"> &lt;&lt;less</span></span>			</div>
+					</div>
+        
+	</div>
+</div>
+
+
+<div class="w-blog-entry post-9034 seriesplans type-seriesplans status-publish has-post-thumbnail hentry genre-fantasy genre-mystery genre-psychological genre-romance genre-supernatural stag-alternate-world stag-female-protagonist stag-schizophrenia stag-souls nauthor-yu-wei nauthor-10610 opublisher-17k language-chinese ntype-chinese-novel">
+	<div class="w-blog-entry-h">
+	
+		<a class="w-blog-entry-link" href="http://www.novelupdates.com/series/split-zone-no-13/">
+			
+            
+            
+         <span class="w-blog-entry-preview" style="width:20%; padding-right: 20px; margin-top: 5px; margin-bottom: -20px;"><img width="184" height="230" src="http://www.novelupdates.com/wp-content/uploads/2016/12/no13-original.jpg" class="attachment-blog-small wp-post-image" alt="42_mms"></span>          
+           
+            		<h2 class="w-blog-entry-title" style="margin-left: 20%; font-size: 22px; font-weight: bold; font-family: 'Open Sans';">
+					<span class="w-blog-entry-title-h entry-title"><span id="sid9034"></span>Split Zone No.13</span>
+				</h2>
+		</a>
+        
+        
+    
+		<div class="w-blog-entry-body" style="margin-left: 20%;">
+        
+        <div><span class="userrate search" style="margin-left: 0%; padding: 5px 8px 5px; font-size: 11px; font-weight:normal;">Rating: 3.4 </span></div>
+			<span class="s-genre"><span class="gennew">Fantasy</span> <span class="gennew">Mystery</span> <span class="gennew">Psychological</span> <span class="gennew">Romance</span> <span class="gennew">Supernatural</span></span>
+						<div class="w-blog-entry-short">
+			It was just an accident. Because of her double personality, Li Zhen mistakingly murdered the person she loved. Her consciousness was then sent to a<span class="dots">... </span><span class="morelink list" href="#" onclick="showtext(this); return false;">more>></span><span style="display:none"> strange place called Split Zone No.13, where she was then informed that if she could unravel the truth, she would be able to return home.
+<span class="morelink list" href="#" onclick="hidetext(this); return false;"> &lt;&lt;less</span></span>			</div>
+					</div>
+        
+	</div>
+</div>
+
+
+<div class="w-blog-entry post-8678 seriesplans type-seriesplans status-publish has-post-thumbnail hentry genre-action genre-adventure genre-fantasy genre-harem genre-romance genre-slice-of-life stag-male-protagonist stag-management stag-smart-male-lead stag-transported-to-another-world ntype-web-novel">
+	<div class="w-blog-entry-h">
+	
+		<a class="w-blog-entry-link" href="http://www.novelupdates.com/series/ore-no-ongaeshi-high-spec-murazukuri/">
+			
+            
+            
+         <span class="w-blog-entry-preview" style="width:20%; padding-right: 20px; margin-top: 5px; margin-bottom: -20px;"><img width="184" height="230" src="http://www.novelupdates.com/wp-content/uploads/2016/12/Ore-no-Ongaeshi-High-Spec-Murazukuri.jpg" class="attachment-blog-small wp-post-image" alt="42_mms"></span>          
+           
+            		<h2 class="w-blog-entry-title" style="margin-left: 20%; font-size: 22px; font-weight: bold; font-family: 'Open Sans';">
+					<span class="w-blog-entry-title-h entry-title"><span id="sid8678"></span>Ore no Ongaeshi: High Spec Murazukuri</span>
+				</h2>
+		</a>
+        
+        
+    
+		<div class="w-blog-entry-body" style="margin-left: 20%;">
+        
+        <div><span class="userrate search" style="margin-left: 0%; padding: 5px 8px 5px; font-size: 11px; font-weight:normal;">Rating: 4.3 </span></div>
+			<span class="s-genre"><span class="gennew">Action</span> <span class="gennew">Adventure</span> <span class="gennew">Fantasy</span> <span class="gennew">Harem</span> <span class="gennew">Romance</span> <span class="gennew">Slice of Life</span></span>
+						<div class="w-blog-entry-short">
+			The village revitalization with high modern knowledge?<br style="line-height: 40px;">
+Youth Adventure be a village lifesaver on the verge of collapse in a different world.
+			</div>
+					</div>
+        
+	</div>
+</div>
+
+
+<div class="w-blog-entry post-8804 seriesplans type-seriesplans status-publish hentry genre-fantasy genre-romance genre-shoujo stag-aristocracy stag-arranged-marriage stag-female-protagonist stag-nobles stag-one-shot stag-short-story nauthor-i-b language-japanese ntype-web-novel">
+	<div class="w-blog-entry-h">
+	
+		<a class="w-blog-entry-link" href="http://www.novelupdates.com/series/konyaku-haki-o-iiwatasa-remashitaga-watashi-wa-anata-no-fiansede-wa-arimasen/">
+			
+            
+            
+         <span class="w-blog-entry-preview" style="width:20%; padding-right: 20px; margin-top: 5px; margin-bottom: -20px;"><img width="184" height="230" src="http://www.novelupdates.com/img/noimagefound.jpg" class="attachment-blog-small wp-post-image" alt="42_mms"></span>          
+           
+            		<h2 class="w-blog-entry-title" style="margin-left: 20%; font-size: 22px; font-weight: bold; font-family: 'Open Sans';">
+					<span class="w-blog-entry-title-h entry-title"><span id="sid8804"></span>Konyaku Haki o Iiwatasa Remashitaga Watashi wa Anata no Fiansede wa Arimasen</span>
+				</h2>
+		</a>
+        
+        
+    
+		<div class="w-blog-entry-body" style="margin-left: 20%;">
+        
+        <div><span class="userrate search" style="margin-left: 0%; padding: 5px 8px 5px; font-size: 11px; font-weight:normal;">Rating: 4.4 </span></div>
+			<span class="s-genre"><span class="gennew">Fantasy</span> <span class="gennew">Romance</span> <span class="gennew">Shoujo</span></span>
+						<div class="w-blog-entry-short">
+			“Rosemary, I will discard my engagement with you.”<span class="dots">... </span><span class="morelink list" href="#" onclick="showtext(this); return false;">more>></span><span style="display:none"><p style="margin-top:-5px;"></p>
+So I was told in the courtyard. But I am not Rosemary. I am not in any position to end the engagement, please listen to me carefully. It seems that the story had gone astray somehow.<p style="margin-top:-5px;"></p>
+One act of a persuasion by a young woman towards the hero who had made a mistake in recognizing his engagement partner
+<span class="morelink list" href="#" onclick="hidetext(this); return false;"> &lt;&lt;less</span></span>			</div>
+					</div>
+        
+	</div>
+</div>
+
+
+<div class="w-blog-entry post-8793 seriesplans type-seriesplans status-publish hentry genre-drama genre-josei stag-arranged-marriage stag-jealousy stag-short-story nauthor-10406 opublisher-syosetu language-japanese ntype-web-novel">
+	<div class="w-blog-entry-h">
+	
+		<a class="w-blog-entry-link" href="http://www.novelupdates.com/series/aru-okugata-ga-rikon-shite-jiyu-o-mankitsu-suru-made-no-hitorigoto/">
+			
+            
+            
+         <span class="w-blog-entry-preview" style="width:20%; padding-right: 20px; margin-top: 5px; margin-bottom: -20px;"><img width="184" height="230" src="http://www.novelupdates.com/img/noimagefound.jpg" class="attachment-blog-small wp-post-image" alt="42_mms"></span>          
+           
+            		<h2 class="w-blog-entry-title" style="margin-left: 20%; font-size: 22px; font-weight: bold; font-family: 'Open Sans';">
+					<span class="w-blog-entry-title-h entry-title"><span id="sid8793"></span>Aru Okugata ga Rikon Shite Jiyu o Mankitsu Suru Made no Hitorigoto</span>
+				</h2>
+		</a>
+        
+        
+    
+		<div class="w-blog-entry-body" style="margin-left: 20%;">
+        
+        <div><span class="userrate search" style="margin-left: 0%; padding: 5px 8px 5px; font-size: 11px; font-weight:normal;">Rating: 3.4 </span></div>
+			<span class="s-genre"><span class="gennew">Drama</span> <span class="gennew">Josei</span></span>
+						<div class="w-blog-entry-short">
+			A soliloquy until a certain divorcee able to fully enjoy freedom. The title said it all.
+			</div>
+					</div>
+        
+	</div>
+</div>
+
+
+<div class="w-blog-entry post-8758 seriesplans type-seriesplans status-publish hentry genre-comedy genre-gender-bender genre-romance genre-shoujo stag-aristocracy stag-dense-female-lead stag-female-protagonist stag-misunderstandings stag-nobles stag-one-shot stag-short-story nauthor-10349 opublisher-syosetu language-japanese ntype-web-novel">
+	<div class="w-blog-entry-h">
+	
+		<a class="w-blog-entry-link" href="http://www.novelupdates.com/series/to-aru-shoujo-to-sono-shinyu-no-nichijo/">
+			
+            
+            
+         <span class="w-blog-entry-preview" style="width:20%; padding-right: 20px; margin-top: 5px; margin-bottom: -20px;"><img width="184" height="230" src="http://www.novelupdates.com/img/noimagefound.jpg" class="attachment-blog-small wp-post-image" alt="42_mms"></span>          
+           
+            		<h2 class="w-blog-entry-title" style="margin-left: 20%; font-size: 22px; font-weight: bold; font-family: 'Open Sans';">
+					<span class="w-blog-entry-title-h entry-title"><span id="sid8758"></span>To aru Shoujo to sono Shinyu no Nichijo</span>
+				</h2>
+		</a>
+        
+        
+    
+		<div class="w-blog-entry-body" style="margin-left: 20%;">
+        
+        <div><span class="userrate search" style="margin-left: 0%; padding: 5px 8px 5px; font-size: 11px; font-weight:normal;">Rating: 4.2 </span></div>
+			<span class="s-genre"><span class="gennew">Comedy</span> <span class="gennew">Gender Bender</span> <span class="gennew">Romance</span> <span class="gennew">Shoujo</span></span>
+						<div class="w-blog-entry-short">
+			This is basically how the title described: a daily life of a girl and her best friend. Of course with a little bit of twist
+			</div>
+					</div>
+        
+	</div>
+</div>
+
+
+<div class="w-blog-entry post-8719 seriesplans type-seriesplans status-publish has-post-thumbnail hentry genre-action genre-adventure genre-fantasy genre-harem genre-seinen genre-supernatural stag-male-protagonist nauthor-soaring-flames nauthor-xiang-yan nauthor-10316 opublisher-qidian language-chinese ntype-chinese-novel">
+	<div class="w-blog-entry-h">
+	
+		<a class="w-blog-entry-link" href="http://www.novelupdates.com/series/noble-emblem/">
+			
+            
+            
+         <span class="w-blog-entry-preview" style="width:20%; padding-right: 20px; margin-top: 5px; margin-bottom: -20px;"><img width="184" height="230" src="http://www.novelupdates.com/wp-content/uploads/2016/12/180-1.jpg" class="attachment-blog-small wp-post-image" alt="42_mms"></span>          
+           
+            		<h2 class="w-blog-entry-title" style="margin-left: 20%; font-size: 22px; font-weight: bold; font-family: 'Open Sans';">
+					<span class="w-blog-entry-title-h entry-title"><span id="sid8719"></span>Noble Emblem</span>
+				</h2>
+		</a>
+        
+        
+    
+		<div class="w-blog-entry-body" style="margin-left: 20%;">
+        
+        <div><span class="userrate search" style="margin-left: 0%; padding: 5px 8px 5px; font-size: 11px; font-weight:normal;">Rating: 3.4 </span></div>
+			<span class="s-genre"><span class="gennew">Action</span> <span class="gennew">Adventure</span> <span class="gennew">Fantasy</span> <span class="gennew">Harem</span> <span class="gennew">Seinen</span> <span class="gennew">Supernatural</span></span>
+						<div class="w-blog-entry-short">
+			This is a story about a "Old Grandpa" teaching many "Main Character" into useful people.<br />
+This is a story about a "Old Grandpa" bringing many<span class="dots">... </span><span class="morelink list" href="#" onclick="showtext(this); return false;">more>></span><span style="display:none"> "Main Character" to take on the world
+<span class="morelink list" href="#" onclick="hidetext(this); return false;"> &lt;&lt;less</span></span>			</div>
+					</div>
+        
+	</div>
+</div>
+
+
+<div class="w-blog-entry post-8702 seriesplans type-seriesplans status-publish hentry genre-fantasy stag-antihero-protagonist stag-betrayal stag-demon-lord stag-demons stag-game-elements stag-gods stag-heroes stag-level-system stag-male-protagonist stag-non-human-protagonist stag-royalty stag-ruthless-male-lead stag-summoned-hero nauthor-takizawa-souji opublisher-syosetu language-japanese ntype-web-novel">
+	<div class="w-blog-entry-h">
+	
+		<a class="w-blog-entry-link" href="http://www.novelupdates.com/series/the-young-man-who-got-the-anti-heros-power-swears-to-revenge-for-the-god-world-and-will-crush-the-different-world-hero-who-will-be-sent-one-after-another/">
+			
+            
+            
+         <span class="w-blog-entry-preview" style="width:20%; padding-right: 20px; margin-top: 5px; margin-bottom: -20px;"><img width="184" height="230" src="http://www.novelupdates.com/img/noimagefound.jpg" class="attachment-blog-small wp-post-image" alt="42_mms"></span>          
+           
+            		<h2 class="w-blog-entry-title" style="margin-left: 20%; font-size: 22px; font-weight: bold; font-family: 'Open Sans';">
+					<span class="w-blog-entry-title-h entry-title"><span id="sid8702"></span>The Young Man Who Got the Anti-hero’s Power Swears to Revenge for the God World and Will Crush the Different World Hero Who Will Be Sent One after Another</span>
+				</h2>
+		</a>
+        
+        
+    
+		<div class="w-blog-entry-body" style="margin-left: 20%;">
+        
+        <div><span class="userrate search" style="margin-left: 0%; padding: 5px 8px 5px; font-size: 11px; font-weight:normal;">Rating: 3.1 </span></div>
+			<span class="s-genre"><span class="gennew">Fantasy</span></span>
+						<div class="w-blog-entry-short">
+			Alex was forcibly summoned and had to become the Hero. Used and betrayed by everyone around him, Alex remembered the banal life he had in his old world.<br style="line-height: 40px;">
+Finally understanding his true<span class="dots">... </span><span class="morelink list" href="#" onclick="showtext(this); return false;">more>></span><span style="display:none"> enemy, he swears to get his revenge from the gods and reign as the demon king.
+<span class="morelink list" href="#" onclick="hidetext(this); return false;"> &lt;&lt;less</span></span>			</div>
+					</div>
+        
+	</div>
+</div>
+
+
+<div class="w-blog-entry post-8640 seriesplans type-seriesplans status-publish has-post-thumbnail hentry genre-action genre-adventure genre-comedy genre-fantasy genre-harem genre-romance genre-slice-of-life stag-demi-humans stag-demon-lord stag-demons stag-dragons stag-dungeons stag-elemental-magic stag-elves stag-game-elements stag-god-protagonist stag-godly-powers stag-gods stag-heroes stag-hiding-true-abilities stag-human-nonhuman-relationship stag-interspatial-storage stag-kingdoms stag-loli stag-magic stag-male-protagonist stag-overpowered-protagonist stag-r-15 stag-sword-and-magic stag-transported-to-another-world nauthor-hirou-konpai nartist-sameda-koban opublisher-syosetu language-japanese ntype-web-novel">
+	<div class="w-blog-entry-h">
+	
+		<a class="w-blog-entry-link" href="http://www.novelupdates.com/series/yuusha-no-furi-mo-raku-janai-riyuu-ore-ga-kami-dakara/">
+			
+            
+            
+         <span class="w-blog-entry-preview" style="width:20%; padding-right: 20px; margin-top: 5px; margin-bottom: -20px;"><img width="184" height="230" src="http://www.novelupdates.com/wp-content/uploads/2016/11/814ZIy7JcmL-1.jpg" class="attachment-blog-small wp-post-image" alt="42_mms"></span>          
+           
+            		<h2 class="w-blog-entry-title" style="margin-left: 20%; font-size: 22px; font-weight: bold; font-family: 'Open Sans';">
+					<span class="w-blog-entry-title-h entry-title"><span id="sid8640"></span>Yuusha no Furi mo Raku Janai&#8211;Riyuu? Ore ga Kami dakara&#8211;</span>
+				</h2>
+		</a>
+        
+        
+    
+		<div class="w-blog-entry-body" style="margin-left: 20%;">
+        
+        <div><span class="userrate search" style="margin-left: 0%; padding: 5px 8px 5px; font-size: 11px; font-weight:normal;">Rating: 4.6 </span></div>
+			<span class="s-genre"><span class="gennew">Action</span> <span class="gennew">Adventure</span> <span class="gennew">Comedy</span> <span class="gennew">Fantasy</span> <span class="gennew">Harem</span> <span class="gennew">Romance</span> <span class="gennew">Slice of Life</span></span>
+						<div class="w-blog-entry-short">
+			One of the 8 million Gods, Keika Hiko-no-Mikoto failed at gaining believers in Japan.<span class="dots">... </span><span class="morelink list" href="#" onclick="showtext(this); return false;">more>></span><span style="display:none"><p style="margin-top:-5px;"></p>
+He got thrown off to another world when he was going back to Heaven in disappointment.<p style="margin-top:-5px;"></p>
+That other world, Alexsild has been mostly seized by the demon king.<p style="margin-top:-5px;"></p>
+Mysteriously, Keika who should have been invisible to other people could be seen normally like a normal human.<p style="margin-top:-5px;"></p>
+And then, a princess knight told him that he could ascend to Godhood if he piled up achievements as a hero.<p style="margin-top:-5px;"></p>
+Keika decided to defeat the demon king and become a God in that world.<p style="margin-top:-5px;"></p>
+By the way, unlike other people, Keika can see the ability values of people.<p style="margin-top:-5px;"></p>
+He can also see Skill Tree.<p style="margin-top:-5px;"></p>
+Why? Cause he’s a God.<p style="margin-top:-5px;"></p>
+The travel journal of God Keika as a hero begins–
+<span class="morelink list" href="#" onclick="hidetext(this); return false;"> &lt;&lt;less</span></span>			</div>
+					</div>
+        
+	</div>
+</div>
+
+
+<div class="w-blog-entry post-8616 seriesplans type-seriesplans status-publish has-post-thumbnail hentry genre-action genre-comedy stag-cooking stag-fanfiction stag-male-protagonist nauthor-gentlemen-dong nauthor-10159 opublisher-qidian language-chinese ntype-chinese-novel">
+	<div class="w-blog-entry-h">
+	
+		<a class="w-blog-entry-link" href="http://www.novelupdates.com/series/shokugeki-no-imitation-chef/">
+			
+            
+            
+         <span class="w-blog-entry-preview" style="width:20%; padding-right: 20px; margin-top: 5px; margin-bottom: -20px;"><img width="184" height="230" src="http://www.novelupdates.com/wp-content/uploads/2016/11/180-5.jpg" class="attachment-blog-small wp-post-image" alt="42_mms"></span>          
+           
+            		<h2 class="w-blog-entry-title" style="margin-left: 20%; font-size: 22px; font-weight: bold; font-family: 'Open Sans';">
+					<span class="w-blog-entry-title-h entry-title"><span id="sid8616"></span>Shokugeki no Imitation Chef</span>
+				</h2>
+		</a>
+        
+        
+    
+		<div class="w-blog-entry-body" style="margin-left: 20%;">
+        
+        <div><span class="userrate search" style="margin-left: 0%; padding: 5px 8px 5px; font-size: 11px; font-weight:normal;">Rating: 1.9 </span></div>
+			<span class="s-genre"><span class="gennew">Action</span> <span class="gennew">Comedy</span></span>
+						<div class="w-blog-entry-short">
+			One day, a boy with the same name of Liu Maoxing from Chuuka Ichiban was transported to the world of “Shokugeki no Soma”….<span class="dots">... </span><span class="morelink list" href="#" onclick="showtext(this); return false;">more>></span><span style="display:none"><p style="margin-top:-5px;"></p>
+For the sake of maintaining his ‘Tongue of God’, he has no other choice but to aim for the peak of the world of cooking!<p style="margin-top:-5px;"></p>
+As a chef at the level of “Instant noodle cooking”, Liu Maoxing has only his “Single-use Course” to help him through his difficulties while also helping him elevate his true cooking skills.<p style="margin-top:-5px;"></p>
+From golden fried rice, dream mapo tofu, persimmon with green pepper and pork stir fry….to century egg, jade phoenix dumplings and seabream continental map….. The menu of “Chuuka Ichiban” will make its reappearance in Tōtsuki Culinary Academy!
+<span class="morelink list" href="#" onclick="hidetext(this); return false;"> &lt;&lt;less</span></span>			</div>
+					</div>
+        
+	</div>
+</div>
+
+
+<div class="w-blog-entry post-8588 seriesplans type-seriesplans status-publish has-post-thumbnail hentry genre-action genre-adventure genre-comedy genre-fantasy genre-romance genre-shoujo stag-capable-female-lead stag-demons stag-familiars stag-female-protagonist stag-magic stag-male-lead-falls-in-love-first stag-male-yandere stag-mercenaries stag-older-male-younger-female stag-otome-game stag-politics-involving-royalty stag-villainess-noble-girl stag-yandere nauthor-yumeneko nauthor-7630 nartist-akito-ito nartist-10114 opublisher-kadokawa-shoten opublisher-syosetu language-japanese ntype-web-novel">
+	<div class="w-blog-entry-h">
+	
+		<a class="w-blog-entry-link" href="http://www.novelupdates.com/series/the-magnificent-battle-records-of-a-former-noble-lady/">
+			
+            
+            
+         <span class="w-blog-entry-preview" style="width:20%; padding-right: 20px; margin-top: 5px; margin-bottom: -20px;"><img width="184" height="230" src="http://www.novelupdates.com/wp-content/uploads/2016/11/81P4dmgpkCL.jpg" class="attachment-blog-small wp-post-image" alt="42_mms"></span>          
+           
+            		<h2 class="w-blog-entry-title" style="margin-left: 20%; font-size: 22px; font-weight: bold; font-family: 'Open Sans';">
+					<span class="w-blog-entry-title-h entry-title"><span id="sid8588"></span>The Magnificent Battle Records of A Former Noble Lady</span>
+				</h2>
+		</a>
+        
+        
+    
+		<div class="w-blog-entry-body" style="margin-left: 20%;">
+        
+        <div><span class="userrate search" style="margin-left: 0%; padding: 5px 8px 5px; font-size: 11px; font-weight:normal;">Rating: 4.6 </span></div>
+			<span class="s-genre"><span class="gennew">Action</span> <span class="gennew">Adventure</span> <span class="gennew">Comedy</span> <span class="gennew">Fantasy</span> <span class="gennew">Romance</span> <span class="gennew">Shoujo</span></span>
+						<div class="w-blog-entry-short">
+			Syltina was originally a Duke’s daughter.<br style="line-height: 40px;">
+Sentenced to get exiled out of the country two years ago, she crossed over to the neighboring country and entered its Guild. The current Syltina, who became strong to the extent that even foreign countries know her name, was summoned by the country which exiled her.<br<span class="dots">... </span><span class="morelink list" href="#" onclick="showtext(this); return false;">more>></span><span style="display:none"> style="line-height: 40px;">
+In order to purify the land defiled by monsters, Syltina got stuck in a journey with a partner who constantly has zero motivation, the girl from the different world who drove her into banishment, the First Prince who was her former fiance, her former brother who is a Knight and a pointlessly shy magician.<p style="margin-top:-5px;"></p>
+This is the story of Syltina slicing off enemies, playing the part of a Straight Man (tsukkomi) and sometimes, the Fool (boke) to her companions.
+<span class="morelink list" href="#" onclick="hidetext(this); return false;"> &lt;&lt;less</span></span>			</div>
+					</div>
+        
+	</div>
+</div>
+
+
+<div class="w-blog-entry post-8584 seriesplans type-seriesplans status-publish hentry genre-comedy genre-fantasy genre-romance genre-school-life stag-arranged-marriage stag-engagement stag-female-protagonist stag-funny-female-lead stag-otome-game stag-reincarnated-into-a-game-world stag-reincarnation stag-rich-female-lead stag-rich-male-lead stag-short-story stag-straightforward-female-lead stag-stubborn-female-lead stag-stubborn-protagonist stag-villainess-noble-girl nauthor-aska nartist-suzunosuke opublisher-syosetu language-japanese ntype-web-novel">
+	<div class="w-blog-entry-h">
+	
+		<a class="w-blog-entry-link" href="http://www.novelupdates.com/series/the-villainous-lady-aims-to-overthrow-the-heroine-fight/">
+			
+            
+            
+         <span class="w-blog-entry-preview" style="width:20%; padding-right: 20px; margin-top: 5px; margin-bottom: -20px;"><img width="184" height="230" src="http://www.novelupdates.com/img/noimagefound.jpg" class="attachment-blog-small wp-post-image" alt="42_mms"></span>          
+           
+            		<h2 class="w-blog-entry-title" style="margin-left: 20%; font-size: 22px; font-weight: bold; font-family: 'Open Sans';">
+					<span class="w-blog-entry-title-h entry-title"><span id="sid8584"></span>The Villainous Lady Aims to Overthrow the Heroine ~Fight!~</span>
+				</h2>
+		</a>
+        
+        
+    
+		<div class="w-blog-entry-body" style="margin-left: 20%;">
+        
+        <div><span class="userrate search" style="margin-left: 0%; padding: 5px 8px 5px; font-size: 11px; font-weight:normal;">Rating: 4.2 </span></div>
+			<span class="s-genre"><span class="gennew">Comedy</span> <span class="gennew">Fantasy</span> <span class="gennew">Romance</span> <span class="gennew">School Life</span></span>
+						<div class="w-blog-entry-short">
+			Belfreya Alunst is a typical villainous lady. She is now entering the school with the soul of an ultimate rival for the sake of the battle towards the summit with the heroine. This is basically what this story is all about.<br style="line-height: 40px;">
+This<span class="dots">... </span><span class="morelink list" href="#" onclick="showtext(this); return false;">more>></span><span style="display:none"> is the sequel of the short story [The Villainous Lady Aims to Overthrow the Heroine].
+<span class="morelink list" href="#" onclick="hidetext(this); return false;"> &lt;&lt;less</span></span>			</div>
+					</div>
+        
+	</div>
+</div>
+
+
+<div class="w-blog-entry post-8556 seriesplans type-seriesplans status-publish hentry genre-adventure genre-comedy genre-fantasy genre-slice-of-life stag-capable-female-lead stag-cooking stag-female-protagonist stag-food stag-management nauthor-morita-kisetsu nauthor-10100 opublisher-syosetu language-japanese ntype-web-novel">
+	<div class="w-blog-entry-h">
+	
+		<a class="w-blog-entry-link" href="http://www.novelupdates.com/series/different-worlds-okonomiyaki-chain-store-auntie-from-osaka-reborn-as-beautiful-swordswoman-on-a-mission-to-spread-okonomiyaki/">
+			
+            
+            
+         <span class="w-blog-entry-preview" style="width:20%; padding-right: 20px; margin-top: 5px; margin-bottom: -20px;"><img width="184" height="230" src="http://www.novelupdates.com/img/noimagefound.jpg" class="attachment-blog-small wp-post-image" alt="42_mms"></span>          
+           
+            		<h2 class="w-blog-entry-title" style="margin-left: 20%; font-size: 22px; font-weight: bold; font-family: 'Open Sans';">
+					<span class="w-blog-entry-title-h entry-title"><span id="sid8556"></span>Different World’s Okonomiyaki Chain Store ~Auntie from Osaka, Reborn as Beautiful Swordswoman, on A Mission to Spread Okonomiyaki!~</span>
+				</h2>
+		</a>
+        
+        
+    
+		<div class="w-blog-entry-body" style="margin-left: 20%;">
+        
+        <div><span class="userrate search" style="margin-left: 0%; padding: 5px 8px 5px; font-size: 11px; font-weight:normal;">Rating: 3.8 </span></div>
+			<span class="s-genre"><span class="gennew">Adventure</span> <span class="gennew">Comedy</span> <span class="gennew">Fantasy</span> <span class="gennew">Slice of Life</span></span>
+						<div class="w-blog-entry-short">
+			Humanity’s strongest existence, obviously that’s auntie from Osaka!!! Thus naturally she’s reborn as different world’s strongest beautiful swordswoman!!! This is a story where past auntie<span class="dots">... </span><span class="morelink list" href="#" onclick="showtext(this); return false;">more>></span><span style="display:none"> from Osaka doing cheat while opening okonomiyaki store in towns and dungeons, an upstart who opens branch store one by one as the manager!!!
+<span class="morelink list" href="#" onclick="hidetext(this); return false;"> &lt;&lt;less</span></span>			</div>
+					</div>
+        
+	</div>
+</div>
+
+
+<div class="w-blog-entry post-8389 seriesplans type-seriesplans status-publish has-post-thumbnail hentry genre-comedy genre-lolicon genre-slice-of-life nauthor-akatsuki-yuki nauthor-9897 nartist-henreader nartist-9899 language-japanese ntype-light-novel">
+	<div class="w-blog-entry-h">
+	
+		<a class="w-blog-entry-link" href="http://www.novelupdates.com/series/kyou-kara-ore-wa-loli-no-himo/">
+			
+            
+            
+         <span class="w-blog-entry-preview" style="width:20%; padding-right: 20px; margin-top: 5px; margin-bottom: -20px;"><img width="184" height="230" src="http://www.novelupdates.com/wp-content/uploads/2016/11/22.jpg" class="attachment-blog-small wp-post-image" alt="42_mms"></span>          
+           
+            		<h2 class="w-blog-entry-title" style="margin-left: 20%; font-size: 22px; font-weight: bold; font-family: 'Open Sans';">
+					<span class="w-blog-entry-title-h entry-title"><span id="sid8389"></span>Kyou Kara Ore wa Loli no Himo!</span>
+				</h2>
+		</a>
+        
+        
+    
+		<div class="w-blog-entry-body" style="margin-left: 20%;">
+        
+        <div><span class="userrate search" style="margin-left: 0%; padding: 5px 8px 5px; font-size: 11px; font-weight:normal;">Rating: 4.6 </span></div>
+			<span class="s-genre"><span class="gennew">Comedy</span> <span class="gennew">Lolicon</span> <span class="gennew">Slice of Life</span></span>
+						<div class="w-blog-entry-short">
+			I, Tendou Haru, who was somehow aiming for becoming a mangaka, became a winner in life. Super rich bishoujo elementary school student, Nijou Touka was<span class="dots">... </span><span class="morelink list" href="#" onclick="showtext(this); return false;">more>></span><span style="display:none"> a big fan of mine, on top of that, she said that she is going to be my patron. Just like that, my ideal living off someone lifestyle had started.
+<span class="morelink list" href="#" onclick="hidetext(this); return false;"> &lt;&lt;less</span></span>			</div>
+					</div>
+        
+	</div>
+</div>
+
+		</div>
+	</div>
+	<div class="digg_pagination" style="margin-top: -10px; margin-bottom: -45px;">
+		
+	<nav class="navigation pagination" role="navigation">
+		<h2 class="screen-reader-text">Posts navigation</h2>
+		<div class="nav-links"><span class='page-numbers current'><span>1</span></span>
+<a class='page-numbers' href='http://www.novelupdates.com/page/2/?s=no&#038;post_type=seriesplans'><span>2</span></a>
+<span class="page-numbers dots">&hellip;</span>
+<a class='page-numbers' href='http://www.novelupdates.com/page/89/?s=no&#038;post_type=seriesplans'><span>89</span></a>
+<a class="next page-numbers" href="http://www.novelupdates.com/page/2/?s=no&#038;post_type=seriesplans">></a></div>
+	</nav>	</div>
+
+
+
+<script>
+function showtext(a){$(a).parent().find("span").show(),$(a).parent().find(".dots").hide(),$(a).hide()}function hidetext(a){$(a).parent().parent().find("span").hide(),$(a).parent().parent().find(".dots").show(),$(a).parent().parent().find("span.morelink").show()}
+</script>			</div>
+			<div class="l-sidebar at_left">
+							</div>
+
+			<div class="l-sidebar at_right">
+				<div id="text-9" class="widget widget_text">			<div class="textwidget"><div id="search-4" class="widget widget_search"><div class="w-search submit_inside">
+	<div class="w-search-h">
+		<form class="w-search-form" action="http://www.novelupdates.com/">
+						<div class="w-search-input">
+				<div class="w-search-input-h">
+					<input type="text" value="" name="s" placeholder="Search Novels..." >
+<input type="hidden" name="post_type" value="seriesplans" />
+				</div>
+			</div>
+			<div class="w-search-submit">
+				<input type="submit" value="Search" class="not-empty">
+			</div>
+		</form>
+	</div>
+</div></div></div>
+		</div><div id="text-2" class="widget widget_text"><h3 class="widgettitle">Novel Updates</h3>			<div class="textwidget"><ul>
+<li><a href="http://forum.novelupdates.com/">Forum</a></li>
+<li><a href="http://www.novelupdates.com/groupslist/">Groups</a></li>
+<li><a href="http://www.novelupdates.com/novelslisting/">Novels Listing</a></li>
+<li><a href="http://www.novelupdates.com/series-finder/">Series Finder</a></li>
+<li><a href="http://www.novelupdates.com/series-ranking/">Series Ranking</a></li>
+<li><a href="http://www.novelupdates.com/latest-series/">Latest Series</a></li>
+</ul></div>
+		</div><div id="text-3" class="widget widget_text"><h3 class="widgettitle">User Tools</h3>			<div class="textwidget"><ul>
+<li><a href="http://www.novelupdates.com/reading-list/">Reading List</a></li>
+<li><a href="http://www.novelupdates.com/release-filtering/">Release Filtering</a></li>
+<li><a href="http://www.novelupdates.com/series-filtering/">Series Filtering</a></li>
+<li><a href="http://www.novelupdates.com/profile/">User Profile</a></li>
+</ul></div>
+		</div><div class="ad_336">
+<script type="text/javascript" language="javascript" src="//c.amazon-adsystem.com/aax2/getads.js"></script>
+<script type="text/javascript" language="javascript">
+//<![CDATA[
+aax_getad_mpb({
+  "slot_uuid":"2c870d03-8e52-46e7-9b62-4909192f9029"
+});
+//]]>
+</script>
+<span style="font-size: 11px; display: block; width: 0px; margin: -10px auto;">Advertisement</span>
+</div>			</div>
+		</div>
+	</div>
+
+
+</div>
+<!-- /MAIN -->
+
+</div>
+<!-- /CANVAS -->
+
+<!-- FOOTER -->
+<div class="l-footer">
+			<!-- subfooter: bottom -->
+	<div class="l-subfooter at_bottom">
+		<div class="l-subfooter-h i-cf">
+
+			
+			<div class="w-copyright"><a href="http://www.novelupdates.com/privacy-policy/">Privacy Policy</a> | <a href="http://www.novelupdates.com/terms-of-service/">Terms of Service</a> | <a href="http://www.novelupdates.com/contact-us/">Contact Us</a></div>
+
+		</div>
+	</div>
+	
+</div>
+<!-- /FOOTER -->
+<a class="w-toplink" href="#"><i class="fa fa-angle-up"></i></a>
+<script type="text/javascript">
+	if (window.$us === undefined) window.$us = {};
+	$us.canvasOptions = ($us.canvasOptions || {});
+	$us.canvasOptions.headerDisableStickyHeaderWidth = parseInt('1000');
+	$us.canvasOptions.headerDisableAnimationWidth = parseInt('900');
+	$us.canvasOptions.headerMainHeight = parseInt('60');
+	$us.canvasOptions.headerMainShrinkedHeight = parseInt('60');
+	$us.canvasOptions.headerExtraHeight = parseInt('36');
+	$us.canvasOptions.mobileNavWidth = parseInt('1000');
+
+	$us.navOptions = ($us.navOptions || {});
+	$us.navOptions.togglable = 1;
+
+</script>
+<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-66522525-1', 'auto');
+  ga('send', 'pageview');
+
+</script><script type='text/javascript' src='http://www.novelupdates.com/wp-content/plugins/user-meta-display/assets/js/scripts-user_meta_display.js?ver=1.2.2'></script>
+<script type='text/javascript' src='http://www.novelupdates.com/wp-content/plugins/yet-another-stars-rating/js/jquery.rateit.min.js?ver=1.0.22'></script>
+<script type='text/javascript' src='http://www.novelupdates.com/wp-content/plugins/yet-another-stars-rating/js/yasr-front.js?ver=1.0.1'></script>
+<script type='text/javascript' src='http://www.novelupdates.com/wp-content/themes/ndupdates/js/jquery.easing.min.js?ver=4.7'></script>
+<script type='text/javascript' src='http://www.novelupdates.com/wp-content/themes/ndupdates/js/us.core.js?ver=3.07'></script>
+<script type='text/javascript' src='http://www.novelupdates.com/wp-content/themes/ndupdates/js/us.widgets.js?ver=3.07'></script>
+<script type='text/javascript' src='http://www.novelupdates.com/wp-includes/js/comment-reply.min.js?ver=4.7'></script>
+<script type='text/javascript' src='http://www.novelupdates.com/wp-includes/js/wp-embed.min.js?ver=4.7'></script>
+</body>
+</html>

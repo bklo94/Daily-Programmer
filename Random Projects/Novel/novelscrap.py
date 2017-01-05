@@ -34,10 +34,8 @@ def createTable():
         (ID INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL,
         NOVEL_NAME      TEXT   NOT NULL,
         NOVEL_CURRENT   INT    NOT NULL,
-        NOVEL_LATEST    INT    NOT NULL,
         NOVEL_LANG      CHAR(3)   NOT NULL,
-        CURRENT_WEBSITE        TEXT   NOT NULL,
-        LATEST_WEBSITE         TEXT);""")
+        CURRENT_WEBSITE        TEXT   NOT NULL);""")
     print "Table SEARCH created"
 
 def setOnlineNovel(name, chapter, latest, lang, urlCurrent):
@@ -78,6 +76,12 @@ def showRealTable():
     for rows in result:
         print rows
 
+def showSearchTable():
+    c.execute("""SELECT * FROM SEARCH""")
+    result = c.fetchall()
+    for rows in result:
+        print rows
+
 def gatherOnlineNovelNames():
     c.execute("""SELECT NOVEL_NAME FROM ONLINE_NOVELS""")
     result = c.fetchall()
@@ -99,6 +103,14 @@ def emailMessage(messageContent):
 #for web scrapping
 import httplib2
 from bs4 import BeautifulSoup
+from collections import OrderedDict
+from operator import itemgetter
+
+def getArticle(webpage):
+    if webpage:
+        h = httplib2.Http(".cache")
+        content = h.request(webpage)
+        return content
 
 def novelInsert():
     print "1: Online Novels"
@@ -142,18 +154,49 @@ def novelUpdate(searchItem):
             finalWebLink = webLink[1]['href']
             updateLatestOnlineNovel(Title.upper(),finalChapterNumber,finalWebLink)
 
-def getArticle(webpage):
-    if webpage:
-        h = httplib2.Http(".cache")
-        content = h.request(webpage)
-        return content
+def novelSearch(searchTerm):
+    table = "SEARCH"
+    url = "http://www.novelupdates.com/?s="+ searchTerm +"&post_type=seriesplans"
+    content = getArticle(url)
+    grabContent = BeautifulSoup(str(content), "html.parser")
+    output = grabContent.find_all("h2")
+    linkoutput = grabContent.find_all("a")
+    inputNovel = searchTerm
+    titleList = []
+    linkList = []
+    novelDict = {}
+    count = 0
+    for items in output:
+        grabTitle = items.find_all('span')
+        if grabTitle:
+            span = '</span>'
+            temp = str(grabTitle[0]).split(span)
+            titleList.append(temp[1])
+
+    for items in linkoutput:
+        grabLinks = items['href']
+        linkList.append(grabLinks)
+
+    for items in range(4,29):
+        novelDict[titleList[count]] = [linkList[items],count]
+        count = count + 1
+
+    novelDict = sorted(novelDict.items(), key=lambda novelDict: novelDict[1][1])
+    #dictionary is 0-23
+    for key, value in novelDict:
+        print value[1], "\t\t\t", key
+        '''
+        if 0 == value[1]:
+            print key
+            print value[0]
+        '''
 
 def main():
     #search = raw_input("Novel:")
     try:
-        #novelUpdate(search)
         conn = sqlite3.connect(sqlite_file)
         c = conn.cursor()
+        '''
         #createTable()
         #novelInsert()
         novels = gatherOnlineNovelNames()
@@ -163,13 +206,15 @@ def main():
 
         showOnlineTable()
         print "Tables updated!"
+        '''
+        searchTerm = "no"
+        novelSearch(searchTerm)
         conn.close()
     except KeyError:
-        print "KeyError"
+        print "KeyError!"
     except AttributeError:
-        print "Novel Attritube Note Found"
-
-
-
+        print "Novel Attritube Note Found!"
+    except UnicodeEncodeError:
+        print "Unicode encountered!"
 
 if __name__ == "__main__": main()
