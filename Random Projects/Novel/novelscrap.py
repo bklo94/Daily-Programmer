@@ -43,28 +43,35 @@ def setOnlineNovel(name, chapter, latest, lang, urlCurrent):
     c.execute("""INSERT INTO ONLINE_NOVELS (NOVEL_NAME, NOVEL_CURRENT, NOVEL_LATEST, NOVEL_LANG, CURRENT_WEBSITE) VALUES (?, ?, ?, ? ,?)""", (name,chapter,latest,lang,urlCurrent))
 
 
-def updateCurrentRealNovel(table, name, chapter):
-    c.execute(""" UPDATE (?)
+def updateCurrentRealNovel(name, chapter):
+    c.execute(""" UPDATE REAL_NOVELS
         SET NOVEL_CURRENT = (?)
-        WHERE NOVEL_NAME = (?)""",(table,chapter,name))
+        WHERE NOVEL_NAME = (?)""",(chapter,name))
 
-def updateLatestNovel(table,name,chapter,url):
+def updateLatestOnlineNovel(name,chapter,url):
+    c.execute("""UPDATE ONLINE_NOVELS
+        SET NOVEL_LATEST = ?, LATEST_WEBSITE = ?
+        WHERE NOVEL_NAME = ? """,(chapter,url,name))
+    print chapter
+
+def updateCurrentOnlineChapter(name,chapter,url):
     c.execute("""UPDATE (?)
-        SET NOVEL_LATEST = (?)
-        SET LATEST_WEBSITE = (?)
-        WHERE NOVEL_NAME = (?)""",(table,chapter,url,name))
+        SET (NOVEL_CURRENT,CURRENT_WEBSITE) VALUES (?,?)
+        WHERE NOVEL_NAME = (?)""",(chapter,url,name))
 
-def updateCurrentChapter(table,name,chapter,url):
-    c.execute("""UPDATE (?)
-        SET NOVEL_CURRENT = (?)
-        SET CURRENT_WEBSITE = (?)
-        WHERE NOVEL_NAME = (?)""",(table,chapter,url,name))
-
-def showTable():
+def showOnlineTable():
     c.execute("""SELECT * FROM ONLINE_NOVELS""")
     result = c.fetchall()
     for rows in result:
         print rows
+
+def gatherOnlineNovelNames():
+    c.execute("""SELECT NOVEL_NAME FROM ONLINE_NOVELS""")
+    result = c.fetchall()
+    novels = []
+    for rows in result:
+        novels.append[rows]
+    return novels
 
 #for the email
 import smtplib
@@ -101,7 +108,7 @@ def novelInsert():
     else:
         pass
     conn.commit()
-    showTable()
+    showOnlineTable()
 
 def novelUpdate(searchItem):
     table = "ONLINE_NOVELS"
@@ -114,7 +121,7 @@ def novelUpdate(searchItem):
     for chapter in output:
         Title = chapter.get_text()
         count = count + 1
-        if Title == inputNovel :
+        if Title == inputNovel:
             chapterNumber = output[count].get_text().split("c")
 
             #reads the outputted list to get the chapter number
@@ -123,7 +130,7 @@ def novelUpdate(searchItem):
 
             #reads the outputted list to get the web link
             finalWebLink = webLink[1]['href']
-        updateLatestNovel(table,Title,finalChapterNumber,finalWebLink)
+            updateLatestOnlineNovel(Title,finalChapterNumber,finalWebLink)
 
 def getArticle(webpage):
     if webpage:
@@ -137,8 +144,13 @@ def main():
         #novelUpdate(search)
         conn = sqlite3.connect(sqlite_file)
         c = conn.cursor()
-        createTable()
-        novelInsert()
+        #createTable()
+        #novelInsert()
+        novelUpdate("Release that Witch")
+        showOnlineTable()
+        #novels = gatherOnlineNovelNames()
+        #for items in novels:
+        #    novelUpdate(novels[items])
         conn.commit()
         conn.close()
     except KeyError:
