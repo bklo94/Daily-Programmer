@@ -8,6 +8,7 @@ import sqlite3
 sqlite_file = 'novel.sqlite'
 
 conn = sqlite3.connect(sqlite_file)
+conn.text_factory = str
 c = conn.cursor()
 
 def createTable():
@@ -40,24 +41,30 @@ def createTable():
     print "Table SEARCH created"
 
 def setOnlineNovel(name, chapter, latest, lang, urlCurrent):
-    c.execute("""INSERT INTO ONLINE_NOVELS (NOVEL_NAME, NOVEL_CURRENT, NOVEL_LATEST, NOVEL_LANG, CURRENT_WEBSITE) VALUES (?, ?, ?, ? ,?)""", (name,chapter,latest,lang,urlCurrent))
+    c.execute("""INSERT INTO ONLINE_NOVELS (NOVEL_NAME, NOVEL_CURRENT, NOVEL_LATEST, NOVEL_LANG, CURRENT_WEBSITE) VALUES (?, ?, ?, ? ,?)""", (name.upper(),chapter,latest,lang,urlCurrent))
+    conn.commit()
 
+def setRealNovel(name, chapter, latest, lang):
+    c.execute("""INSERT INTO REAL_NOVELS (NOVEL_NAME, NOVEL_CURRENT, NOVEL_LATEST, NOVEL_LANG) VALUES (?, ?, ?, ? )""", (name.upper(),chapter,latest,lang))
+    conn.commit()
 
 def updateCurrentRealNovel(name, chapter):
     c.execute(""" UPDATE REAL_NOVELS
-        SET NOVEL_CURRENT = (?)
-        WHERE NOVEL_NAME = (?)""",(chapter,name))
+        SET NOVEL_CURRENT = ?
+        WHERE NOVEL_NAME = ?""",(chapter,name.upper()))
+    conn.commit()
 
 def updateLatestOnlineNovel(name,chapter,url):
     c.execute("""UPDATE ONLINE_NOVELS
         SET NOVEL_LATEST = ?, LATEST_WEBSITE = ?
-        WHERE NOVEL_NAME = ? """,(chapter,url,name))
-    print chapter
+        WHERE NOVEL_NAME = ? """,(chapter,url,name.upper()))
+    conn.commit()
 
 def updateCurrentOnlineChapter(name,chapter,url):
     c.execute("""UPDATE (?)
-        SET (NOVEL_CURRENT,CURRENT_WEBSITE) VALUES (?,?)
-        WHERE NOVEL_NAME = (?)""",(chapter,url,name))
+        SET (NOVEL_CURRENT = ?, CURRENT_WEBSITE = ?
+        WHERE NOVEL_NAME = ?""",(chapter,url,name.upper()))
+    conn.commit()
 
 def showOnlineTable():
     c.execute("""SELECT * FROM ONLINE_NOVELS""")
@@ -65,13 +72,16 @@ def showOnlineTable():
     for rows in result:
         print rows
 
+def showRealTable():
+    c.execute("""SELECT * FROM REAL_NOVELS""")
+    result = c.fetchall()
+    for rows in result:
+        print rows
+
 def gatherOnlineNovelNames():
     c.execute("""SELECT NOVEL_NAME FROM ONLINE_NOVELS""")
     result = c.fetchall()
-    novels = []
-    for rows in result:
-        novels.append[rows]
-    return novels
+    return result
 
 #for the email
 import smtplib
@@ -104,7 +114,7 @@ def novelInsert():
     lang = raw_input("Input Language Symbol:")
     urlCurrent = raw_input("Input current chapter URL:")
     if table == "ONLINE_NOVELS":
-        setOnlineNovel(name,chapter,latest,lang,urlCurrent)
+        setOnlineNovel(name.upper(),chapter,latest,lang,urlCurrent)
     else:
         pass
     conn.commit()
@@ -118,19 +128,19 @@ def novelUpdate(searchItem):
     output = grabContent.find_all("td")
     count = 0
     inputNovel = searchItem
+
     for chapter in output:
         Title = chapter.get_text()
         count = count + 1
-        if Title == inputNovel:
+        if Title.upper() == inputNovel:
             chapterNumber = output[count].get_text().split("c")
-
             #reads the outputted list to get the chapter number
             finalChapterNumber = chapterNumber[1]
             webLink = output[count].find_all("a")
 
             #reads the outputted list to get the web link
             finalWebLink = webLink[1]['href']
-            updateLatestOnlineNovel(Title,finalChapterNumber,finalWebLink)
+            updateLatestOnlineNovel(Title.upper(),finalChapterNumber,finalWebLink)
 
 def getArticle(webpage):
     if webpage:
@@ -146,12 +156,13 @@ def main():
         c = conn.cursor()
         #createTable()
         #novelInsert()
-        novelUpdate("Release that Witch")
+        novels = gatherOnlineNovelNames()
+        for items in novels:
+            temp = ''.join(items)
+            novelUpdate(temp)
+
         showOnlineTable()
-        #novels = gatherOnlineNovelNames()
-        #for items in novels:
-        #    novelUpdate(novels[items])
-        conn.commit()
+        print "Tables updated!"
         conn.close()
     except KeyError:
         print "KeyError"
