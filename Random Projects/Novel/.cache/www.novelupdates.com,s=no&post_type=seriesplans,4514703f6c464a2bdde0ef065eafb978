@@ -1,8 +1,8 @@
 status: 200
-content-length: 77789
+content-length: 77911
 content-location: http://www.novelupdates.com/?s=no&post_type=seriesplans
-set-cookie: __cfduid=d8f06c3204dd1ef5672e5bf2057e094be1483599463;
- expires=Fri, 05-Jan-18 06:57:43 GMT; path=/; domain=.novelupdates.com;
+set-cookie: __cfduid=d35d0741e706ac087f5009962124c448f1483686487;
+ expires=Sat, 06-Jan-18 07:08:07 GMT; path=/; domain=.novelupdates.com;
  HttpOnly
 x-powered-by: PHP/7.0.13
 vary: Accept-Encoding
@@ -10,8 +10,8 @@ server: cloudflare-nginx
 connection: keep-alive
 -content-encoding: gzip
 link: <http://www.novelupdates.com/wp-json/>; rel="https://api.w.org/"
-date: Thu, 05 Jan 2017 06:57:43 GMT
-cf-ray: 31c509a6b4d111a1-SJC
+date: Fri, 06 Jan 2017 07:08:08 GMT
+cf-ray: 31cd5644a5a9514c-SJC
 content-type: text/html; charset=UTF-8
 -varied-accept-encoding: gzip, deflate
 
@@ -216,7 +216,7 @@ var title = {"unfolded":"Expand","folded":"Collapse"};
 	<div class="w-blog imgpos_atleft imgtype_circle">
 		<div class="w-blog-list">
 			
-<div class="w-blog-entry post-9343 seriesplans type-seriesplans status-publish has-post-thumbnail hentry genre-adult genre-adventure genre-comedy genre-ecchi genre-fantasy genre-gender-bender genre-harem genre-josei genre-mature genre-romance genre-smut stag-female-protagonist stag-otome-game stag-r-18 stag-reincarnation stag-reverse-harem stag-transported-to-another-world nauthor-babutteru-slime nauthor-11049 nartist-mizuno-kagari nartist-11051 language-japanese ntype-web-novel">
+<div class="w-blog-entry post-9343 seriesplans type-seriesplans status-publish has-post-thumbnail hentry genre-adult genre-adventure genre-comedy genre-ecchi genre-fantasy genre-gender-bender genre-harem genre-josei genre-mature genre-romance genre-smut stag-female-protagonist stag-male-to-female stag-otome-game stag-r-18 stag-reincarnation stag-reverse-harem stag-transported-to-another-world nauthor-babutteru-slime nauthor-11049 nartist-mizuno-kagari nartist-11051 language-japanese ntype-web-novel">
 	<div class="w-blog-entry-h">
 	
 		<a class="w-blog-entry-link" href="http://www.novelupdates.com/series/%e3%80%8eshirayukihime-to-7-nin-no-koibito%e3%80%8fto-iu-18-kin-otomege-heroin-ni-tenseishiteshimatta-ore-ga-zenryoku-de-oujitachi-kara-nigeru-hanashi/">
@@ -234,7 +234,7 @@ var title = {"unfolded":"Expand","folded":"Collapse"};
     
 		<div class="w-blog-entry-body" style="margin-left: 20%;">
         
-        <div><span class="userrate search" style="margin-left: 0%; padding: 5px 8px 5px; font-size: 11px; font-weight:normal;">Rating: 3.1 </span></div>
+        <div><span class="userrate search" style="margin-left: 0%; padding: 5px 8px 5px; font-size: 11px; font-weight:normal;">Rating: 3.4 </span></div>
 			<span class="s-genre"><span class="gennew">Adult</span> <span class="gennew">Adventure</span> <span class="gennew">Comedy</span> <span class="gennew">Ecchi</span> <span class="gennew">Fantasy</span> <span class="gennew">Gender Bender</span> <span class="gennew">Harem</span> <span class="gennew">Josei</span> <span class="gennew">Mature</span> <span class="gennew">Romance</span> <span class="gennew">Smut</span></span>
 						<div class="w-blog-entry-short">
 			【Main story completion】After being assaulted by a tentacle monster and its conveniently aphrodisiac mucus, I remembered my past life. It was then I realized that this was the world of a 18 restricted otome game. It seems that I’ve reincarnated into the game『Snow White and the Seven Lovers』as the heroine Snow White. ――In<span class="dots">... </span><span class="morelink list" href="#" onclick="showtext(this); return false;">more>></span><span style="display:none"> this game, no matter which route you take you would be caught and violated by seven men eventually. Then you would be confined in a cabin in the forest, and each evening you would be gangbanged by the seven men. I definitely don’t want that! I haven’t even gone out with a girl yet!! ……Alright, let’s run away.<p style="margin-top:-5px;"></p>
@@ -317,14 +317,14 @@ But how did Mo Qi’s Mary Sue halo end up in his body! He is still a straight m
 </div>
 
 
-<div class="w-blog-entry post-9276 seriesplans type-seriesplans status-publish hentry genre-adventure genre-fantasy genre-gender-bender genre-shoujo-ai genre-slice-of-life stag-age-progression stag-blind-protagonist stag-cute-story stag-female-protagonist stag-heartwarming stag-magic stag-male-to-female stag-r-15 stag-reincarnated-into-another-world stag-reincarnation nauthor-10921 opublisher-alpha-polis language-japanese ntype-web-novel">
+<div class="w-blog-entry post-9276 seriesplans type-seriesplans status-publish has-post-thumbnail hentry genre-adventure genre-fantasy genre-gender-bender genre-slice-of-life stag-age-progression stag-blind-protagonist stag-cute-story stag-eye-powers stag-fairies stag-female-protagonist stag-heartwarming stag-knights stag-magic stag-male-to-female stag-overprotective-siblings stag-r-15 stag-reincarnated-into-another-world stag-reincarnation stag-sister-complex nauthor-10921 opublisher-alpha-polis opublisher-syosetu language-japanese ntype-web-novel">
 	<div class="w-blog-entry-h">
 	
 		<a class="w-blog-entry-link" href="http://www.novelupdates.com/series/nigotta-hitomi-no-lilianne/">
 			
             
             
-         <span class="w-blog-entry-preview" style="width:20%; padding-right: 20px; margin-top: 5px; margin-bottom: -20px;"><img width="184" height="230" src="http://www.novelupdates.com/img/noimagefound.jpg" class="attachment-blog-small wp-post-image" alt="42_mms"></span>          
+         <span class="w-blog-entry-preview" style="width:20%; padding-right: 20px; margin-top: 5px; margin-bottom: -20px;"><img width="184" height="230" src="http://www.novelupdates.com/wp-content/uploads/Nigotta-Hitomi-no-Lilianne.jpg" class="attachment-blog-small wp-post-image" alt="42_mms"></span>          
            
             		<h2 class="w-blog-entry-title" style="margin-left: 20%; font-size: 22px; font-weight: bold; font-family: 'Open Sans';">
 					<span class="w-blog-entry-title-h entry-title"><span id="sid9276"></span>Nigotta Hitomi no Lilianne</span>
@@ -336,7 +336,7 @@ But how did Mo Qi’s Mary Sue halo end up in his body! He is still a straight m
 		<div class="w-blog-entry-body" style="margin-left: 20%;">
         
         <div><span class="userrate search" style="margin-left: 0%; padding: 5px 8px 5px; font-size: 11px; font-weight:normal;">Rating: 4.3 </span></div>
-			<span class="s-genre"><span class="gennew">Adventure</span> <span class="gennew">Fantasy</span> <span class="gennew">Gender Bender</span> <span class="gennew">Shoujo Ai</span> <span class="gennew">Slice of Life</span></span>
+			<span class="s-genre"><span class="gennew">Adventure</span> <span class="gennew">Fantasy</span> <span class="gennew">Gender Bender</span> <span class="gennew">Slice of Life</span></span>
 						<div class="w-blog-entry-short">
 			After coming out of a tunnel… it was pitch dark.<span class="dots">... </span><span class="morelink list" href="#" onclick="showtext(this); return false;">more>></span><span style="display:none"><p style="margin-top:-5px;"></p>
 When I woke up, it was dark.<p style="margin-top:-5px;"></p>
@@ -371,7 +371,7 @@ Isn’t this conversely a start with a handicap!<p style="margin-top:-5px;"></p>
     
 		<div class="w-blog-entry-body" style="margin-left: 20%;">
         
-        <div><span class="userrate search" style="margin-left: 0%; padding: 5px 8px 5px; font-size: 11px; font-weight:normal;">Rating: 4.2 </span></div>
+        <div><span class="userrate search" style="margin-left: 0%; padding: 5px 8px 5px; font-size: 11px; font-weight:normal;">Rating: 4 </span></div>
 			<span class="s-genre"><span class="gennew">Comedy</span> <span class="gennew">Romance</span> <span class="gennew">School Life</span></span>
 						<div class="w-blog-entry-short">
 			Arisa had unexpectedly remember about her previous life.<br style="line-height: 40px;">
@@ -520,7 +520,7 @@ But, during the judgement――something that was not possible in the game happe
     
 		<div class="w-blog-entry-body" style="margin-left: 20%;">
         
-        <div><span class="userrate search" style="margin-left: 0%; padding: 5px 8px 5px; font-size: 11px; font-weight:normal;">Rating: 4.5 </span></div>
+        <div><span class="userrate search" style="margin-left: 0%; padding: 5px 8px 5px; font-size: 11px; font-weight:normal;">Rating: 4.4 </span></div>
 			<span class="s-genre"><span class="gennew">Drama</span> <span class="gennew">Romance</span> <span class="gennew">Shoujo</span></span>
 						<div class="w-blog-entry-short">
 			I, Lilianne Abenster was reincarnated as a villain of a girl game. I am the step-sister of the capture target, the strong knight; as well<span class="dots">... </span><span class="morelink list" href="#" onclick="showtext(this); return false;">more>></span><span style="display:none"> as the fiancée of the future Duke (also a capture target). I am busy doing bad things…Which were actually a lie. After the conviction of the villainous daughter, I will compensate for my sins properly; therefore please let me stay low for the time being.
@@ -704,7 +704,7 @@ One act of a persuasion by a young woman towards the hero who had made a mistake
     
 		<div class="w-blog-entry-body" style="margin-left: 20%;">
         
-        <div><span class="userrate search" style="margin-left: 0%; padding: 5px 8px 5px; font-size: 11px; font-weight:normal;">Rating: 3.4 </span></div>
+        <div><span class="userrate search" style="margin-left: 0%; padding: 5px 8px 5px; font-size: 11px; font-weight:normal;">Rating: 3.3 </span></div>
 			<span class="s-genre"><span class="gennew">Drama</span> <span class="gennew">Josei</span></span>
 						<div class="w-blog-entry-short">
 			A soliloquy until a certain divorcee able to fully enjoy freedom. The title said it all.

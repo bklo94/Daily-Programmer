@@ -1,0 +1,655 @@
+status: 200
+content-length: 33857
+content-location: http://www.novelupdates.com/series/mamorubeki-nakama-ya-shimei-o-ushinattanode-mao-to-asonde-kurashimasu/
+set-cookie: __cfduid=df56626dd0cd0892b90814f8095d274b11483682574;
+ expires=Sat, 06-Jan-18 06:02:54 GMT; path=/; domain=.novelupdates.com;
+ HttpOnly
+x-powered-by: PHP/7.0.13
+vary: Accept-Encoding
+server: cloudflare-nginx
+connection: keep-alive
+-content-encoding: gzip
+link: <http://www.novelupdates.com/wp-json/>;
+ rel="https://api.w.org/", <http://www.novelupdates.com/?p=9311>; rel=shortlink
+date: Fri, 06 Jan 2017 06:02:54 GMT
+cf-ray: 31ccf6ba665f0707-SJC
+content-type: text/html; charset=UTF-8
+-varied-accept-encoding: gzip, deflate
+
+<!DOCTYPE HTML>
+
+
+
+<html class="" lang="en-US">
+<head>
+	<meta charset="UTF-8">
+	<title>Mamorubeki nakama ya shimei o ushinattanode, mao to asonde kurashimasu - Novel Updates</title>
+
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+	<meta name="SKYPE_TOOLBAR" content="SKYPE_TOOLBAR_PARSER_COMPATIBLE" />
+
+	<link rel="shortcut icon" href="http://www.novelupdates.com/wp-content/uploads/2015/10/ndfavicon.ico">
+	<link rel='dns-prefetch' href='//www.novelupdates.com' />
+<link rel='dns-prefetch' href='//ajax.googleapis.com' />
+<link rel='dns-prefetch' href='//forum.novelupdates.com' />
+<link rel='dns-prefetch' href='//www.google.com' />
+<link rel='dns-prefetch' href='//fonts.googleapis.com' />
+<link rel='dns-prefetch' href='//s.w.org' />
+<link rel="alternate" type="application/rss+xml" title="Novel Updates &raquo; Feed" href="http://www.novelupdates.com/feed/" />
+<link rel="alternate" type="application/rss+xml" title="Novel Updates &raquo; Comments Feed" href="http://www.novelupdates.com/comments/feed/" />
+<link rel="alternate" type="application/rss+xml" title="Novel Updates &raquo; Mamorubeki nakama ya shimei o ushinattanode, mao to asonde kurashimasu Comments Feed" href="http://www.novelupdates.com/series/mamorubeki-nakama-ya-shimei-o-ushinattanode-mao-to-asonde-kurashimasu/feed/" />
+		<script type="text/javascript">
+			window._wpemojiSettings = {"baseUrl":"https:\/\/s.w.org\/images\/core\/emoji\/2.2.1\/72x72\/","ext":".png","svgUrl":"https:\/\/s.w.org\/images\/core\/emoji\/2.2.1\/svg\/","svgExt":".svg","source":{"concatemoji":"http:\/\/www.novelupdates.com\/wp-includes\/js\/wp-emoji-release.min.js?ver=4.7"}};
+			!function(a,b,c){function d(a){var b,c,d,e,f=String.fromCharCode;if(!k||!k.fillText)return!1;switch(k.clearRect(0,0,j.width,j.height),k.textBaseline="top",k.font="600 32px Arial",a){case"flag":return k.fillText(f(55356,56826,55356,56819),0,0),!(j.toDataURL().length<3e3)&&(k.clearRect(0,0,j.width,j.height),k.fillText(f(55356,57331,65039,8205,55356,57096),0,0),b=j.toDataURL(),k.clearRect(0,0,j.width,j.height),k.fillText(f(55356,57331,55356,57096),0,0),c=j.toDataURL(),b!==c);case"emoji4":return k.fillText(f(55357,56425,55356,57341,8205,55357,56507),0,0),d=j.toDataURL(),k.clearRect(0,0,j.width,j.height),k.fillText(f(55357,56425,55356,57341,55357,56507),0,0),e=j.toDataURL(),d!==e}return!1}function e(a){var c=b.createElement("script");c.src=a,c.defer=c.type="text/javascript",b.getElementsByTagName("head")[0].appendChild(c)}var f,g,h,i,j=b.createElement("canvas"),k=j.getContext&&j.getContext("2d");for(i=Array("flag","emoji4"),c.supports={everything:!0,everythingExceptFlag:!0},h=0;h<i.length;h++)c.supports[i[h]]=d(i[h]),c.supports.everything=c.supports.everything&&c.supports[i[h]],"flag"!==i[h]&&(c.supports.everythingExceptFlag=c.supports.everythingExceptFlag&&c.supports[i[h]]);c.supports.everythingExceptFlag=c.supports.everythingExceptFlag&&!c.supports.flag,c.DOMReady=!1,c.readyCallback=function(){c.DOMReady=!0},c.supports.everything||(g=function(){c.readyCallback()},b.addEventListener?(b.addEventListener("DOMContentLoaded",g,!1),a.addEventListener("load",g,!1)):(a.attachEvent("onload",g),b.attachEvent("onreadystatechange",function(){"complete"===b.readyState&&c.readyCallback()})),f=c.source||{},f.concatemoji?e(f.concatemoji):f.wpemoji&&f.twemoji&&(e(f.twemoji),e(f.wpemoji)))}(window,document,window._wpemojiSettings);
+		</script>
+		<style type="text/css">
+img.wp-smiley,
+img.emoji {
+	display: inline !important;
+	border: none !important;
+	box-shadow: none !important;
+	height: 1em !important;
+	width: 1em !important;
+	margin: 0 .07em !important;
+	vertical-align: -0.1em !important;
+	background: none !important;
+	padding: 0 !important;
+}
+</style>
+<link rel='stylesheet' id='theme-my-login-css'  href='http://www.novelupdates.com/wp-content/plugins/theme-my-login/theme-my-login.css?ver=6.4.6' type='text/css' media='all' />
+<link rel='stylesheet' id='bbspoiler-css'  href='http://www.novelupdates.com/wp-content/plugins/bbspoiler/inc/bbspoiler.css?ver=4.7' type='text/css' media='all' />
+<link rel='stylesheet' id='yasrcss-css'  href='http://www.novelupdates.com/wp-content/plugins/yet-another-stars-rating/css/yasr.css' type='text/css' media='all' />
+<link rel='stylesheet' id='yasrcsslightscheme-css'  href='http://www.novelupdates.com/wp-content/plugins/yet-another-stars-rating/css/yasr-table-light.css' type='text/css' media='all' />
+<link rel='stylesheet' id='breadcrumbs-nu-css'  href='http://www.novelupdates.com/wp-content/themes/ndupdates-child/js/breadcrumbs.css?ver=1.1.4' type='text/css' media='' />
+<link rel='stylesheet' id='pagination-nu-css'  href='http://www.novelupdates.com/wp-content/themes/ndupdates-child/js/pagination.css?ver=1.0.6' type='text/css' media='' />
+<link rel='stylesheet' id='us-font-1-css'  href='http://fonts.googleapis.com/css?family=Noto+Sans%3A300%2C400%2C700&#038;subset=latin&#038;ver=4.7' type='text/css' media='all' />
+<link rel='stylesheet' id='us-font-2-css'  href='http://fonts.googleapis.com/css?family=Open+Sans%3A400%2C400italic%2C700%2C700italic%2C300&#038;subset=latin&#038;ver=4.7' type='text/css' media='all' />
+<link rel='stylesheet' id='us-motioncss-css'  href='http://www.novelupdates.com/wp-content/themes/ndupdates/css/motioncss.css?ver=3.07' type='text/css' media='all' />
+<link rel='stylesheet' id='us-motioncss-responsive-css'  href='http://www.novelupdates.com/wp-content/themes/ndupdates/css/motioncss-responsive.css?ver=3.07' type='text/css' media='all' />
+<link rel='stylesheet' id='us-font-awesome-css'  href='http://www.novelupdates.com/wp-content/themes/ndupdates/css/font-awesome.css?ver=4.3.0' type='text/css' media='all' />
+<link rel='stylesheet' id='us-style-css'  href='http://www.novelupdates.com/wp-content/themes/ndupdates/css/style.css?ver=3.07' type='text/css' media='all' />
+<link rel='stylesheet' id='us-responsive-css'  href='http://www.novelupdates.com/wp-content/themes/ndupdates/css/responsive.css?ver=3.07' type='text/css' media='all' />
+<link rel='stylesheet' id='ndupdates-style-css'  href='http://www.novelupdates.com/wp-content/themes/ndupdates-child/style.css?ver=3.07' type='text/css' media='all' />
+<link rel='stylesheet' id='nd_custom_css-css'  href='http://www.novelupdates.com/wp-content/uploads/nd_custom/nd_custom_min.css?ver=3.07' type='text/css' media='all' />
+<script type='text/javascript' src='http://ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js'></script>
+<script type='text/javascript'>
+/* <![CDATA[ */
+var title = {"unfolded":"Expand","folded":"Collapse"};
+/* ]]> */
+</script>
+<script type='text/javascript' src='http://www.novelupdates.com/wp-content/plugins/bbspoiler/inc/bbspoiler.js?ver=4.7'></script>
+<script type='text/javascript' src='http://forum.novelupdates.com/api/index.php?assets/sdk&#038;prefix=xfac&#038;ver=4.7'></script>
+<script type='text/javascript' src='http://www.novelupdates.com/wp-content/plugins/xenforo-api-consumer/js/script.js?ver=4.7'></script>
+<script type='text/javascript' src='https://www.google.com/recaptcha/api.js?hl=en-US&#038;ver=4.7'></script>
+<script type='text/javascript' src='http://www.novelupdates.com/wp-content/plugins/theme-my-login/modules/themed-profiles/themed-profiles.js?ver=4.7'></script>
+<script type='text/javascript' src='http://www.novelupdates.com/wp-content/themes/ndupdates-child/js/cookieconsent.min.js?ver=1.0.1'></script>
+<script type='text/javascript' src='http://www.novelupdates.com/wp-content/themes/ndupdates-child/js/jquery.tablesorter.min.js?ver=1.0.1'></script>
+<script type='text/javascript' src='http://www.novelupdates.com/wp-content/themes/ndupdates-child/js/nuflinks.js?ver=1.0.4'></script>
+<script type='text/javascript' src='http://www.novelupdates.com/wp-content/themes/ndupdates-child/js/seriesedit.js?ver=1.0.8'></script>
+<script type='text/javascript' src='http://www.novelupdates.com/wp-content/themes/ndupdates-child/js/commentedit.js?ver=1.1.4'></script>
+<script type='text/javascript' src='http://www.novelupdates.com/wp-content/themes/ndupdates-child/js/jquery.textarea_autosize.js?ver=1.0.0'></script>
+<script type='text/javascript' src='http://www.novelupdates.com/wp-content/themes/ndupdates-child/js/readinglist.js?ver=1.0.6'></script>
+<script type='text/javascript' src='http://www.novelupdates.com/wp-content/themes/ndupdates-child/js/chosen.jquery.min.js?ver=1.0.2'></script>
+<script type='text/javascript' src='http://www.novelupdates.com/wp-content/themes/ndupdates-child/js/seriestagging.js?ver=1.0.1'></script>
+<link rel='https://api.w.org/' href='http://www.novelupdates.com/wp-json/' />
+<link rel="EditURI" type="application/rsd+xml" title="RSD" href="http://www.novelupdates.com/xmlrpc.php?rsd" />
+<link rel="wlwmanifest" type="application/wlwmanifest+xml" href="http://www.novelupdates.com/wp-includes/wlwmanifest.xml" /> 
+<link rel='prev' title='Three Lives Three Worlds, The Pillow Book' href='http://www.novelupdates.com/series/three-lives-three-worlds-the-pillow-book/' />
+<link rel='next' title='Heard I&#8217;m a Hero' href='http://www.novelupdates.com/series/heard-im-a-hero/' />
+<meta name="generator" content="WordPress 4.7" />
+<link rel="canonical" href="http://www.novelupdates.com/series/mamorubeki-nakama-ya-shimei-o-ushinattanode-mao-to-asonde-kurashimasu/" />
+<link rel='shortlink' href='http://www.novelupdates.com/?p=9311' />
+<link rel="alternate" type="application/json+oembed" href="http://www.novelupdates.com/wp-json/oembed/1.0/embed?url=http%3A%2F%2Fwww.novelupdates.com%2Fseries%2Fmamorubeki-nakama-ya-shimei-o-ushinattanode-mao-to-asonde-kurashimasu%2F" />
+<link rel="alternate" type="text/xml+oembed" href="http://www.novelupdates.com/wp-json/oembed/1.0/embed?url=http%3A%2F%2Fwww.novelupdates.com%2Fseries%2Fmamorubeki-nakama-ya-shimei-o-ushinattanode-mao-to-asonde-kurashimasu%2F&#038;format=xml" />
+<script type="text/javascript">
+	window._se_plugin_version = '8.1.6';
+</script>
+<script>window.xfacClientId = "mysoisr98249898342";window.xfacWpLogin = "http:\/\/www.novelupdates.com\/login\/?xfac=1";</script>    
+	<script type="text/javascript">
+    window.cookieconsent_options = {"message":"This notifcation is required by a new EU cookie law. If you are interested in our privacy policy, go here: ","dismiss":"Accept Cookies","learnMore":"Privacy Policy","link":"http://www.novelupdates.com/privacy-policy/","theme":"dark-bottom"};
+</script>
+</head><body class="seriesplans-template-default single single-seriesplans postid-9311 l-body us-theme_nd_3-07">
+<!-- CANVAS -->
+
+<div class="l-canvas type_wide col_contside headerlayout_standard headerpos_static">
+
+	<!-- HEADER -->
+	<div class="l-header">
+
+		<div class="l-subheader at_top" style="line-height: 36px; ">
+			<div class="l-subheader-h i-cf">
+						</div>
+		</div>
+				<div class="l-subheader at_middle"  style="line-height: 60px;">
+			<div class="l-subheader-h i-widgets i-cf">
+
+				<div class="w-logo  with_title">
+					<a class="w-logo-link" href="http://www.novelupdates.com/">
+												<span class="w-logo-title">Novel Updates</span>
+					</a>
+				</div>
+
+				
+				
+								<div class="w-search header">
+					<span class="w-search-show"><i class="fa fa-search"></i></span>
+					<form class="w-search-form show_hidden" action="http://www.novelupdates.com/">
+						<div class="w-search-form-h">
+							<div class="w-search-form-row">
+																<div class="w-search-label">
+									<label for="s">Just type and press 'enter'</label>
+								</div>
+								<div class="w-search-input">
+									<input type="text" value="" id="s" name="s"/>
+								</div>
+								<div class="w-search-submit">
+									<input type="submit" id="searchsubmit"  value="Search" />
+								</div>
+								<div class="w-search-close"> &#10005; </div>
+							</div>
+						</div>
+					</form>
+				</div>
+                
+							                
+				<!-- NAV -->
+				<nav class="w-nav layout_hor animation_opacity height_full">
+					<div class="w-nav-control"></div>
+					<ul class="w-nav-list level_1  hover_underline">
+						<li id="menu-item-73" class="menu-item menu-item-type-post_type menu-item-object-page w-nav-item level_1 menu-item-73"><a class="w-nav-anchor level_1"  href="http://www.novelupdates.com/login/"><span class="w-nav-title">Log In</span><span class="w-nav-arrow"></span></a></li>
+   
+                        <li id="menu-item-73" class="menu-item menu-item-type-post_type menu-item-object-page w-nav-item level_1 menu-item-73"><a class="w-nav-anchor level_1" href="http://www.novelupdates.com/register/"><span class="w-nav-title">Register</span><span class="w-nav-arrow"></span></a></li>                    </ul>
+				</nav><!-- /NAV -->
+				
+                
+				
+				
+							</div>
+		</div>
+		
+	</div>
+	<!-- /HEADER -->
+
+	<!-- MAIN -->
+	<div class="l-main">
+
+
+
+
+<link rel="stylesheet" href="http://www.novelupdates.com/wp-content/themes/ndupdates-child/js/gadient/style.css"><link rel="stylesheet" href="http://www.novelupdates.com/wp-content/themes/ndupdates-child/js/chkstyle.css?ver=1.0.0"><link rel="stylesheet" href="http://www.novelupdates.com/wp-content/themes/ndupdates-child/js/seriestagging.css?ver=1.1.0"><link rel="stylesheet" href="http://www.novelupdates.com/wp-content/themes/ndupdates-child/js/chosen.min.css"><input type="hidden" id="mypostid" value="9311">
+<style>.chp-release.rand5363,.chp-release.rand5251s{display:none;}</style>	
+
+
+
+
+
+
+	<div class="l-submain">
+		<div class="l-submain-h g-html i-cf" style="padding: 25px 0;">
+			<div class="l-content">
+				<div class="w-blog post-9311 seriesplans type-seriesplans status-publish hentry genre-action genre-adventure genre-comedy genre-fantasy stag-demon-lord stag-heroes stag-magic stag-male-protagonist stag-swords stag-time-travel nauthor-10976 language-japanese ntype-web-novel">
+
+					<div class="w-blog-preview">
+
+						
+					</div>
+                    
+                                    
+                  
+					<div class="w-blog-content">
+
+
+
+
+
+<div class="seriestitlenu" style="font-size:18px; margin-top: 10px; color: #292e33;">Mamorubeki nakama ya shimei o ushinattanode, mao to asonde kurashimasu</div>
+<div class="breadcrumb_nu" style="margin: 2px auto;">
+		<div id="Breadcrumb_Top" style="max-width:1420px; margin:0px auto;">
+				<dl>
+					<dd><a href="http://www.novelupdates.com/" title="Home">Home</a>&nbsp;&gt;&nbsp;</dd>
+                                        <dd><a href="http://www.novelupdates.com/novelslisting/" title="Novel">Novel</a>&nbsp;&gt;&nbsp;</dd>
+                              			<dd>Mamorubeki nakama ya shimei o ushinattanode, mao to asonde kurashimasu</dd>
+				</dl>
+		</div>
+</div>
+
+
+
+<div style="padding-bottom: 15px;"></div>
+
+<script type="text/javascript">
+ var googletag = googletag || {};
+ googletag.cmd = googletag.cmd || [];
+ (function() {
+     var gads = document.createElement("script");
+     gads.async = true;
+     gads.type = "text/javascript";
+     var useSSL = "https:" == document.location.protocol;
+     gads.src = (useSSL ? "https:" : "http:") + "//www.googletagservices.com/tag/js/gpt.js";
+     var node =document.getElementsByTagName("script")[0];
+     node.parentNode.insertBefore(gads, node);
+ })();
+</script>
+
+<div align="center" style="margin-bottom: 15px;" id='div-pg-ad-1459971394-1'>
+  <script type='text/javascript'>
+        googletag.cmd.push(function() { googletag.pubads().display('/8095840/1039.novelupdates.com_desktop_728x90', [728, 90], 'div-pg-ad-1459971394-1'); });
+  </script>
+</div>
+<div class="ad_336" style="font-size: 11px; margin-left: 750px; padding-top: 10px; margin-top: -28px; padding-bottom: 5px;">Advertisement</div>
+    
+
+<div class="g-cols wpb_row offset_default"><div class="one-third">
+	<div class="wpb_text_column ">
+<div class="wpb_wrapper">
+
+<div class="seriesimg">
+<img src="http://www.novelupdates.com/img/noimagefound.jpg">
+</div>
+
+<h5 class="seriesother">Type</h5>
+<span class="typelmsg"></span>
+<div id="edittype"></div>
+<div id="showtype">
+<a class="genre type" lid="2444" href="http://www.novelupdates.com/ntype/web-novel/" title="View All Series in Web Novel" >Web Novel</a><br></div>
+
+<h5 class="seriesother">Genre</h5>
+<span class="genremsg"></span>
+<div id="editgenre"></div>
+<div id="seriesgenre">
+<a class="genre" gid="8" href="http://www.novelupdates.com/genre/action/" title="View All Action Related Series" >Action</a> <a class="genre" gid="13" href="http://www.novelupdates.com/genre/adventure/" title="View All Adventure Related Series" >Adventure</a> <a class="genre" gid="17" href="http://www.novelupdates.com/genre/comedy/" title="View All Comedy Related Series" >Comedy</a> <a class="genre" gid="5" href="http://www.novelupdates.com/genre/fantasy/" title="View All Fantasy Related Series" >Fantasy</a> </div>
+
+<h5 class="seriesother">Tags</h5>
+<span class="editmsg">One entry per line</span>
+<div id="edittags"></div>
+<div id="showtags">
+<a class="genre odd" id="etagme" href="http://www.novelupdates.com/stag/demon-lord/" title="View All Demon Lord Related Series" >Demon Lord</a> <a class="genre" id="etagme" href="http://www.novelupdates.com/stag/heroes/" title="View All Heroes Related Series" >Heroes</a> <a class="genre odd" id="etagme" href="http://www.novelupdates.com/stag/magic/" title="View All Magic Related Series" >Magic</a> <a class="genre" id="etagme" href="http://www.novelupdates.com/stag/male-protagonist/" title="View All Male Protagonist Related Series" >Male Protagonist</a> <a class="genre odd" id="etagme" href="http://www.novelupdates.com/stag/swords/" title="View All Swords Related Series" >Swords</a> <a class="genre" id="etagme" href="http://www.novelupdates.com/stag/time-travel/" title="View All Time Travel Related Series" >Time Travel</a> </div>
+
+<h5 class="seriesother">Rating<span class="uvotes">(4.0 / 5.0, 4 votes)</span></h5>
+<table cellspacing="1" cellpadding="0" border="0" id="myrates">
+<tbody><tr>
+ <td>5&nbsp;&nbsp;</td>
+ <td><span class="rating" style="width:37.5%; background-color: #00FF00"></span><span class="votetext">&nbsp;75% (3 votes)</span></td>
+</tr>
+<tr>
+ <td>4&nbsp;&nbsp;</td>
+ <td><span class="rating" style="width:0%; background-color: #66FF00"></span><span class="votetext">&nbsp;0% (0 votes)</span></td>
+</tr>
+<tr>
+ <td>3&nbsp;&nbsp;</td>
+ <td><span class="rating" style="width:0%; background-color: #CCFF00"></span><span class="votetext">&nbsp;0% (0 votes)</span></td>
+</tr>
+<tr>
+ <td>2&nbsp;&nbsp;</td>
+ <td><span class="rating" style="width:0%; background-color: #FFCC00"></span><span class="votetext">&nbsp;0% (0 votes)</span></td>
+</tr>
+<tr>
+ <td>1&nbsp;&nbsp;</td>
+ <td><span class="rating" style="width:12.5%; background-color: #FF6600"></span><span class="votetext">&nbsp;25% (1 votes)</span></td>
+</tr>
+</tbody></table>
+
+<h5 class="seriesother" title="Original Language">Language</h5>
+
+<div id="editlanguage"></div>
+<span class="langlmsg"></span>
+<div id="showlang">
+<a class="genre lang" lid="496" href="http://www.novelupdates.com/language/japanese/" title="View All Series in Japanese" >Japanese</a><br></div>
+
+
+<h5 class="seriesother">Author(s)</h5>
+<span class="editmsg">One entry per line</span>
+<div id="editauthors"></div>
+<div id="showauthors">
+<a class="genre" id="authtag" href="http://www.novelupdates.com/nauthor/%e3%81%82%e3%83%b4%e3%81%81%e3%82%8d%e3%82%93/" title="View All Series by あヴぁろん" >あヴぁろん</a><br></div>         
+         
+<h5 class="seriesother">Artist(s)</h5>
+<span class="editmsg">One entry per line</span>
+<div id="editartists"></div>
+<div id="showartists">
+<span class="seriesna">N/A</span></div>
+
+<h5 class="seriesother">Year</h5>
+<span class="editmsg">Example: 2012</span>
+<div id="edityear">
+<span class="seriesna">N/A</span></div>
+
+<h5 class="seriesother" title="Status in Country of Origin">Status in COO</h5>
+<span class="editmsg">Status in Country of Origin. One entry per line</span>
+<div id="editstatus">
+<span class="seriesna">N/A</span></div>
+
+<h5 class="seriesother" title="Licensed (in English)">Licensed</h5>
+<div id="editlicensed"></div>
+<div id="showlicensed">
+<span class="seriesna">N/A</span></div>
+    
+<h5 class="seriesother">Completely Translated</h5>
+<div id="edittranslated"></div>
+<div id="showtranslated">
+No</div>
+
+<h5 class="seriesother">Original Publisher</h5>
+<span class="editmsg">One entry per line</span>
+<div id="editopublisher"></div>
+<div id="showopublisher">
+<span class="seriesna">N/A</span></div>
+
+<h5 class="seriesother">English Publisher</h5>
+<span class="editmsg">One entry per line</span>
+<div id="editepublisher"></div>
+<div id="showepublisher">
+<span class="seriesna">N/A</span></div>
+
+<h5 class="seriesother">Release Frequency</h5>
+Every 4 Day(s)
+
+<h5 class="seriesother">Activity Stats <div class="edit">[<span class="editme"><a href="http://www.novelupdates.com/rank-graph/?pid=9311">Graph</a></span>]</div></h5>Weekly Rank: <span class="userrate rank">#2000</span><br>Monthly Rank: <span class="userrate rank">#2000</span><br>All Time Rank: <span class="userrate rank">#1357</span><br>
+<h5 class="seriesother">Reading List <div class="edit">[<span class="editme"><a href="http://www.novelupdates.com/rank-graph/?pid=9311">Graph</a></span>]</div></h5>
+
+
+On <b class="rlist">135</b> Reading Lists
+
+<br>Monthly Rank: <span class="userrate rank">#878</span><br>All Time Rank: <span class="userrate rank">#1603</span>
+
+</div> 
+	</div> 
+    
+ </div><div class="two-thirds">
+	<div class="wpb_text_column ">
+		<div class="wpb_wrapper">
+<h4 class="seriesinfo" style="font-size:18px;">Description</h4>
+<span class="editmsg">Links are NOT allowed. Format your description nicely so people can easily read them. Please use proper spacing and paragraphs.</span>
+<div id="editdescription"><p>The battle between the Hero and Demon Lord was suppose to have concluded with the one dying. However, through a trick of fate both are transferred 1000 years into the future. The Hero who lost his friends and mission, begins a trusting mutual second life with the Demon Lord.</p>
+</div>
+
+<div class="yasr_schema" itemscope itemtype="http://schema.org/Product">
+<span itemprop="name">Mamorubeki nakama ya shimei o ushinattanode, mao to asonde kurashimasu</span>
+<span itemprop="aggregateRating" itemscope itemtype="http://schema.org/AggregateRating"> average rating 
+<span itemprop="ratingValue">4</span>/<span itemprop="bestRating">5</span> - 
+<span itemprop="ratingCount">4</span> user ratings</span></div>
+<h5 class="seriesother associated">Associated Names</h5>
+<span class="editmsg">One entry per line</span>
+<div id="editassociated">守るべき仲間や使命を失ったので、魔王と遊んで暮らします。</div>
+
+<h5 class="seriesother">Related Series</h5>
+N/A
+<h5 class="seriesother">Recommendations</h5>
+
+<span class="seriesna">N/A</span>
+
+        
+
+
+
+
+
+
+<h4 class="seriesother"><span class="nuf_link" title="No Discussion Link"><i class="fa fa-comments" style="color:rgb(155, 155, 155); position: relative; top: -4px; font-size:18px;"></i></span>Latest Release </h4>
+         
+ <table id="myTable" style="width:100%;"> 
+	<thead>
+	<tr class="tbl_sort">
+	<th class="header" align="left" style="padding-left:5px;">Date</th>
+	<th class="header" align="left">Group</th>
+	<th class="header" align="left">Release</th>
+	</tr>
+	</thead>
+	<tbody>
+        
+                  
+                
+    <tr>
+	<td width="20%" style="padding-left:5px;">01/02/17</td>
+    <td width="45%">
+	<a href="http://www.novelupdates.com/group/saiakutranslationsblog/">saiakutranslationsblog</a>    </td>
+    <td width="20%">
+	<a class="chp-release rand5251s" href="http://www.novelupdates.com/extnu/409011/" rel="nofollow">prologue</a><a class="chp-release rand3421s" href="http://www.novelupdates.com/extnu/409012/" rel="nofollow">prologue</a>    </td>
+	</tr>
+            </tbody>
+	</table>               
+                     
+                
+ 
+</div> 
+	</div> <div class="g-hr type_invisible no_icon">
+						<span class="g-hr-h">
+							<i class="fa fa-"></i>
+						</span>
+					</div></div></div>
+
+								</div>
+							</div>
+<div align="center" style="margin-bottom:15px;"><script type="text/javascript" language="javascript" src="//c.amazon-adsystem.com/aax2/getads.js"></script>
+<script type="text/javascript" language="javascript">
+//<![CDATA[
+aax_getad_mpb({
+  "slot_uuid":"27778bce-4b54-4346-a270-efcad3bfdeaf"
+});
+//]]>
+</script>
+<div class="ad_336" style="font-size: 11px; margin-left: 720px; margin-top: -10px; margin-bottom: -12px;">Advertisement</div>
+</div> 						
+				
+
+
+<div id="comments" class="w-comments has_form">
+
+ 
+
+    
+    <a style="margin: 7px 10px; font-size: 14px; float: left;"href="/series/mamorubeki-nakama-ya-shimei-o-ushinattanode-mao-to-asonde-kurashimasu/#respond review">Write a Review</a>    
+    <div class="btnrev-group sort-reviews pull-right">
+		   <button data-filter="helpfulness" class="btnrev btnrev-inverse active" onclick="changesort('helpfulnew','http://www.novelupdates.com/series/mamorubeki-nakama-ya-shimei-o-ushinattanode-mao-to-asonde-kurashimasu//#comments');">Likes <i class="fa fa-angle-down" aria-hidden="true"></i></button>
+		                <button data-filter="date" class="btnrev btnrev-inverse" onclick="changesort('datenew','http://www.novelupdates.com/series/mamorubeki-nakama-ya-shimei-o-ushinattanode-mao-to-asonde-kurashimasu//#comments');">Date <i class="fa fa-angle-down" aria-hidden="true"></i></button>
+            </div><div class="review-count pull-right">1 Review sorted by</div><br><br><div class="r_line"></div>
+	<div class="w-comments-list">
+        
+        
+
+
+<div class="w-comments-item" id="comment-28088">
+            <div class="rev_left">
+            <img alt='lygarx' src='http://www.gravatar.com/avatar/e90d3b7d8628aec15579584dbaaa7a35?s=96&#038;d=http%3A%2F%2Fforum.novelupdates.com%2Fstyles%2Fdefault%2Fxenforo%2Favatars%2Favatar_male_m.png' class='avatar avatar-50 photo' height='50' width='50' />                                                </div>
+		<div class="w-comments-item-meta-new">
+        
+        
+                        
+                <table style="width: 89%; line-height: 23px; position: relative; top: 10px;">
+        <tbody>
+        	<tr style="background-color:transparent;">
+				<td valign="top">
+				<div>
+				<div>
+				</div>
+				</div>
+                				<a id="revname" class="revname28088" href="http://www.novelupdates.com/readlist/?uname=lygarx" title="View lygarx's Public Reading List">lygarx</a> rated it <i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><br>
+				                <div><a href="http://www.novelupdates.com/more-reviews/?uname=lygarx">Other reviews by this user</a></div>
+                				</td>
+                
+                                        <td style="text-align: right;" valign="top"><div style="text-align: right;">January 2, 2017</div>
+							<div>Status: <span style="font-weight:bold;" id="stat28088">prologue</span></div>
+						</td>
+                            	</tr>
+                </tbody>
+                </table>
+			<div class="w-comments-item-icon">
+							</div>
+            			<div class="w-comments-item-author"></div>
+            
+			
+		</div>
+		<div class="w-comments-item-text ">
+                
+        
+        So far so good. Seems interesting. Looks like a romance between a Hero and Maou. A Romeo and Juliet type story. A tale as old as time.        
+             
+                </div>
+        
+		    </div>
+    
+    	<div class="rev_b1">
+                <span class="rev_bar" title="Like this review">0 Likes · <a href="http://www.novelupdates.com/login/" class="rev_help">Like</a></span>
+                
+        <span style="float:right;"><a class="permrev" href="http://www.novelupdates.com/fdrev/?comid=28088&sid=9311" style="color:#8D8D8D !important;">Permalink</a> | <a href="http://www.novelupdates.com/login/" title="Report Review" style="color:#8D8D8D !important;" class="my_popupreport_open">Report</a></span>        
+        
+        </div>
+
+
+    
+
+    </div>
+
+	<div class="w-comments-pagination">
+
+        
+          		
+	</div>
+
+	
+		<div id="respond review" class="w-comments-form">
+        <div class="rev_leave">Leave a Review</div>
+        <div class="rf-comment">
+       						            
+                        <div class="w-comments-form-text">You must be <a href="http://www.novelupdates.com/login/?redirect_to=http%3A%2F%2Fwww.novelupdates.com%2Fseries%2Fmamorubeki-nakama-ya-shimei-o-ushinattanode-mao-to-asonde-kurashimasu%2F">logged in</a> to rate and post a review. <a href="http://www.novelupdates.com/register/">Register</a> an account to get started.</div>
+            			
+</div>
+		</div>
+	</div>
+
+
+
+
+			</div>
+
+			<div class="l-sidebar at_right" style="padding-top: 25px;">
+				<div id="text-9" class="widget widget_text">			<div class="textwidget"><div id="search-4" class="widget widget_search"><div class="w-search submit_inside">
+	<div class="w-search-h">
+		<form class="w-search-form" action="http://www.novelupdates.com/">
+						<div class="w-search-input">
+				<div class="w-search-input-h">
+					<input type="text" value="" name="s" placeholder="Search Novels..." >
+<input type="hidden" name="post_type" value="seriesplans" />
+				</div>
+			</div>
+			<div class="w-search-submit">
+				<input type="submit" value="Search" class="not-empty">
+			</div>
+		</form>
+	</div>
+</div></div></div>
+		</div><div id="text-2" class="widget widget_text"><h3 class="widgettitle">Novel Updates</h3>			<div class="textwidget"><ul>
+<li><a href="http://forum.novelupdates.com/">Forum</a></li>
+<li><a href="http://www.novelupdates.com/groupslist/">Groups</a></li>
+<li><a href="http://www.novelupdates.com/novelslisting/">Novels Listing</a></li>
+<li><a href="http://www.novelupdates.com/series-finder/">Series Finder</a></li>
+<li><a href="http://www.novelupdates.com/series-ranking/">Series Ranking</a></li>
+<li><a href="http://www.novelupdates.com/latest-series/">Latest Series</a></li>
+</ul></div>
+		</div><div id="text-3" class="widget widget_text"><h3 class="widgettitle">User Tools</h3>			<div class="textwidget"><ul>
+<li><a href="http://www.novelupdates.com/reading-list/">Reading List</a></li>
+<li><a href="http://www.novelupdates.com/release-filtering/">Release Filtering</a></li>
+<li><a href="http://www.novelupdates.com/series-filtering/">Series Filtering</a></li>
+<li><a href="http://www.novelupdates.com/profile/">User Profile</a></li>
+</ul></div>
+		</div><div class="ad_336">
+<script type="text/javascript" language="javascript" src="//c.amazon-adsystem.com/aax2/getads.js"></script>
+<script type="text/javascript" language="javascript">
+//<![CDATA[
+aax_getad_mpb({
+  "slot_uuid":"2c870d03-8e52-46e7-9b62-4909192f9029"
+});
+//]]>
+</script>
+<span style="font-size: 11px; display: block; width: 0px; margin: -10px auto;">Advertisement</span>
+</div>			</div>
+		</div>
+	</div>
+
+
+  
+
+
+<script>
+$(document).ready(function() 
+    { 
+ 
+						$(".tablesorter").tablesorter(); 
+		
+					
+		
+    } 
+); 
+
+</script>	
+
+<style>
+.dropbtn
+{
+	position: absolute !important;
+	left: -96px;
+	z-index: 999;
+	top: 28px !important; background-color: rgb(44, 62, 80); color: white;}
+.dropdown-content
+{
+	position: absolute !important;
+	left: -191px;
+	z-index: 999;
+	}
+</style>
+
+
+</div>
+<!-- /MAIN -->
+
+</div>
+<!-- /CANVAS -->
+
+<!-- FOOTER -->
+<div class="l-footer">
+			<!-- subfooter: bottom -->
+	<div class="l-subfooter at_bottom">
+		<div class="l-subfooter-h i-cf">
+
+			
+			<div class="w-copyright"><a href="http://www.novelupdates.com/privacy-policy/">Privacy Policy</a> | <a href="http://www.novelupdates.com/terms-of-service/">Terms of Service</a> | <a href="http://www.novelupdates.com/contact-us/">Contact Us</a></div>
+
+		</div>
+	</div>
+	
+</div>
+<!-- /FOOTER -->
+<a class="w-toplink" href="#"><i class="fa fa-angle-up"></i></a>
+<script type="text/javascript">
+	if (window.$us === undefined) window.$us = {};
+	$us.canvasOptions = ($us.canvasOptions || {});
+	$us.canvasOptions.headerDisableStickyHeaderWidth = parseInt('1000');
+	$us.canvasOptions.headerDisableAnimationWidth = parseInt('900');
+	$us.canvasOptions.headerMainHeight = parseInt('60');
+	$us.canvasOptions.headerMainShrinkedHeight = parseInt('60');
+	$us.canvasOptions.headerExtraHeight = parseInt('36');
+	$us.canvasOptions.mobileNavWidth = parseInt('1000');
+
+	$us.navOptions = ($us.navOptions || {});
+	$us.navOptions.togglable = 1;
+
+</script>
+<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-66522525-1', 'auto');
+  ga('send', 'pageview');
+
+</script><script type='text/javascript' src='http://www.novelupdates.com/wp-content/plugins/user-meta-display/assets/js/scripts-user_meta_display.js?ver=1.2.2'></script>
+<script type='text/javascript' src='http://www.novelupdates.com/wp-content/plugins/yet-another-stars-rating/js/jquery.rateit.min.js?ver=1.0.22'></script>
+<script type='text/javascript' src='http://www.novelupdates.com/wp-content/plugins/yet-another-stars-rating/js/yasr-front.js?ver=1.0.1'></script>
+<script type='text/javascript' src='http://www.novelupdates.com/wp-content/themes/ndupdates/js/jquery.easing.min.js?ver=4.7'></script>
+<script type='text/javascript' src='http://www.novelupdates.com/wp-content/themes/ndupdates/js/us.core.js?ver=3.07'></script>
+<script type='text/javascript' src='http://www.novelupdates.com/wp-content/themes/ndupdates/js/us.widgets.js?ver=3.07'></script>
+<script type='text/javascript' src='http://www.novelupdates.com/wp-includes/js/comment-reply.min.js?ver=4.7'></script>
+<script type='text/javascript' src='http://www.novelupdates.com/wp-includes/js/wp-embed.min.js?ver=4.7'></script>
+</body>
+</html>

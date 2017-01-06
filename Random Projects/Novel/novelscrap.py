@@ -17,7 +17,7 @@ def createTable():
         NOVEL_NAME      TEXT   NOT NULL,
         NOVEL_CURRENT   INT    NOT NULL,
         NOVEL_LATEST    INT    NOT NULL,
-        NOVEL_LANG      CHAR(3)   NOT NULL,
+        NOVEL_LANG      CHAR(2)   NOT NULL,
         CURRENT_WEBSITE        TEXT   NOT NULL,
         LATEST_WEBSITE         TEXT);""")
     print "Table ONLINE_NOVELS created"
@@ -27,15 +27,17 @@ def createTable():
         NOVEL_NAME      TEXT   NOT NULL,
         NOVEL_CURRENT   INT    NOT NULL,
         NOVEL_LATEST    INT    NOT NULL,
-        NOVEL_LANG      CHAR(3)   NOT NULL);""")
+        NOVEL_LANG      CHAR(2)   NOT NULL);""")
     print "Table REAL_NOVELS created"
 
     c.execute("""CREATE TABLE IF NOT EXISTS SEARCH
-        (ID INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL,
+        (ID INTEGER PRIMARY KEY AUTOINCREMENT   NOT NULL,
         NOVEL_NAME      TEXT   NOT NULL,
         NOVEL_CURRENT   INT    NOT NULL,
-        NOVEL_LANG      CHAR(3)   NOT NULL,
-        CURRENT_WEBSITE        TEXT   NOT NULL);""")
+        NOVEL_LATEST    INT    NOT NULL,
+        NOVEL_LANG      CHAR(2)   NOT NULL,
+        CURRENT_WEBSITE        TEXT   NOT NULL,
+        LATEST_WEBSITE         TEXT NOT NULL);""")
     print "Table SEARCH created"
 
 def setOnlineNovel(name, chapter, latest, lang, urlCurrent):
@@ -44,6 +46,14 @@ def setOnlineNovel(name, chapter, latest, lang, urlCurrent):
 
 def setRealNovel(name, chapter, latest, lang):
     c.execute("""INSERT INTO REAL_NOVELS (NOVEL_NAME, NOVEL_CURRENT, NOVEL_LATEST, NOVEL_LANG) VALUES (?, ?, ?, ? )""", (name.upper(),chapter,latest,lang))
+    conn.commit()
+
+def setSearchNovel(name, chapter, latest, lang, urlCurrent, urlLatest):
+    c.execute("""INSERT INTO SEARCH (NOVEL_NAME, NOVEL_CURRENT, NOVEL_LATEST, NOVEL_LANG, CURRENT_WEBSITE, LATEST_WEBSITE) VALUES (?, ?, ?, ? ,?, ?)""", (name.upper(),chapter,latest,lang,urlCurrent,urlLatest))
+    conn.commit()
+
+def setSearchURL(url):
+    c.execute("""INSERT INTO SEARCH (CURRENT_WEBSITE) VALUES (?)""", (url))
     conn.commit()
 
 def updateCurrentRealNovel(name, chapter):
@@ -185,19 +195,64 @@ def novelSearch(searchTerm):
     #dictionary is 0-23
     for key, value in novelDict:
         print value[1], "\t\t\t", key
-        '''
-        if 0 == value[1]:
-            print key
-            print value[0]
-        '''
+
+    #searchValue = raw_input("Select the novel you want to add:")
+
+    #known bug when novel name is long, thus makes a file path too long. Windows limimation. Working on Debian (tested), unknown for OSX.
+    searchValue = "3"
+    newNovelList = []
+    for key, value in novelDict:
+        if int(searchValue) == value[1]:
+            name = key
+            novelUrl = value[0]
+            newNovelList = novelPageUpdate(str(novelUrl))
+            chapter = raw_input("What chapter are you currently on?:")
+            urlCurrent = raw_input("What is the url you currently on?:")
+            setSearchNovel(name, chapter, newNovelList[0], newNovelList[1], urlCurrent, newNovelList[2])
+            print "Is this correct?"
+            showSearchTable()
+
+def novelPageUpdate(url):
+    content = getArticle(url)
+    grabContent = BeautifulSoup(str(content), "html.parser")
+    output = grabContent.find_all("a")
+    count = 0
+    foundLink = 0
+    chapterHolder = 0
+    languageHolder = ""
+    linkHolder = ""
+    linkList = []
+    returnList = []
+    for items in output:
+        scanner = items.get_text()
+        linkList.append(items['href'])
+        chapterSearch = scanner[1:]
+        count = count + 1
+        if chapterSearch.isdigit():
+            temp = chapterSearch
+            if temp > chapterHolder:
+                chapterHolder = temp
+                foundLink = count
+        if scanner == "Japanese":
+            languageHolder = "JP"
+        elif scanner == "Chinese":
+            languageHolder = "CN"
+        elif scanner == "Korean":
+            languageHolder = "KR"
+
+    returnList.append(chapterHolder)
+    returnList.append(languageHolder)
+    returnList.append(linkList[foundLink])
+    return returnList
 
 def main():
     #search = raw_input("Novel:")
     try:
         conn = sqlite3.connect(sqlite_file)
         c = conn.cursor()
+        createTable()
+
         '''
-        #createTable()
         #novelInsert()
         novels = gatherOnlineNovelNames()
         for items in novels:
@@ -209,9 +264,10 @@ def main():
         '''
         searchTerm = "no"
         novelSearch(searchTerm)
+
         conn.close()
-    except KeyError:
-        print "KeyError!"
+    #except KeyError:
+        #print "KeyError!"
     except AttributeError:
         print "Novel Attritube Note Found!"
     except UnicodeEncodeError:
