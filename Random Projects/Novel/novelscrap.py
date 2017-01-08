@@ -1,6 +1,7 @@
 #Brandon Lo
 #Backend for the Novel Tracking App
 
+#For futute funtionality.Currently unsued
 import praw,time,traceback
 
 #sets up the database
@@ -152,7 +153,7 @@ def emailMessage(messageContent,subject):
     server = smtplib.SMTP("smtp.mail.yahoo.com", 587)
     server.ehlo()
     server.starttls()
-    server.login("kenshin421","**********")
+    server.login("kenshin421","**************")
     try:
         server.sendmail(fromaddress, toaddress, msg)
     except SMTPException:
@@ -260,7 +261,7 @@ def novelSearch(searchTerm):
         print value[1], "\t\t\t", key
     print "25 \t\t\t Exit."
     searchValue = raw_input("Select the novel you want to add:")
-    if searchValue == "25"
+    if searchValue == "25":
         exit()
     #known bug when novel name is long, thus makes a file path too long. Windows limimation. Working on Debian (tested), unknown for OSX.
     newNovelList = []
