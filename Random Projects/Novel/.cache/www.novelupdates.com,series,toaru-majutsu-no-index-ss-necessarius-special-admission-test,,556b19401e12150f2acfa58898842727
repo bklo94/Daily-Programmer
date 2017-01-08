@@ -1,8 +1,8 @@
 status: 200
-content-length: 72702
-content-location: http://www.novelupdates.com/series/nigotta-hitomi-no-lilianne/
-set-cookie: __cfduid=da2427e65822023712bf222dd389c377e1483785651;
- expires=Sun, 07-Jan-18 10:40:51 GMT; path=/; domain=.novelupdates.com;
+content-length: 68884
+content-location: http://www.novelupdates.com/series/toaru-majutsu-no-index-ss-necessarius-special-admission-test/
+set-cookie: __cfduid=dea6e46656fa4f2d43b4cc1e2a33fdd901483859183;
+ expires=Mon, 08-Jan-18 07:06:23 GMT; path=/; domain=.novelupdates.com;
  HttpOnly
 x-powered-by: PHP/7.0.13
 vary: Accept-Encoding
@@ -10,9 +10,9 @@ server: cloudflare-nginx
 connection: keep-alive
 -content-encoding: gzip
 link: <http://www.novelupdates.com/wp-json/>;
- rel="https://api.w.org/", <http://www.novelupdates.com/?p=9276>; rel=shortlink
-date: Sat, 07 Jan 2017 10:40:51 GMT
-cf-ray: 31d6cb4080db51eb-MEL
+ rel="https://api.w.org/", <http://www.novelupdates.com/?p=3822>; rel=shortlink
+date: Sun, 08 Jan 2017 07:06:25 GMT
+cf-ray: 31ddce78842c11d7-SJC
 content-type: text/html; charset=UTF-8
 -varied-accept-encoding: gzip, deflate
 
@@ -23,7 +23,7 @@ content-type: text/html; charset=UTF-8
 <html class="" lang="en-US">
 <head>
 	<meta charset="UTF-8">
-	<title>Nigotta Hitomi no Lilianne - Novel Updates</title>
+	<title>Toaru Majutsu no Index SS: Necessarius Special Admission Test - Novel Updates</title>
 
 	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
 	<meta name="SKYPE_TOOLBAR" content="SKYPE_TOOLBAR_PARSER_COMPATIBLE" />
@@ -37,7 +37,7 @@ content-type: text/html; charset=UTF-8
 <link rel='dns-prefetch' href='//s.w.org' />
 <link rel="alternate" type="application/rss+xml" title="Novel Updates &raquo; Feed" href="http://www.novelupdates.com/feed/" />
 <link rel="alternate" type="application/rss+xml" title="Novel Updates &raquo; Comments Feed" href="http://www.novelupdates.com/comments/feed/" />
-<link rel="alternate" type="application/rss+xml" title="Novel Updates &raquo; Nigotta Hitomi no Lilianne Comments Feed" href="http://www.novelupdates.com/series/nigotta-hitomi-no-lilianne/feed/" />
+<link rel="alternate" type="application/rss+xml" title="Novel Updates &raquo; Toaru Majutsu no Index SS: Necessarius Special Admission Test Comments Feed" href="http://www.novelupdates.com/series/toaru-majutsu-no-index-ss-necessarius-special-admission-test/feed/" />
 		<script type="text/javascript">
 			window._wpemojiSettings = {"baseUrl":"https:\/\/s.w.org\/images\/core\/emoji\/2.2.1\/72x72\/","ext":".png","svgUrl":"https:\/\/s.w.org\/images\/core\/emoji\/2.2.1\/svg\/","svgExt":".svg","source":{"concatemoji":"http:\/\/www.novelupdates.com\/wp-includes\/js\/wp-emoji-release.min.js?ver=4.7"}};
 			!function(a,b,c){function d(a){var b,c,d,e,f=String.fromCharCode;if(!k||!k.fillText)return!1;switch(k.clearRect(0,0,j.width,j.height),k.textBaseline="top",k.font="600 32px Arial",a){case"flag":return k.fillText(f(55356,56826,55356,56819),0,0),!(j.toDataURL().length<3e3)&&(k.clearRect(0,0,j.width,j.height),k.fillText(f(55356,57331,65039,8205,55356,57096),0,0),b=j.toDataURL(),k.clearRect(0,0,j.width,j.height),k.fillText(f(55356,57331,55356,57096),0,0),c=j.toDataURL(),b!==c);case"emoji4":return k.fillText(f(55357,56425,55356,57341,8205,55357,56507),0,0),d=j.toDataURL(),k.clearRect(0,0,j.width,j.height),k.fillText(f(55357,56425,55356,57341,55357,56507),0,0),e=j.toDataURL(),d!==e}return!1}function e(a){var c=b.createElement("script");c.src=a,c.defer=c.type="text/javascript",b.getElementsByTagName("head")[0].appendChild(c)}var f,g,h,i,j=b.createElement("canvas"),k=j.getContext&&j.getContext("2d");for(i=Array("flag","emoji4"),c.supports={everything:!0,everythingExceptFlag:!0},h=0;h<i.length;h++)c.supports[i[h]]=d(i[h]),c.supports.everything=c.supports.everything&&c.supports[i[h]],"flag"!==i[h]&&(c.supports.everythingExceptFlag=c.supports.everythingExceptFlag&&c.supports[i[h]]);c.supports.everythingExceptFlag=c.supports.everythingExceptFlag&&!c.supports.flag,c.DOMReady=!1,c.readyCallback=function(){c.DOMReady=!0},c.supports.everything||(g=function(){c.readyCallback()},b.addEventListener?(b.addEventListener("DOMContentLoaded",g,!1),a.addEventListener("load",g,!1)):(a.attachEvent("onload",g),b.attachEvent("onreadystatechange",function(){"complete"===b.readyState&&c.readyCallback()})),f=c.source||{},f.concatemoji?e(f.concatemoji):f.wpemoji&&f.twemoji&&(e(f.twemoji),e(f.wpemoji)))}(window,document,window._wpemojiSettings);
@@ -93,13 +93,13 @@ var title = {"unfolded":"Expand","folded":"Collapse"};
 <link rel='https://api.w.org/' href='http://www.novelupdates.com/wp-json/' />
 <link rel="EditURI" type="application/rsd+xml" title="RSD" href="http://www.novelupdates.com/xmlrpc.php?rsd" />
 <link rel="wlwmanifest" type="application/wlwmanifest+xml" href="http://www.novelupdates.com/wp-includes/wlwmanifest.xml" /> 
-<link rel='prev' title='Rebirth-First Class Magician' href='http://www.novelupdates.com/series/rebirth-first-class-magician/' />
-<link rel='next' title='Transmigrating into a Mob Character to Rehabilitate the Villain Plan' href='http://www.novelupdates.com/series/transmigrating-into-a-mob-character-to-rehabilitate-the-villain-plan/' />
+<link rel='prev' title='Toaru Majutsu no Index SS: Kanzaki' href='http://www.novelupdates.com/series/toaru-majutsu-no-index-ss-kanzaki/' />
+<link rel='next' title='High Comprehension Low Strength' href='http://www.novelupdates.com/series/high-comprehension-low-strength/' />
 <meta name="generator" content="WordPress 4.7" />
-<link rel="canonical" href="http://www.novelupdates.com/series/nigotta-hitomi-no-lilianne/" />
-<link rel='shortlink' href='http://www.novelupdates.com/?p=9276' />
-<link rel="alternate" type="application/json+oembed" href="http://www.novelupdates.com/wp-json/oembed/1.0/embed?url=http%3A%2F%2Fwww.novelupdates.com%2Fseries%2Fnigotta-hitomi-no-lilianne%2F" />
-<link rel="alternate" type="text/xml+oembed" href="http://www.novelupdates.com/wp-json/oembed/1.0/embed?url=http%3A%2F%2Fwww.novelupdates.com%2Fseries%2Fnigotta-hitomi-no-lilianne%2F&#038;format=xml" />
+<link rel="canonical" href="http://www.novelupdates.com/series/toaru-majutsu-no-index-ss-necessarius-special-admission-test/" />
+<link rel='shortlink' href='http://www.novelupdates.com/?p=3822' />
+<link rel="alternate" type="application/json+oembed" href="http://www.novelupdates.com/wp-json/oembed/1.0/embed?url=http%3A%2F%2Fwww.novelupdates.com%2Fseries%2Ftoaru-majutsu-no-index-ss-necessarius-special-admission-test%2F" />
+<link rel="alternate" type="text/xml+oembed" href="http://www.novelupdates.com/wp-json/oembed/1.0/embed?url=http%3A%2F%2Fwww.novelupdates.com%2Fseries%2Ftoaru-majutsu-no-index-ss-necessarius-special-admission-test%2F&#038;format=xml" />
 <script type="text/javascript">
 	window._se_plugin_version = '8.1.6';
 </script>
@@ -1208,7 +1208,7 @@ p.bbp-topic-meta,
 <script type="text/javascript">
     window.cookieconsent_options = {"message":"This notifcation is required by a new EU cookie law. If you are interested in our privacy policy, go here: ","dismiss":"Accept Cookies","learnMore":"Privacy Policy","link":"http://www.novelupdates.com/privacy-policy/","theme":"dark-bottom"};
 </script>
-</head><body class="seriesplans-template-default single single-seriesplans postid-9276 l-body us-theme_nd_3-07">
+</head><body class="seriesplans-template-default single single-seriesplans postid-3822 l-body us-theme_nd_3-07">
 <!-- CANVAS -->
 
 <div class="l-canvas type_wide col_contside headerlayout_standard headerpos_static">
@@ -1276,7 +1276,7 @@ p.bbp-topic-meta,
 
 
 
-<link rel="stylesheet" href="http://www.novelupdates.com/wp-content/themes/ndupdates-child/js/gadient/style.css"><link rel="stylesheet" href="http://www.novelupdates.com/wp-content/themes/ndupdates-child/js/chkstyle.css?ver=1.0.0"><link rel="stylesheet" href="http://www.novelupdates.com/wp-content/themes/ndupdates-child/js/seriestagging.css?ver=1.1.0"><link rel="stylesheet" href="http://www.novelupdates.com/wp-content/themes/ndupdates-child/js/chosen.min.css"><input type="hidden" id="mypostid" value="9276">
+<link rel="stylesheet" href="http://www.novelupdates.com/wp-content/themes/ndupdates-child/js/gadient/style.css"><link rel="stylesheet" href="http://www.novelupdates.com/wp-content/themes/ndupdates-child/js/chkstyle.css?ver=1.0.0"><link rel="stylesheet" href="http://www.novelupdates.com/wp-content/themes/ndupdates-child/js/seriestagging.css?ver=1.1.0"><link rel="stylesheet" href="http://www.novelupdates.com/wp-content/themes/ndupdates-child/js/chosen.min.css"><input type="hidden" id="mypostid" value="3822">
 <style>.chp-release.rand5363,.chp-release.rand5251s{display:none;}</style>	
 
 
@@ -1287,7 +1287,7 @@ p.bbp-topic-meta,
 	<div class="l-submain">
 		<div class="l-submain-h g-html i-cf" style="padding: 25px 0;">
 			<div class="l-content">
-				<div class="w-blog post-9276 seriesplans type-seriesplans status-publish has-post-thumbnail hentry genre-adventure genre-fantasy genre-gender-bender genre-shoujo-ai genre-slice-of-life stag-age-progression stag-blind-protagonist stag-cute-story stag-eye-powers stag-fairies stag-female-protagonist stag-heartwarming stag-knights stag-magic stag-male-to-female stag-overprotective-siblings stag-r-15 stag-reincarnated-into-another-world stag-reincarnation stag-sister-complex nauthor-10921 opublisher-alpha-polis opublisher-syosetu language-japanese ntype-web-novel">
+				<div class="w-blog post-3822 seriesplans type-seriesplans status-publish has-post-thumbnail hentry genre-action genre-comedy genre-fantasy genre-shounen genre-supernatural nauthor-kamachi-kazuma nartist-haimura-kiyotaka opublisher-ascii-media-works language-japanese ntype-light-novel">
 
 					<div class="w-blog-preview">
 
@@ -1302,13 +1302,13 @@ p.bbp-topic-meta,
 
 
 
-<div class="seriestitlenu" style="font-size:18px; margin-top: 10px; color: #292e33;">Nigotta Hitomi no Lilianne</div>
+<div class="seriestitlenu" style="font-size:18px; margin-top: 10px; color: #292e33;">Toaru Majutsu no Index SS: Necessarius Special Admission Test</div>
 <div class="breadcrumb_nu" style="margin: 2px auto;">
 		<div id="Breadcrumb_Top" style="max-width:1420px; margin:0px auto;">
 				<dl>
 					<dd><a href="http://www.novelupdates.com/" title="Home">Home</a>&nbsp;&gt;&nbsp;</dd>
                                         <dd><a href="http://www.novelupdates.com/novelslisting/" title="Novel">Novel</a>&nbsp;&gt;&nbsp;</dd>
-                              			<dd>Nigotta Hitomi no Lilianne</dd>
+                              			<dd>Toaru Majutsu no Index SS: Necessarius Special Admission Test</dd>
 				</dl>
 		</div>
 </div>
@@ -1344,48 +1344,48 @@ p.bbp-topic-meta,
 <div class="wpb_wrapper">
 
 <div class="seriesimg">
-<img src="http://cdn.novelupdates.com/images/Nigotta-Hitomi-no-Lilianne.jpg">
+<img src="http://cdn.novelupdates.com/images/2015/11/Toaru_Majutsu_no_Index_SS-Necessarus_Admission_Test_cover.jpg">
 </div>
 
 <h5 class="seriesother">Type</h5>
 <span class="typelmsg"></span>
 <div id="edittype"></div>
 <div id="showtype">
-<a class="genre type" lid="2444" href="http://www.novelupdates.com/ntype/web-novel/" title="View All Series in Web Novel" >Web Novel</a><br></div>
+<a class="genre type" lid="2443" href="http://www.novelupdates.com/ntype/light-novel/" title="View All Series in Light Novel" >Light Novel</a><br></div>
 
 <h5 class="seriesother">Genre</h5>
 <span class="genremsg"></span>
 <div id="editgenre"></div>
 <div id="seriesgenre">
-<a class="genre" gid="13" href="http://www.novelupdates.com/genre/adventure/" title="View All Adventure Related Series" >Adventure</a> <a class="genre" gid="5" href="http://www.novelupdates.com/genre/fantasy/" title="View All Fantasy Related Series" >Fantasy</a> <a class="genre" gid="168" href="http://www.novelupdates.com/genre/gender-bender/" title="View All Gender Bender Related Series" >Gender Bender</a> <a class="genre" gid="851" href="http://www.novelupdates.com/genre/shoujo-ai/" title="View All Shoujo Ai Related Series" >Shoujo Ai</a> <a class="genre" gid="7" href="http://www.novelupdates.com/genre/slice-of-life/" title="View All Slice of Life Related Series" >Slice of Life</a> </div>
+<a class="genre" gid="8" href="http://www.novelupdates.com/genre/action/" title="View All Action Related Series" >Action</a> <a class="genre" gid="17" href="http://www.novelupdates.com/genre/comedy/" title="View All Comedy Related Series" >Comedy</a> <a class="genre" gid="5" href="http://www.novelupdates.com/genre/fantasy/" title="View All Fantasy Related Series" >Fantasy</a> <a class="genre" gid="12" href="http://www.novelupdates.com/genre/shounen/" title="View All Shounen Related Series" >Shounen</a> <a class="genre" gid="16" href="http://www.novelupdates.com/genre/supernatural/" title="View All Supernatural Related Series" >Supernatural</a> </div>
 
 <h5 class="seriesother">Tags</h5>
 <span class="editmsg">One entry per line</span>
 <div id="edittags"></div>
 <div id="showtags">
-<a class="genre odd" id="etagme" href="http://www.novelupdates.com/stag/age-progression/" title="View All Age Progression Related Series" >Age Progression</a> <a class="genre" id="etagme" href="http://www.novelupdates.com/stag/blind-protagonist/" title="View All Blind Protagonist Related Series" >Blind Protagonist</a> <a class="genre odd" id="etagme" href="http://www.novelupdates.com/stag/cute-story/" title="View All Cute Story Related Series" >Cute Story</a> <a class="genre" id="etagme" href="http://www.novelupdates.com/stag/eye-powers/" title="View All Eye Powers Related Series" >Eye Powers</a> <a class="genre odd" id="etagme" href="http://www.novelupdates.com/stag/fairies/" title="View All Fairies Related Series" >Fairies</a> <a class="genre" id="etagme" href="http://www.novelupdates.com/stag/female-protagonist/" title="View All Female Protagonist Related Series" >Female Protagonist</a> <a class="genre odd" id="etagme" href="http://www.novelupdates.com/stag/heartwarming/" title="View All Heartwarming Related Series" >Heartwarming</a> <a class="genre" id="etagme" href="http://www.novelupdates.com/stag/knights/" title="View All Knights Related Series" >Knights</a> <a class="genre odd" id="etagme" href="http://www.novelupdates.com/stag/magic/" title="View All Magic Related Series" >Magic</a> <a class="genre" id="etagme" href="http://www.novelupdates.com/stag/male-to-female/" title="View All Male to Female Related Series" >Male to Female</a> <a class="genre odd" id="etagme" href="http://www.novelupdates.com/stag/overprotective-siblings/" title="View All Overprotective Siblings Related Series" >Overprotective Siblings</a> <a class="genre" id="etagme" href="http://www.novelupdates.com/stag/r-15/" title="View All R-15 Related Series" >R-15</a> <a class="genre odd" id="etagme" href="http://www.novelupdates.com/stag/reincarnated-into-another-world/" title="View All Reincarnated Into Another World Related Series" >Reincarnated Into Another World</a> <a class="genre" id="etagme" href="http://www.novelupdates.com/stag/reincarnation/" title="View All Reincarnation Related Series" >Reincarnation</a> <a class="genre odd" id="etagme" href="http://www.novelupdates.com/stag/sister-complex/" title="View All Sister Complex Related Series" >Sister Complex</a> </div>
+<span class="seriesna">N/A</span></div>
 
-<h5 class="seriesother">Rating<span class="uvotes">(4.2 / 5.0, 36 votes)</span></h5>
+<h5 class="seriesother">Rating<span class="uvotes">(4.5 / 5.0, 11 votes)</span></h5>
 <table cellspacing="1" cellpadding="0" border="0" id="myrates">
 <tbody><tr>
  <td>5&nbsp;&nbsp;</td>
- <td><span class="rating" style="width:34.5%; background-color: #00FF00"></span><span class="votetext">&nbsp;69% (25 votes)</span></td>
+ <td><span class="rating" style="width:41%; background-color: #00FF00"></span><span class="votetext">&nbsp;82% (9 votes)</span></td>
 </tr>
 <tr>
  <td>4&nbsp;&nbsp;</td>
- <td><span class="rating" style="width:4%; background-color: #66FF00"></span><span class="votetext">&nbsp;8% (3 votes)</span></td>
+ <td><span class="rating" style="width:0%; background-color: #66FF00"></span><span class="votetext">&nbsp;0% (0 votes)</span></td>
 </tr>
 <tr>
  <td>3&nbsp;&nbsp;</td>
- <td><span class="rating" style="width:4%; background-color: #CCFF00"></span><span class="votetext">&nbsp;8% (3 votes)</span></td>
+ <td><span class="rating" style="width:4.5%; background-color: #CCFF00"></span><span class="votetext">&nbsp;9% (1 votes)</span></td>
 </tr>
 <tr>
  <td>2&nbsp;&nbsp;</td>
- <td><span class="rating" style="width:1.5%; background-color: #FFCC00"></span><span class="votetext">&nbsp;3% (1 votes)</span></td>
+ <td><span class="rating" style="width:0%; background-color: #FFCC00"></span><span class="votetext">&nbsp;0% (0 votes)</span></td>
 </tr>
 <tr>
  <td>1&nbsp;&nbsp;</td>
- <td><span class="rating" style="width:5.5%; background-color: #FF6600"></span><span class="votetext">&nbsp;11% (4 votes)</span></td>
+ <td><span class="rating" style="width:4.5%; background-color: #FF6600"></span><span class="votetext">&nbsp;9% (1 votes)</span></td>
 </tr>
 </tbody></table>
 
@@ -1401,40 +1401,40 @@ p.bbp-topic-meta,
 <span class="editmsg">One entry per line</span>
 <div id="editauthors"></div>
 <div id="showauthors">
-<a class="genre" id="authtag" href="http://www.novelupdates.com/nauthor/%e5%a4%a9%e7%95%8c/" title="View All Series by 天界" >天界</a><br></div>         
+<a class="genre" id="authtag" href="http://www.novelupdates.com/nauthor/kamachi-kazuma/" title="View All Series by KAMACHI Kazuma" >KAMACHI Kazuma</a><br></div>         
          
 <h5 class="seriesother">Artist(s)</h5>
 <span class="editmsg">One entry per line</span>
 <div id="editartists"></div>
 <div id="showartists">
-<span class="seriesna">N/A</span></div>
+<a class="genre" id="artiststag" href="http://www.novelupdates.com/nartist/haimura-kiyotaka/" title="View All Series by Haimura Kiyotaka" >Haimura Kiyotaka</a><br></div>
 
 <h5 class="seriesother">Year</h5>
 <span class="editmsg">Example: 2012</span>
 <div id="edityear">
-2016</div>
+2013</div>
 
 <h5 class="seriesother" title="Status in Country of Origin">Status in COO</h5>
 <span class="editmsg">Status in Country of Origin. One entry per line</span>
 <div id="editstatus">
-190 Chapters (Complete)
+8 Chapters (Complete)
 </div>
 
 <h5 class="seriesother" title="Licensed (in English)">Licensed</h5>
 <div id="editlicensed"></div>
 <div id="showlicensed">
-<span class="seriesna">N/A</span></div>
+No</div>
     
 <h5 class="seriesother">Completely Translated</h5>
 <div id="edittranslated"></div>
 <div id="showtranslated">
-No</div>
+<a class="genre" href="http://www.novelupdates.com/completed-novels-listing/">Yes</a></div>
 
 <h5 class="seriesother">Original Publisher</h5>
 <span class="editmsg">One entry per line</span>
 <div id="editopublisher"></div>
 <div id="showopublisher">
-<a class="genre" id="myopub" href="http://www.novelupdates.com/opublisher/alpha-polis/" title="View All Series by Alpha Polis" >Alpha Polis</a><br><a class="genre" id="myopub" href="http://www.novelupdates.com/opublisher/syosetu/" title="View All Series by Syosetu" >Syosetu</a><br></div>
+<a class="genre" id="myopub" href="http://www.novelupdates.com/opublisher/ascii-media-works/" title="View All Series by Ascii Media Works" >Ascii Media Works</a><br></div>
 
 <h5 class="seriesother">English Publisher</h5>
 <span class="editmsg">One entry per line</span>
@@ -1443,15 +1443,15 @@ No</div>
 <span class="seriesna">N/A</span></div>
 
 <h5 class="seriesother">Release Frequency</h5>
-Every 0.8 Day(s)
+Every 140.2 Day(s)
 
-<h5 class="seriesother">Activity Stats <div class="edit">[<span class="editme"><a href="http://www.novelupdates.com/rank-graph/?pid=9276">Graph</a></span>]</div></h5>Weekly Rank: <span class="userrate rank">#2000</span><br>Monthly Rank: <span class="userrate rank">#82</span><br>All Time Rank: <span class="userrate rank">#586</span><br>
-<h5 class="seriesother">Reading List <div class="edit">[<span class="editme"><a href="http://www.novelupdates.com/rank-graph/?pid=9276">Graph</a></span>]</div></h5>
+<h5 class="seriesother">Activity Stats <div class="edit">[<span class="editme"><a href="http://www.novelupdates.com/rank-graph/?pid=3822">Graph</a></span>]</div></h5>Weekly Rank: <span class="userrate rank">#2000</span><br>Monthly Rank: <span class="userrate rank">#2000</span><br>All Time Rank: <span class="userrate rank">#1677</span><br>
+<h5 class="seriesother">Reading List <div class="edit">[<span class="editme"><a href="http://www.novelupdates.com/rank-graph/?pid=3822">Graph</a></span>]</div></h5>
 
 
-On <b class="rlist">740</b> Reading Lists
+On <b class="rlist">84</b> Reading Lists
 
-<br>Monthly Rank: <span class="userrate rank">#283</span><br>All Time Rank: <span class="userrate rank">#846</span>
+<br>Monthly Rank: <span class="userrate rank">#2325</span><br>All Time Rank: <span class="userrate rank">#1776</span>
 
 </div> 
 	</div> 
@@ -1461,27 +1461,21 @@ On <b class="rlist">740</b> Reading Lists
 		<div class="wpb_wrapper">
 <h4 class="seriesinfo" style="font-size:18px;">Description</h4>
 <span class="editmsg">Links are NOT allowed. Format your description nicely so people can easily read them. Please use proper spacing and paragraphs.</span>
-<div id="editdescription"><p>After coming out of a tunnel… it was pitch dark.</p>
-<p>When I woke up, it was dark.</p>
-<p>First, I need to grasp the situation… While in thoughts, white, foggy figures appeared, it’s utterly dark as usual, just what is happening?</p>
-<p>When I noticed, I have reincarnated!</p>
-<p>Moreover, my gender has changed!?</p>
-<p>Wouldn’t you usually get a cheat ability when reincarnating!? God!</p>
-<p>Isn’t this conversely a start with a handicap!</p>
-<p>*This is a heartwarming story of a little carefree girl.</p>
+<div id="editdescription"><p>The story revolves around the Amakusa-Style Remix of Church being tested by the Church of England to become part of it, but later changes with the Amakusa being involved in a conspiracy after conspiracy being piled up on top of one another, forcing them to not only clear their name but aid in stopping the various conspiracies happening around them.</p>
+<p>The chapters were released as part of the limited editions of the Blu-ray and DVDs of the Toaru Kagaku no Railgun S anime. Together they are equivalent to one regular Toaru Majutsu no Index volume.</p>
 </div>
 
 <div class="yasr_schema" itemscope itemtype="http://schema.org/Product">
-<span itemprop="name">Nigotta Hitomi no Lilianne</span>
+<span itemprop="name">Toaru Majutsu no Index SS: Necessarius Special Admission Test</span>
 <span itemprop="aggregateRating" itemscope itemtype="http://schema.org/AggregateRating"> average rating 
-<span itemprop="ratingValue">4.2</span>/<span itemprop="bestRating">5</span> - 
-<span itemprop="ratingCount">36</span> user ratings</span></div>
+<span itemprop="ratingValue">4.5</span>/<span itemprop="bestRating">5</span> - 
+<span itemprop="ratingCount">11</span> user ratings</span></div>
 <h5 class="seriesother associated">Associated Names</h5>
 <span class="editmsg">One entry per line</span>
-<div id="editassociated">Cloudy Eyes Lilianne<br>濁った瞳のリリアンヌ</div>
+<div id="editassociated">A Certain Magical Index SS - Necessarius<br>Toaru Majutsu no Index SS - Necessarius<br>Toaru Majutsu no Index SS - Necessarius Special Admission Test<br>Toaru Majutsu no Index SSS<br>Toaru Majutsu no Kinsho Mokuroku SS – Necessarius Tokubetsu Hennyuu Shiken Hen<br>とある魔術の禁書目録SS -『必要悪の教会』特別編入試験編</div>
 
 <h5 class="seriesother">Related Series</h5>
-N/A
+<a class="genre" id="sid1936" href="http://www.novelupdates.com/series/toaru-majutsu-no-index/">Toaru Majutsu no Index</a> (Main Story)</br>
 <h5 class="seriesother">Recommendations</h5>
 
 <span class="seriesna">N/A</span>
@@ -1508,74 +1502,83 @@ N/A
                   
                 
     <tr>
-	<td width="20%" style="padding-left:5px;">01/06/17</td>
+	<td width="20%" style="padding-left:5px;">03/30/14</td>
     <td width="45%">
-	<a href="http://www.novelupdates.com/group/shinsori-translations/">Shinsori Translations</a>    </td>
+	<a href="http://www.novelupdates.com/group/baka-tsuki/">Baka-Tsuki</a>    </td>
     <td width="20%">
-	<a class="chp-release rand5251s" href="http://www.novelupdates.com/extnu/416237/" rel="nofollow">c7</a><a class="chp-release rand3421s" href="http://www.novelupdates.com/extnu/416238/" rel="nofollow">c7</a>    </td>
+	<a class="chp-release rand5251s" href="http://www.novelupdates.com/extnu/35392/" rel="nofollow">c8 (end)</a><a class="chp-release rand3421s" href="http://www.novelupdates.com/extnu/35393/" rel="nofollow">c8 (end)</a>    </td>
 	</tr>
                 
                 
     <tr>
-	<td width="20%" style="padding-left:5px;">01/06/17</td>
+	<td width="20%" style="padding-left:5px;">03/29/14</td>
     <td width="45%">
-	<a href="http://www.novelupdates.com/group/shinsori-translations/">Shinsori Translations</a>    </td>
+	<a href="http://www.novelupdates.com/group/baka-tsuki/">Baka-Tsuki</a>    </td>
     <td width="20%">
-	<a class="chp-release rand5251s" href="http://www.novelupdates.com/extnu/415531/" rel="nofollow">c6</a><a class="chp-release rand3421s" href="http://www.novelupdates.com/extnu/415532/" rel="nofollow">c6</a>    </td>
+	<a class="chp-release rand5251s" href="http://www.novelupdates.com/extnu/35391/" rel="nofollow">c7</a><a class="chp-release rand3421s" href="http://www.novelupdates.com/extnu/35392/" rel="nofollow">c7</a>    </td>
 	</tr>
                 
                 
     <tr>
-	<td width="20%" style="padding-left:5px;">01/05/17</td>
+	<td width="20%" style="padding-left:5px;">02/12/14</td>
     <td width="45%">
-	<a href="http://www.novelupdates.com/group/shinsori-translations/">Shinsori Translations</a>    </td>
+	<a href="http://www.novelupdates.com/group/baka-tsuki/">Baka-Tsuki</a>    </td>
     <td width="20%">
-	<a class="chp-release rand5251s" href="http://www.novelupdates.com/extnu/413843/" rel="nofollow">c5</a><a class="chp-release rand3421s" href="http://www.novelupdates.com/extnu/413844/" rel="nofollow">c5</a>    </td>
+	<a class="chp-release rand5251s" href="http://www.novelupdates.com/extnu/35390/" rel="nofollow">c6</a><a class="chp-release rand3421s" href="http://www.novelupdates.com/extnu/35391/" rel="nofollow">c6</a>    </td>
 	</tr>
                 
                 
     <tr>
-	<td width="20%" style="padding-left:5px;">01/04/17</td>
+	<td width="20%" style="padding-left:5px;">12/01/13</td>
     <td width="45%">
-	<a href="http://www.novelupdates.com/group/shinsori-translations/">Shinsori Translations</a>    </td>
+	<a href="http://www.novelupdates.com/group/baka-tsuki/">Baka-Tsuki</a>    </td>
     <td width="20%">
-	<a class="chp-release rand5251s" href="http://www.novelupdates.com/extnu/412496/" rel="nofollow">c4</a><a class="chp-release rand3421s" href="http://www.novelupdates.com/extnu/412497/" rel="nofollow">c4</a>    </td>
+	<a class="chp-release rand5251s" href="http://www.novelupdates.com/extnu/35389/" rel="nofollow">c5</a><a class="chp-release rand3421s" href="http://www.novelupdates.com/extnu/35390/" rel="nofollow">c5</a>    </td>
 	</tr>
                 
                 
     <tr>
-	<td width="20%" style="padding-left:5px;">01/04/17</td>
+	<td width="20%" style="padding-left:5px;">10/31/13</td>
     <td width="45%">
-	<a href="http://www.novelupdates.com/group/shinsori-translations/">Shinsori Translations</a>    </td>
+	<a href="http://www.novelupdates.com/group/baka-tsuki/">Baka-Tsuki</a>    </td>
     <td width="20%">
-	<a class="chp-release rand5251s" href="http://www.novelupdates.com/extnu/412100/" rel="nofollow">c3</a><a class="chp-release rand3421s" href="http://www.novelupdates.com/extnu/412101/" rel="nofollow">c3</a>    </td>
+	<a class="chp-release rand5251s" href="http://www.novelupdates.com/extnu/35388/" rel="nofollow">c4</a><a class="chp-release rand3421s" href="http://www.novelupdates.com/extnu/35389/" rel="nofollow">c4</a>    </td>
 	</tr>
                 
                 
     <tr>
-	<td width="20%" style="padding-left:5px;">01/03/17</td>
+	<td width="20%" style="padding-left:5px;">10/26/13</td>
     <td width="45%">
-	<a href="http://www.novelupdates.com/group/shinsori-translations/">Shinsori Translations</a>    </td>
+	<a href="http://www.novelupdates.com/group/baka-tsuki/">Baka-Tsuki</a>    </td>
     <td width="20%">
-	<a class="chp-release rand5251s" href="http://www.novelupdates.com/extnu/410369/" rel="nofollow">c2 part2</a><a class="chp-release rand3421s" href="http://www.novelupdates.com/extnu/410370/" rel="nofollow">c2 part2</a>    </td>
+	<a class="chp-release rand5251s" href="http://www.novelupdates.com/extnu/35387/" rel="nofollow">c3</a><a class="chp-release rand3421s" href="http://www.novelupdates.com/extnu/35388/" rel="nofollow">c3</a>    </td>
 	</tr>
                 
                 
     <tr>
-	<td width="20%" style="padding-left:5px;">01/02/17</td>
+	<td width="20%" style="padding-left:5px;">08/31/13</td>
     <td width="45%">
-	<a href="http://www.novelupdates.com/group/shinsori-translations/">Shinsori Translations</a>    </td>
+	<a href="http://www.novelupdates.com/group/baka-tsuki/">Baka-Tsuki</a>    </td>
     <td width="20%">
-	<a class="chp-release rand5251s" href="http://www.novelupdates.com/extnu/409204/" rel="nofollow">c2 part1</a><a class="chp-release rand3421s" href="http://www.novelupdates.com/extnu/409205/" rel="nofollow">c2 part1</a>    </td>
+	<a class="chp-release rand5251s" href="http://www.novelupdates.com/extnu/35386/" rel="nofollow">c2</a><a class="chp-release rand3421s" href="http://www.novelupdates.com/extnu/35387/" rel="nofollow">c2</a>    </td>
 	</tr>
                 
                 
     <tr>
-	<td width="20%" style="padding-left:5px;">01/01/17</td>
+	<td width="20%" style="padding-left:5px;">07/27/13</td>
     <td width="45%">
-	<a href="http://www.novelupdates.com/group/shinsori-translations/">Shinsori Translations</a>    </td>
+	<a href="http://www.novelupdates.com/group/baka-tsuki/">Baka-Tsuki</a>    </td>
     <td width="20%">
-	<a class="chp-release rand5251s" href="http://www.novelupdates.com/extnu/407175/" rel="nofollow">c1</a><a class="chp-release rand3421s" href="http://www.novelupdates.com/extnu/407176/" rel="nofollow">c1</a>    </td>
+	<a class="chp-release rand5251s" href="http://www.novelupdates.com/extnu/35385/" rel="nofollow">c1</a><a class="chp-release rand3421s" href="http://www.novelupdates.com/extnu/35386/" rel="nofollow">c1</a>    </td>
+	</tr>
+                
+                
+    <tr>
+	<td width="20%" style="padding-left:5px;">07/26/13</td>
+    <td width="45%">
+	<a href="http://www.novelupdates.com/group/baka-tsuki/">Baka-Tsuki</a>    </td>
+    <td width="20%">
+	<a class="chp-release rand5251s" href="http://www.novelupdates.com/extnu/35384/" rel="nofollow">llustrations</a><a class="chp-release rand3421s" href="http://www.novelupdates.com/extnu/35385/" rel="nofollow">llustrations</a>    </td>
 	</tr>
             </tbody>
 	</table>               
@@ -1609,67 +1612,14 @@ aax_getad_mpb({
  
 
     
-    <a style="margin: 7px 10px; font-size: 14px; float: left;"href="/series/nigotta-hitomi-no-lilianne/#respond review">Write a Review</a>    
+    <a style="margin: 7px 10px; font-size: 14px; float: left;"href="/series/toaru-majutsu-no-index-ss-necessarius-special-admission-test/#respond review">Write a Review</a>    
     <div class="btnrev-group sort-reviews pull-right">
-		   <button data-filter="helpfulness" class="btnrev btnrev-inverse active" onclick="changesort('helpfulnew','http://www.novelupdates.com/series/nigotta-hitomi-no-lilianne//#comments');">Likes <i class="fa fa-angle-down" aria-hidden="true"></i></button>
-		                <button data-filter="date" class="btnrev btnrev-inverse" onclick="changesort('datenew','http://www.novelupdates.com/series/nigotta-hitomi-no-lilianne//#comments');">Date <i class="fa fa-angle-down" aria-hidden="true"></i></button>
-            </div><div class="review-count pull-right">1 Review sorted by</div><br><br><div class="r_line"></div>
+		   <button data-filter="helpfulness" class="btnrev btnrev-inverse active" onclick="changesort('helpfulnew','http://www.novelupdates.com/series/toaru-majutsu-no-index-ss-necessarius-special-admission-test//#comments');">Likes <i class="fa fa-angle-down" aria-hidden="true"></i></button>
+		                <button data-filter="date" class="btnrev btnrev-inverse" onclick="changesort('datenew','http://www.novelupdates.com/series/toaru-majutsu-no-index-ss-necessarius-special-admission-test//#comments');">Date <i class="fa fa-angle-down" aria-hidden="true"></i></button>
+            </div><div class="review-count pull-right">No Reviews</div><br><br><div class="r_line"></div>
 	<div class="w-comments-list">
         
         
-
-
-<div class="w-comments-item" id="comment-28253">
-            <div class="rev_left">
-            <img alt='Yipie' src='http://forum.novelupdates.com/styles/default/xenforo/avatars/avatar_m.png' class='avatar avatar-50 photo' height='50' width='50' />                                                </div>
-		<div class="w-comments-item-meta-new">
-        
-        
-                        
-                <table style="width: 89%; line-height: 23px; position: relative; top: 10px;">
-        <tbody>
-        	<tr style="background-color:transparent;">
-				<td valign="top">
-				<div>
-				<div>
-				</div>
-				</div>
-                				<a id="revname" class="revname28253" href="http://www.novelupdates.com/readlist/?uname=Yipie" title="View Yipie's Public Reading List">Yipie</a> rated it <i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><br>
-				                <div><a href="http://www.novelupdates.com/more-reviews/?uname=Yipie">Other reviews by this user</a></div>
-                				</td>
-                
-                                        <td style="text-align: right;" valign="top"><div style="text-align: right;">January 4, 2017</div>
-							<div>Status: <span style="font-weight:bold;" id="stat28253">v2c28</span></div>
-						</td>
-                            	</tr>
-                </tbody>
-                </table>
-			<div class="w-comments-item-icon">
-							</div>
-            			<div class="w-comments-item-author"></div>
-            
-			
-		</div>
-		<div class="w-comments-item-text ">
-                
-        
-        Read ahead on raws. Slow developing story, but very cute. Almost more of a 'slice of life' feel in these earlier parts.  <p></p>
-MC does have kind of a cheat, but also has an interesting handicap. <p></p>
-TL is doing a great job.        
-             
-                </div>
-        
-		    </div>
-    
-    	<div class="rev_b1">
-                <span class="rev_bar" title="Like this review">4 Likes · <a href="http://www.novelupdates.com/login/" class="rev_help">Like</a></span>
-                
-        <span style="float:right;"><a class="permrev" href="http://www.novelupdates.com/fdrev/?comid=28253&sid=9276" style="color:#8D8D8D !important;">Permalink</a> | <a href="http://www.novelupdates.com/login/" title="Report Review" style="color:#8D8D8D !important;" class="my_popupreport_open">Report</a></span>        
-        
-        </div>
-
-
-    
 
     </div>
 
@@ -1684,7 +1634,7 @@ TL is doing a great job.
         <div class="rev_leave">Leave a Review</div>
         <div class="rf-comment">
        						            
-                        <div class="w-comments-form-text">You must be <a href="http://www.novelupdates.com/login/?redirect_to=http%3A%2F%2Fwww.novelupdates.com%2Fseries%2Fnigotta-hitomi-no-lilianne%2F">logged in</a> to rate and post a review. <a href="http://www.novelupdates.com/register/">Register</a> an account to get started.</div>
+                        <div class="w-comments-form-text">You must be <a href="http://www.novelupdates.com/login/?redirect_to=http%3A%2F%2Fwww.novelupdates.com%2Fseries%2Ftoaru-majutsu-no-index-ss-necessarius-special-admission-test%2F">logged in</a> to rate and post a review. <a href="http://www.novelupdates.com/register/">Register</a> an account to get started.</div>
             			
 </div>
 		</div>

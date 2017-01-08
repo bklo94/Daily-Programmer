@@ -11,6 +11,10 @@ conn = sqlite3.connect(sqlite_file)
 conn.text_factory = str
 c = conn.cursor()
 
+#Creates the data if it does not exist.
+#Online novels for the web novels
+#Real novels for physical books
+#Search is temporary table that gets cleared after every use
 def createTable():
     c.execute("""CREATE TABLE IF NOT EXISTS ONLINE_NOVELS
         (ID INTEGER PRIMARY KEY AUTOINCREMENT   NOT NULL,
@@ -20,7 +24,6 @@ def createTable():
         NOVEL_LANG      CHAR(2)   NOT NULL,
         CURRENT_WEBSITE        TEXT   NOT NULL,
         LATEST_WEBSITE         TEXT);""")
-    print "Table ONLINE_NOVELS created"
 
     c.execute("""CREATE TABLE IF NOT EXISTS REAL_NOVELS
         (ID INTEGER PRIMARY KEY AUTOINCREMENT   NOT NULL,
@@ -28,7 +31,6 @@ def createTable():
         NOVEL_CURRENT   INT    NOT NULL,
         NOVEL_LATEST    INT    NOT NULL,
         NOVEL_LANG      CHAR(2)   NOT NULL);""")
-    print "Table REAL_NOVELS created"
 
     c.execute("""CREATE TABLE IF NOT EXISTS SEARCH
         (ID INTEGER PRIMARY KEY AUTOINCREMENT   NOT NULL,
@@ -38,77 +40,124 @@ def createTable():
         NOVEL_LANG      CHAR(2)   NOT NULL,
         CURRENT_WEBSITE        TEXT   NOT NULL,
         LATEST_WEBSITE         TEXT NOT NULL);""")
-    print "Table SEARCH created"
-
-def setOnlineNovel(name, chapter, latest, lang, urlCurrent):
-    c.execute("""INSERT INTO ONLINE_NOVELS (NOVEL_NAME, NOVEL_CURRENT, NOVEL_LATEST, NOVEL_LANG, CURRENT_WEBSITE) VALUES (?, ?, ?, ? ,?)""", (name.upper(),chapter,latest,lang,urlCurrent))
     conn.commit()
 
+#Inserts novel into Online novels table
+def setOnlineNovel(name, chapter, latest, lang, urlCurrent, latestUrl):
+    c.execute("""INSERT INTO ONLINE_NOVELS (NOVEL_NAME, NOVEL_CURRENT, NOVEL_LATEST, NOVEL_LANG, CURRENT_WEBSITE, LATEST_WEBSITE) VALUES (?, ?, ?, ? ,?, ?)""", (name.upper(),chapter,latest,lang,urlCurrent, latestUrl))
+    conn.commit()
+
+#Inserts novel into real novels table
 def setRealNovel(name, chapter, latest, lang):
     c.execute("""INSERT INTO REAL_NOVELS (NOVEL_NAME, NOVEL_CURRENT, NOVEL_LATEST, NOVEL_LANG) VALUES (?, ?, ?, ? )""", (name.upper(),chapter,latest,lang))
     conn.commit()
 
+#Inserts novel into search table
 def setSearchNovel(name, chapter, latest, lang, urlCurrent, urlLatest):
     c.execute("""INSERT INTO SEARCH (NOVEL_NAME, NOVEL_CURRENT, NOVEL_LATEST, NOVEL_LANG, CURRENT_WEBSITE, LATEST_WEBSITE) VALUES (?, ?, ?, ? ,?, ?)""", (name.upper(),chapter,latest,lang,urlCurrent,urlLatest))
     conn.commit()
 
-def setSearchURL(url):
-    c.execute("""INSERT INTO SEARCH (CURRENT_WEBSITE) VALUES (?)""", (url))
-    conn.commit()
-
+#Updates a Real Novel when called
 def updateCurrentRealNovel(name, chapter):
     c.execute(""" UPDATE REAL_NOVELS
         SET NOVEL_CURRENT = ?
         WHERE NOVEL_NAME = ?""",(chapter,name.upper()))
     conn.commit()
 
+#Updates an online novel latest chapter. Automatically called
 def updateLatestOnlineNovel(name,chapter,url):
     c.execute("""UPDATE ONLINE_NOVELS
         SET NOVEL_LATEST = ?, LATEST_WEBSITE = ?
         WHERE NOVEL_NAME = ? """,(chapter,url,name.upper()))
     conn.commit()
 
+#Updates the current online chapter. Manually called
 def updateCurrentOnlineChapter(name,chapter,url):
-    c.execute("""UPDATE (?)
-        SET (NOVEL_CURRENT = ?, CURRENT_WEBSITE = ?
+    c.execute("""UPDATE ONLINE_NOVELS
+        SET NOVEL_CURRENT = ?, CURRENT_WEBSITE = ?
         WHERE NOVEL_NAME = ?""",(chapter,url,name.upper()))
     conn.commit()
 
+#Moves a search novel to the online novel table
+def transferSearchToOnline(name):
+    c.execute("""INSERT INTO ONLINE_NOVELS (NOVEL_NAME, NOVEL_CURRENT, NOVEL_LATEST, NOVEL_LANG, CURRENT_WEBSITE, LATEST_WEBSITE)
+        SELECT NOVEL_NAME, NOVEL_CURRENT, NOVEL_LATEST, NOVEL_LANG, CURRENT_WEBSITE, LATEST_WEBSITE FROM SEARCH
+        WHERE NOVEL_NAME = ?""",(name.upper(),))
+    deleteSearchCache()
+    conn.commit()
+
+#displays what is currently in the SQL table
 def showOnlineTable():
     c.execute("""SELECT * FROM ONLINE_NOVELS""")
     result = c.fetchall()
     for rows in result:
         print rows
 
+#displays what is currently in the SQL table
 def showRealTable():
     c.execute("""SELECT * FROM REAL_NOVELS""")
     result = c.fetchall()
     for rows in result:
         print rows
 
+#displays what is currently in the SQL table
 def showSearchTable():
     c.execute("""SELECT * FROM SEARCH""")
     result = c.fetchall()
     for rows in result:
         print rows
 
+#Used for debugging the novels, currently unsued
 def gatherOnlineNovelNames():
     c.execute("""SELECT NOVEL_NAME FROM ONLINE_NOVELS""")
     result = c.fetchall()
     return result
 
+#Deletes a certain novel from the online table
+def deleteOnlineRow(idNovel):
+    c.execute("""DELETE FROM ONLINE_NOVELS WHERE id = ?""", (idNovel,))
+    conn.commit()
+
+#Deletes a certain novel from the real table
+def deleteRealRow(idNovel):
+    c.execute("""DELETE FROM REAL_NOVELS WHERE id = ?""", (idNovel,))
+    conn.commit()
+
+#clears the search table
+def deleteSearchCache():
+    c.execute("""DELETE FROM SEARCH""")
+    c.execute("""VACUUM""")
+    conn.commit()
+
+#clears the real novel table
+def deleteRealTable():
+    c.execute("""DELETE FROM REAL_NOVELS""")
+    c.execute("""VACUUM""")
+    conn.commit()
+
+#clears the online novel table
+def deleteOnlineTable():
+    c.execute("""DELETE FROM ONLINE_NOVELS""")
+    c.execute("""VACUUM""")
+    conn.commit()
+
 #for the email
 import smtplib
-def emailMessage(messageContent):
+
+#clears the sends an email with a subject and content
+def emailMessage(messageContent,subject):
     fromaddress = "kenshin421@yahoo.com"
     toaddress = "brandonklo94@gmail.com"
-    msg = messageContent
+    msg = "Subject: %s \n\n%s" % (subject,messageContent)
     server = smtplib.SMTP("smtp.mail.yahoo.com", 587)
     server.ehlo()
     server.starttls()
-    server.login("kenshin421","********")
-    server.sendmail(fromaddress, toaddress, msg)
-    print "Your mail has been sent"
+    server.login("kenshin421","**********")
+    try:
+        server.sendmail(fromaddress, toaddress, msg)
+    except SMTPException:
+        print "NotLikeThis. Your email has failed to send! Please notify the admin."
+    server.quit()
 
 #for web scrapping
 import httplib2
@@ -116,32 +165,41 @@ from bs4 import BeautifulSoup
 from collections import OrderedDict
 from operator import itemgetter
 
+#gets a cache file of the requested webpage
 def getArticle(webpage):
     if webpage:
         h = httplib2.Http(".cache")
         content = h.request(webpage)
         return content
 
+#Main function that is run that runs all the others. Honestly could be the the main function
 def novelInsert():
     print "1: Online Novels"
     print "2: Real Novels"
-    tableOptions = raw_input("Which table do you want to add to:")
-    if tableOptions == "1":
-        table = "ONLINE_NOVELS"
-    elif tableOptions == "2":
-        table = "REAL_NOVELS"
-    name = raw_input("Input the novel name:")
-    chapter = int(raw_input("Input current chapter:"))
-    latest = int(raw_input("Input latest chapter:"))
-    lang = raw_input("Input Language Symbol:")
-    urlCurrent = raw_input("Input current chapter URL:")
-    if table == "ONLINE_NOVELS":
-        setOnlineNovel(name.upper(),chapter,latest,lang,urlCurrent)
-    else:
-        pass
-    conn.commit()
-    showOnlineTable()
+    print "3: Search for your novel"
+    tableOptions = raw_input("Which table number do you want to add to:")
+    if tableOptions == "1" or tableOptions == "2":
+        name = raw_input("Input the novel name:")
+        chapter = int(raw_input("Input current chapter:"))
+        latest = int(raw_input("Input latest chapter:"))
+        lang = raw_input("Input Language Symbol:")
+        if tableOptions == "1":
+            urlCurrent = raw_input("Input current chapter URL:")
+            latestURL = raw_input("Input current latest URL:")
+            setOnlineNovel(name.upper(),chapter,latest,lang,urlCurrent,latestURL)
+            subject = "Your novel " + name.upper() + " has been inserted!"
+            messageContent = "Your novel "+ name.upper() +" has been inserted! \nYou are on chapter " + str(chapter) + ". \nAt this link " + urlCurrent + "\nThe latest chapter is " + str(latest) + ".\nAt this link" + latestURL + "\nYou are " + str((latest-chapter)) + " chapters behind.\nI am your faithful servent. You fucking " + lang + "weeb. \n~SneakyWeeb."
+            emailMessage(messageContent, subject)
+        elif tableOptions == "2":
+            setRealNovel(name, chapter, latest, lang)
+            subject = "Your novel " + name.upper() + " has been inserted!"
+            messageContent = "Your novel "+ name.upper() +" has been inserted! \nYou are on chapter " + str(chapter) + "\nThe latest chapter is " + str(latest) + ".\nYou are " + str((latest-chapter)) + " chapters behind.\nI am your faithful servent. You fucking " + lang + "weeb. \n~SneakyWeeb."
+            emailMessage(messageContent, subject)
+    elif tableOptions == "3":
+        searchTerm = raw_input("What do you want to search for?:")
+        novelSearch(searchTerm)
 
+#Updates the novel if it appears on the front page of novel updates
 def novelUpdate(searchItem):
     table = "ONLINE_NOVELS"
     url = "http://www.novelupdates.com/"
@@ -164,6 +222,11 @@ def novelUpdate(searchItem):
             finalWebLink = webLink[1]['href']
             updateLatestOnlineNovel(Title.upper(),finalChapterNumber,finalWebLink)
 
+            subject = "Your novel " + Title.upper() + " has been updated!"
+            messageContent = "Your novel "+ Title.upper() +" has been updated! \nThe new chapter is on " + str(finalChapterNumber) + ".\nAt this link "+ finalWebLink +"\nI am your faithful servent. You fucking weeb. \n~SneakyWeeb."
+            emailMessage(messageContent, subject)
+
+#Uses novel update to search for a novel and then add it
 def novelSearch(searchTerm):
     table = "SEARCH"
     url = "http://www.novelupdates.com/?s="+ searchTerm +"&post_type=seriesplans"
@@ -195,11 +258,11 @@ def novelSearch(searchTerm):
     #dictionary is 0-23
     for key, value in novelDict:
         print value[1], "\t\t\t", key
-
-    #searchValue = raw_input("Select the novel you want to add:")
-
+    print "25 \t\t\t Exit."
+    searchValue = raw_input("Select the novel you want to add:")
+    if searchValue == "25"
+        exit()
     #known bug when novel name is long, thus makes a file path too long. Windows limimation. Working on Debian (tested), unknown for OSX.
-    searchValue = "3"
     newNovelList = []
     for key, value in novelDict:
         if int(searchValue) == value[1]:
@@ -209,9 +272,12 @@ def novelSearch(searchTerm):
             chapter = raw_input("What chapter are you currently on?:")
             urlCurrent = raw_input("What is the url you currently on?:")
             setSearchNovel(name, chapter, newNovelList[0], newNovelList[1], urlCurrent, newNovelList[2])
-            print "Is this correct?"
-            showSearchTable()
+            transferSearchToOnline(name)
+            subject = "Your novel " + name.upper() + " has been inserted!"
+            messageContent = "Your novel,"+ name.upper() +" , has been inserted! \nYou are on chapter," + str(chapter) + "\nThe latest chapter is," + str(newNovelList[0]) + ".\nThe link is at " + newNovelList[3] + " \nYou are " + str((newNovelList[0]-chapter)) + " chapters behind.\nI am your faithful servent. You fucking " + newNovelList[1] + "weeb. \n~SneakyWeeb."
+            emailMessage(messageContent, subject)
 
+#Used with the search function in order to update the latest novel and website
 def novelPageUpdate(url):
     content = getArticle(url)
     grabContent = BeautifulSoup(str(content), "html.parser")
@@ -245,29 +311,24 @@ def novelPageUpdate(url):
     returnList.append(linkList[foundLink])
     return returnList
 
+#Main function. Has a commented out area for debugging.
 def main():
-    #search = raw_input("Novel:")
     try:
         conn = sqlite3.connect(sqlite_file)
         c = conn.cursor()
         createTable()
-
+        novelInsert()
         '''
-        #novelInsert()
-        novels = gatherOnlineNovelNames()
-        for items in novels:
-            temp = ''.join(items)
-            novelUpdate(temp)
-
+        print ("These are the online novels")
         showOnlineTable()
-        print "Tables updated!"
+        print ("These are the real novels")
+        showRealTable()
+        print ("These are the search cache")
+        showSearchTable()
         '''
-        searchTerm = "no"
-        novelSearch(searchTerm)
-
         conn.close()
-    #except KeyError:
-        #print "KeyError!"
+    except KeyError:
+        print "KeyError!"
     except AttributeError:
         print "Novel Attritube Note Found!"
     except UnicodeEncodeError:
