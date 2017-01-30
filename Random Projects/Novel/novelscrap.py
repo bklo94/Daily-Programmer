@@ -2,7 +2,17 @@
 #Backend for the Novel Tracking App
 
 #For futute funtionality.Currently unsued
-import praw,time,traceback
+import praw,traceback
+
+#crontab settings
+from crontab import CronTab
+
+def cronUpdate():
+    print "VoHiYo I'm checking VoHiYo..."
+    cron = CronTab(user=True)
+    job = cron.new(command='python updatenovel.py')
+    job.minute.every(0)
+    cron.write()
 
 #sets up the database
 import sqlite3
@@ -44,6 +54,8 @@ def createTable():
     conn.commit()
 
 #Inserts novel into Online novels table
+from prettytable import PrettyTable
+
 def setOnlineNovel(name, chapter, latest, lang, urlCurrent, latestUrl):
     c.execute("""INSERT INTO ONLINE_NOVELS (NOVEL_NAME, NOVEL_CURRENT, NOVEL_LATEST, NOVEL_LANG, CURRENT_WEBSITE, LATEST_WEBSITE) VALUES (?, ?, ?, ? ,?, ?)""", (name.upper(),chapter,latest,lang,urlCurrent, latestUrl))
     conn.commit()
@@ -91,28 +103,41 @@ def transferSearchToOnline(name):
 def showOnlineTable():
     c.execute("""SELECT * FROM ONLINE_NOVELS""")
     result = c.fetchall()
-    for rows in result:
-        print rows
+    novelNames = [novels for novels in result]
+    showTable = PrettyTable()
+    showTable.padding_width = 1
+    showTable.field_names = ["Web Novel Name", "Current Chapter", "Latest Chapter","Language", "Current Chapter URL", "Latest Chapter URL"]
+    for rows in novelNames:
+        showTable.add_row([rows[1],rows[2],rows[3],rows[4],rows[5],rows[6]])
+    print (showTable)
 
 #displays what is currently in the SQL table
 def showRealTable():
     c.execute("""SELECT * FROM REAL_NOVELS""")
     result = c.fetchall()
-    for rows in result:
-        print rows
+    novelNames = [novels for novels in result]
+    showTable = PrettyTable()
+    showTable.align = "l"
+    showTable.padding_width = 1
+    showTable.field_names = ["Web Novel Name", "Current Chapter", "Latest Chapter","Language"]
+    for rows in novelNames:
+        showTable.add_row([rows[1],rows[2],rows[3],rows[4]])
+    print (showTable)
 
 #displays what is currently in the SQL table
 def showSearchTable():
     c.execute("""SELECT * FROM SEARCH""")
     result = c.fetchall()
-    for rows in result:
+    novelNames = [novels for novels in result]
+    for rows in novelNames:
         print rows
 
 #Used for debugging the novels, currently unsued
 def gatherOnlineNovelNames():
     c.execute("""SELECT NOVEL_NAME FROM ONLINE_NOVELS""")
     result = c.fetchall()
-    return result
+    novelNames = [novels[0] for novels in result]
+    return novelNames
 
 #Deletes a certain novel from the online table
 def deleteOnlineRow(idNovel):
@@ -153,7 +178,7 @@ def emailMessage(messageContent,subject):
     server = smtplib.SMTP("smtp.mail.yahoo.com", 587)
     server.ehlo()
     server.starttls()
-    server.login("kenshin421","**************")
+    server.login("kenshin421","sircadgon2.")
     try:
         server.sendmail(fromaddress, toaddress, msg)
     except SMTPException:
@@ -209,6 +234,10 @@ def novelUpdate(searchItem):
     output = grabContent.find_all("td")
     count = 0
     inputNovel = searchItem
+
+    subject = "Update Running"
+    messageContent = "VoHiYo I'm checking VoHiYo..."
+    emailMessage(messageContent, subject)
 
     for chapter in output:
         Title = chapter.get_text()
@@ -318,20 +347,31 @@ def main():
         conn = sqlite3.connect(sqlite_file)
         c = conn.cursor()
         createTable()
-        novelInsert()
-        '''
-        print ("These are the online novels")
-        showOnlineTable()
-        print ("These are the real novels")
-        showRealTable()
-        print ("These are the search cache")
-        showSearchTable()
-        '''
-        conn.close()
+        while True:
+            print "Option 1: Edit Database"
+            print "Option 2: Force Update"
+            print "Option 3: Read Database"
+            print "Option 0: Exit"
+            option = raw_input("What would you like to do? ")
+            if  (option == "1"):
+                novelInsert()
+            elif (option == "2"):
+                novelList = gatherOnlineNovelNames()
+                for items in novelList:
+                    novelUpdate(items)
+            elif (option == "3"):
+                print "Real Novels List\n"
+                showRealTable()
+                print "Web Novel List\n"
+                showOnlineTable()
+                print "\n"
+            elif (option == "0"):
+                break
+            conn.close()
     except KeyError:
         print "KeyError!"
     except AttributeError:
-        print "Novel Attritube Note Found!"
+        print "Novel Attritube Not Found!"
     except UnicodeEncodeError:
         print "Unicode encountered!"
 

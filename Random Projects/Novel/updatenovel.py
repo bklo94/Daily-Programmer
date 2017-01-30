@@ -35,7 +35,8 @@ def updateCurrentOnlineChapter(name,chapter,url):
 def gatherOnlineNovelNames():
     c.execute("""SELECT NOVEL_NAME FROM ONLINE_NOVELS""")
     result = c.fetchall()
-    return result
+    novelNames = [novels[0] for novels in result]
+    return novelNames
 
 #for the email
 import smtplib
@@ -48,13 +49,13 @@ def emailMessage(messageContent,subject):
     server = smtplib.SMTP("smtp.mail.yahoo.com", 587)
     server.ehlo()
     server.starttls()
-    server.login("kenshin421","****************")
+    server.login("kenshin421","sircadgon2.")
     try:
         server.sendmail(fromaddress, toaddress, msg)
+        print "Everything went well! Email sent!"
     except SMTPException:
         print "NotLikeThis. Your email has failed to send! Please notify the admin."
     server.quit()
-
 
 #for web scrapping
 import httplib2
@@ -102,6 +103,9 @@ def main():
         conn = sqlite3.connect(sqlite_file)
         c = conn.cursor()
         novelList = gatherOnlineNovelNames()
+        subject = "Update Running"
+        messageContent = "VoHiYo I'm checking VoHiYo..."
+        emailMessage(messageContent, subject)
         for items in novelList:
             novelUpdate(items)
         conn.close()

@@ -24,6 +24,5 @@ c.execute('''CREATE TABLE REAL_NOVELS
 
 print "Table REAL_NOVELS created"
 
-
 conn.commit()
 conn.close()
