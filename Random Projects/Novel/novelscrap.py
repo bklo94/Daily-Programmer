@@ -106,9 +106,9 @@ def showOnlineTable():
     novelNames = [novels for novels in result]
     showTable = PrettyTable()
     showTable.padding_width = 1
-    showTable.field_names = ["Web Novel Name", "Current Chapter", "Latest Chapter","Language", "Current Chapter URL", "Latest Chapter URL"]
+    showTable.field_names = ["ID","Web Novel Name", "Current Chapter", "Latest Chapter","Language", "Current Chapter URL", "Latest Chapter URL"]
     for rows in novelNames:
-        showTable.add_row([rows[1],rows[2],rows[3],rows[4],rows[5],rows[6]])
+        showTable.add_row([rows[0],rows[1],rows[2],rows[3],rows[4],rows[5],rows[6]])
     print (showTable)
 
 #displays what is currently in the SQL table
@@ -119,9 +119,9 @@ def showRealTable():
     showTable = PrettyTable()
     showTable.align = "l"
     showTable.padding_width = 1
-    showTable.field_names = ["Web Novel Name", "Current Chapter", "Latest Chapter","Language"]
+    showTable.field_names = ["ID","Web Novel Name", "Current Chapter", "Latest Chapter","Language"]
     for rows in novelNames:
-        showTable.add_row([rows[1],rows[2],rows[3],rows[4]])
+        showTable.add_row([rows[0],rows[1],rows[2],rows[3],rows[4]])
     print (showTable)
 
 #displays what is currently in the SQL table
@@ -341,6 +341,23 @@ def novelPageUpdate(url):
     returnList.append(linkList[foundLink])
     return returnList
 
+#drop row function for deleting a novel
+def deleteNovel():
+    print "1: Online Novels"
+    print "2: Real Novels"
+    print "0: Exit"
+    tableOptions = raw_input("Which table number do you want to delete:")
+    if tableOptions == "1":
+        showOnlineTable()
+        novelID = raw_input("Input Novel ID to delete:")
+        deleteOnlineRow(novelID)
+    elif tableOptions == "2":
+        showRealTable()
+        novelID = raw_input("Input Novel ID to delete:")
+        deleteRealRow(novelID)
+    elif tableOptions == "3":
+        exit
+
 #Main function. Has a commented out area for debugging.
 def main():
     try:
@@ -354,7 +371,13 @@ def main():
             print "Option 0: Exit"
             option = raw_input("What would you like to do? ")
             if  (option == "1"):
-                novelInsert()
+                print "Option 1: Insert Novel"
+                print "Option 2: Delete Novel"
+                secondOption = raw_input("What would you like to do? ")
+                if (secondOption == "1"):
+                    novelInsert()
+                elif (secondOption == "2"):
+                    deleteNovel()
             elif (option == "2"):
                 novelList = gatherOnlineNovelNames()
                 for items in novelList:
