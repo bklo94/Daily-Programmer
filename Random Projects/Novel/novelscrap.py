@@ -185,7 +185,7 @@ def emailMessage(messageContent,subject):
     server = smtplib.SMTP("smtp.mail.yahoo.com", 587)
     server.ehlo()
     server.starttls()
-    server.login("kenshin421","sircadgon2.")
+    server.login("kenshin421","ctfbhsgpqibquoxw")
     try:
         server.sendmail(fromaddress, toaddress, msg)
     except SMTPException:
@@ -375,6 +375,7 @@ def main():
         conn = sqlite3.connect(sqlite_file)
         c = conn.cursor()
         createTable()
+
         while True:
             print "Option 1: Edit Database"
             print "Option 2: Force Update"
@@ -402,7 +403,9 @@ def main():
                 print "\n"
             elif (option == "0"):
                 break
-            conn.close()
+
+        conn.close()
+
     except KeyError:
         print "KeyError!"
     except AttributeError:
