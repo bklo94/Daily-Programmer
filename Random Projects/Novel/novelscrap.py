@@ -270,7 +270,7 @@ def novelUpdate(searchItem):
 #Uses novel update to search for a novel and then add it
 def novelSearch(searchTerm):
     table = "SEARCH"
-    url = "http://www.novelupdates.com/?s="+ searchTerm +"&post_type=seriesplans"
+    url = "http://www.novelupdates.com/?s="+ str(searchTerm) +"&post_type=seriesplans"
     content = getArticle(url)
     grabContent = BeautifulSoup(str(content), "html.parser")
     output = grabContent.find_all("h2")
@@ -291,7 +291,7 @@ def novelSearch(searchTerm):
         grabLinks = items['href']
         linkList.append(grabLinks)
 
-    for items in range(4,29):
+    for items in range(4,len(titleList)+4):
         novelDict[titleList[count]] = [linkList[items],count]
         count = count + 1
 
@@ -299,7 +299,7 @@ def novelSearch(searchTerm):
     #dictionary is 0-23
     for key, value in novelDict:
         print value[1], "\t\t\t", key
-    print "25 \t\t\t Exit."
+    print "25 \t\t\tExit."
     searchValue = raw_input("Select the novel you want to add:")
     if searchValue == "25":
         exit()
