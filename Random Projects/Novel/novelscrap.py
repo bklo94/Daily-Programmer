@@ -270,7 +270,7 @@ def novelUpdate(searchItem):
 #Uses novel update to search for a novel and then add it
 def novelSearch(searchTerm):
     table = "SEARCH"
-    url = "http://www.novelupdates.com/?s="+ searchTerm +"&post_type=seriesplans"
+    url = "http://www.novelupdates.com/?s="+ str(searchTerm) +"&post_type=seriesplans"
     content = getArticle(url)
     grabContent = BeautifulSoup(str(content), "html.parser")
     output = grabContent.find_all("h2")
