@@ -1,19 +1,6 @@
 #Brandon Lo
 #Backend for the Novel Tracking App
 
-#For futute funtionality.Currently unsued
-import praw,traceback
-
-#crontab settings
-from crontab import CronTab
-
-def cronUpdate():
-    print "VoHiYo I'm checking VoHiYo..."
-    cron = CronTab(user=True)
-    job = cron.new(command='python updatenovel.py')
-    job.minute.every(0)
-    cron.write()
-
 #sets up the database
 import sqlite3
 sqlite_file = 'novel.sqlite'
@@ -71,24 +58,24 @@ def setSearchNovel(name, chapter, latest, lang, urlCurrent, urlLatest):
     conn.commit()
 
 #Updates a Real Novel when called
-def updateCurrentRealNovel(name, chapter):
+def updateCurrentRealNovel(novelID, chapter):
     c.execute(""" UPDATE REAL_NOVELS
         SET NOVEL_CURRENT = ?
-        WHERE NOVEL_NAME = ?""",(chapter,name.upper()))
+        WHERE ID = ?""",(chapter,novelID))
     conn.commit()
 
 #Updates an online novel latest chapter. Automatically called
 def updateLatestOnlineNovel(name,chapter,url):
     c.execute("""UPDATE ONLINE_NOVELS
         SET NOVEL_LATEST = ?, LATEST_WEBSITE = ?
-        WHERE NOVEL_NAME = ? """,(chapter,url,name.upper()))
+        WHERE NOVEL_NAME = ? """,(chapter,novelID,name.upper()))
     conn.commit()
 
 #Updates the current online chapter. Manually called
-def updateCurrentOnlineChapter(name,chapter,url):
+def updateCurrentOnlineChapter(novelID,chapter,url):
     c.execute("""UPDATE ONLINE_NOVELS
         SET NOVEL_CURRENT = ?, CURRENT_WEBSITE = ?
-        WHERE NOVEL_NAME = ?""",(chapter,url,name.upper()))
+        WHERE ID = ?""",(chapter,url,novelID))
     conn.commit()
 
 #Moves a search novel to the online novel table
@@ -131,6 +118,13 @@ def showSearchTable():
     novelNames = [novels for novels in result]
     for rows in novelNames:
         print rows
+
+#Used for debugging the novels, currently unsued
+def gatherRealNovelNames():
+    c.execute("""SELECT NOVEL_NAME FROM REAL_NOVELS""")
+    result = c.fetchall()
+    novelNames = [novels[0] for novels in result]
+    return novelNames
 
 #Used for debugging the novels, currently unsued
 def gatherOnlineNovelNames():
@@ -213,9 +207,22 @@ def novelInsert():
     tableOptions = raw_input("Which table number do you want to add to:")
     if tableOptions == "1" or tableOptions == "2":
         name = raw_input("Input the novel name:")
+
+        onlineNovelList = gatherOnlineNovelNames()
+        realNovelList = gatherRealNovelNames()
+        for items in onlineNovelList:
+            if (items.upper() == name.upper()):
+                print "Novel Already Exists!"
+                return
+        for items in realNovelList:
+            if (items.upper() == name.upper()):
+                print "Novel Already Exists!"
+                return
+
         chapter = int(raw_input("Input current chapter:"))
         latest = int(raw_input("Input latest chapter:"))
         lang = raw_input("Input Language Symbol:")
+
         if tableOptions == "1":
             urlCurrent = raw_input("Input current chapter URL:")
             latestURL = raw_input("Input current latest URL:")
@@ -265,7 +272,7 @@ def novelUpdate(searchItem):
                 messageContent = "Your novel "+ Title.upper() +" has been updated! \nThe new chapter is on " + str(finalChapterNumber) + ".\nAt this link "+ finalWebLink +"\nI am your faithful servent. You fucking weeb. \n~SneakyWeeb."
                 emailMessage(messageContent, subject)
             else:
-                pass
+                return
 
 #Uses novel update to search for a novel and then add it
 def novelSearch(searchTerm):
@@ -315,7 +322,7 @@ def novelSearch(searchTerm):
             setSearchNovel(name, chapter, newNovelList[0], newNovelList[1], urlCurrent, newNovelList[2])
             transferSearchToOnline(name)
             subject = "Your novel " + name.upper() + " has been inserted!"
-            messageContent = "Your novel,"+ name.upper() +" , has been inserted! \nYou are on chapter," + str(chapter) + "\nThe latest chapter is," + str(newNovelList[0]) + ".\nThe link is at " + newNovelList[3] + " \nYou are " + str((newNovelList[0]-chapter)) + " chapters behind.\nI am your faithful servent. You fucking " + newNovelList[1] + "weeb. \n~SneakyWeeb."
+            messageContent = "Your novel,"+ name.upper() +" , has been inserted! \nYou are on chapter," + str(chapter) + "\nThe latest chapter is," + str(newNovelList[0]) + ".\nThe link is at " + newNovelList[2] + " \nYou are " + str((int(newNovelList[0])-int(chapter))) + " chapters behind.\nI am your faithful servent. You fucking " + newNovelList[1] + "weeb. \n~SneakyWeeb."
             emailMessage(messageContent, subject)
 
 #Used with the search function in order to update the latest novel and website
@@ -335,9 +342,10 @@ def novelPageUpdate(url):
         linkList.append(items['href'])
         chapterSearch = scanner[1:]
         count = count + 1
+
         if chapterSearch.isdigit():
             temp = chapterSearch
-            if temp > chapterHolder:
+            if int(temp) > int(chapterHolder):
                 chapterHolder = temp
                 foundLink = count
         if scanner == "Japanese":
@@ -346,10 +354,12 @@ def novelPageUpdate(url):
             languageHolder = "CN"
         elif scanner == "Korean":
             languageHolder = "KR"
-
     returnList.append(chapterHolder)
     returnList.append(languageHolder)
-    returnList.append(linkList[foundLink])
+    if (len(linkList[foundLink]) < 9):
+        returnList.append(linkList[foundLink-7])
+    elif(len(linkList[foundLink]) > 9):
+        returnList.append(linkList[foundLink])
     return returnList
 
 #drop row function for deleting a novel
@@ -369,6 +379,26 @@ def deleteNovel():
     elif tableOptions == "3":
         exit
 
+#update function that allows user to update status of current novel
+def novelUpdate():
+    print "1: Online Novels"
+    print "2: Real Novels"
+    print "0: Exit"
+    tableOptions = raw_input("Which table number do you want to update?:")
+    if tableOptions == "1":
+        showOnlineTable()
+        novelID = raw_input("What is the ID of the novel you want to update?:")
+        chapter = raw_input("What chapter are you currently on?:")
+        urlCurrent = raw_input("What is the url you currently on?:")
+        updateCurrentOnlineChapter(novelID, chapter,urlCurrent)
+    elif tableOptions == "2":
+        showRealTable()
+        novelID = raw_input("What is the ID of the novel you want to update?:")
+        chapter = raw_input("What chapter are you currently on?:")
+        updateCurrentRealNovel(novelID, chapter)
+    elif tableOptions == "0":
+        return
+
 #Main function. Has a commented out area for debugging.
 def main():
     try:
@@ -382,20 +412,23 @@ def main():
             print "Option 3: Read Database"
             print "Option 0: Exit"
             option = raw_input("What would you like to do? ")
-            if  (option == "1"):
-                print "Option 1: Insert Novel"
-                print "Option 2: Delete Novel"
+            if  option == "1":
+                print "Option 1: Update Novel"
+                print "Option 2: Insert Novel"
+                print "Option 3: Delete Novel"
                 secondOption = raw_input("What would you like to do? ")
-                if (secondOption == "1"):
+                if secondOption == "1":
+                    novelUpdate()
+                elif secondOption == "2":
                     novelInsert()
-                elif (secondOption == "2"):
+                elif secondOption == "3":
                     deleteNovel()
-            elif (option == "2"):
+            elif option == "2":
                 novelList = gatherOnlineNovelNames()
                 for items in novelList:
                     novelUpdate(items)
                 print "Novel update is complete!"
-            elif (option == "3"):
+            elif option == "3":
                 print "Real Novels List\n"
                 showRealTable()
                 print "Web Novel List\n"
