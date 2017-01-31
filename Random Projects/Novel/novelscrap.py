@@ -43,6 +43,7 @@ def createTable():
 #Inserts novel into Online novels table
 from prettytable import PrettyTable
 
+#Sets the online novel name into the table
 def setOnlineNovel(name, chapter, latest, lang, urlCurrent, latestUrl):
     c.execute("""INSERT INTO ONLINE_NOVELS (NOVEL_NAME, NOVEL_CURRENT, NOVEL_LATEST, NOVEL_LANG, CURRENT_WEBSITE, LATEST_WEBSITE) VALUES (?, ?, ?, ? ,?, ?)""", (name.upper(),chapter,latest,lang,urlCurrent, latestUrl))
     conn.commit()
@@ -111,7 +112,7 @@ def showRealTable():
         showTable.add_row([rows[0],rows[1],rows[2],rows[3],rows[4]])
     print (showTable)
 
-#displays what is currently in the SQL table
+#displays what is currently in the SQL table, not used currently. Avaliable for debugging. No pretty formatting
 def showSearchTable():
     c.execute("""SELECT * FROM SEARCH""")
     result = c.fetchall()
@@ -119,13 +120,14 @@ def showSearchTable():
     for rows in novelNames:
         print rows
 
-#Used for debugging the novels
+#Used for getting the real novel names to check if it was already inserted
 def gatherRealNovelNames():
     c.execute("""SELECT NOVEL_NAME FROM REAL_NOVELS""")
     result = c.fetchall()
     novelNames = [novels[0] for novels in result]
     return novelNames
 
+#Gets the novel specific name used for the search function email
 def gatherSpecificRealName(novelID):
     c.execute("""SELECT NOVEL_NAME FROM REAL_NOVELS WHERE ID = ?""", (novelID,))
     result = c.fetchall()
@@ -139,6 +141,7 @@ def gatherOnlineNovelNames():
     novelNames = [novels[0] for novels in result]
     return novelNames
 
+#Gets specific online novel names used for the search function email.
 def gatherSpecificOnlineName(novelID):
     c.execute("""SELECT NOVEL_NAME FROM ONLINE_NOVELS WHERE ID = ?""", (novelID,))
     result = c.fetchall()
@@ -375,6 +378,7 @@ def novelPageUpdate(url):
             languageHolder = "KR"
     returnList.append(chapterHolder)
     returnList.append(languageHolder)
+    #Odd bug error patch fix dealing with the the web page formatting
     if (len(linkList[foundLink]) < 9):
         returnList.append(linkList[foundLink-7])
     elif(len(linkList[foundLink]) > 9):
@@ -478,5 +482,7 @@ def main():
         print "Novel Attritube Not Found!"
     except UnicodeEncodeError:
         print "Unicode encountered!"
+    except ValueError:
+        print "The chapter for this novel has odd formatting!"
 
 if __name__ == "__main__": main()
