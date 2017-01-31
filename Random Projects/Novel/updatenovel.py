@@ -1,9 +1,6 @@
 #Brandon Lo
 #File that continiously runs and updates
 
-#used for time tracking
-import praw,time,traceback
-
 #sets up the database
 import sqlite3
 sqlite_file = 'novel.sqlite'
@@ -86,7 +83,7 @@ def novelUpdate(searchItem):
     output = grabContent.find_all("td")
     count = 0
     inputNovel = searchItem
-    
+
     for chapter in output:
         Title = chapter.get_text()
         count = count + 1
@@ -106,7 +103,7 @@ def novelUpdate(searchItem):
                 messageContent = "Your novel "+ Title.upper() +" has been updated! \nThe new chapter is on " + str(finalChapterNumber) + ".\nAt this link "+ finalWebLink +"\nI am your faithful servent. You fucking weeb. \n~SneakyWeeb."
                 emailMessage(messageContent, subject)
             else:
-                pass
+                return
 
 #Main function. Has a commented out area for debugging.
 def main():
