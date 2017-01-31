@@ -119,23 +119,42 @@ def showSearchTable():
     for rows in novelNames:
         print rows
 
-#Used for debugging the novels, currently unsued
+#Used for debugging the novels
 def gatherRealNovelNames():
     c.execute("""SELECT NOVEL_NAME FROM REAL_NOVELS""")
     result = c.fetchall()
     novelNames = [novels[0] for novels in result]
     return novelNames
 
-#Used for debugging the novels, currently unsued
+def gatherSpecificRealName(novelID):
+    c.execute("""SELECT NOVEL_NAME FROM REAL_NOVELS WHERE ID = ?""", (novelID,))
+    result = c.fetchall()
+    novelName = [novels[0] for novels in result]
+    return novelName
+
+#Used for debugging the novels
 def gatherOnlineNovelNames():
     c.execute("""SELECT NOVEL_NAME FROM ONLINE_NOVELS""")
     result = c.fetchall()
     novelNames = [novels[0] for novels in result]
     return novelNames
 
+def gatherSpecificOnlineName(novelID):
+    c.execute("""SELECT NOVEL_NAME FROM ONLINE_NOVELS WHERE ID = ?""", (novelID,))
+    result = c.fetchall()
+    novelName = [novels[0] for novels in result]
+    return novelName
+
 #Gathers the chapter numbers only
 def gatherOnlineChapters(name):
     c.execute("""SELECT NOVEL_LATEST FROM ONLINE_NOVELS WHERE NOVEL_NAME = ?""", (name.upper(),))
+    result = c.fetchall()
+    novelChaps = [novels[0] for novels in result]
+    return novelChaps
+
+#Gathers current URL based on ID, currently unused
+def gatherOnlineCurrentURL(novelID):
+    c.execute("""SELECT CURRENT_WEBSITE FROM ONLINE_NOVELS WHERE ID = ?""", (novelID,))
     result = c.fetchall()
     novelChaps = [novels[0] for novels in result]
     return novelChaps
@@ -391,11 +410,25 @@ def novelUpdate():
         chapter = raw_input("What chapter are you currently on?:")
         urlCurrent = raw_input("What is the url you currently on?:")
         updateCurrentOnlineChapter(novelID, chapter,urlCurrent)
+        onlineNovelName = gatherSpecificOnlineName(novelID)
+
+        subject = "Your novel " + onlineNovelName[0].upper() + " has been updated!"
+        messageContent = "Your novel "+ onlineNovelName[0].upper() +" has been updated! \nThe new chapter is on " + str(chapter) + ".\nAt this link "+ urlCurrent +"\nI am your faithful servent. You fucking weeb. \n~SneakyWeeb."
+        emailMessage(messageContent, subject)
+        print "Your novel has been updated!"
+
     elif tableOptions == "2":
         showRealTable()
         novelID = raw_input("What is the ID of the novel you want to update?:")
         chapter = raw_input("What chapter are you currently on?:")
         updateCurrentRealNovel(novelID, chapter)
+        realNovelName = gatherSpecificRealName(novelID)
+
+        subject = "Your novel " + realNovelName[0].upper() + " has been updated!"
+        messageContent = "Your novel "+ realNovelName[0].upper() +" has been updated! \nThe new chapter is on " + str(chapter) +"\nI am your faithful servent. You fucking weeb. \n~SneakyWeeb."
+        emailMessage(messageContent, subject)
+        print "Your novel has been updated!"
+
     elif tableOptions == "0":
         return
 
