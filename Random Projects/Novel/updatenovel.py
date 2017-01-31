@@ -56,7 +56,7 @@ def emailMessage(messageContent,subject):
     server = smtplib.SMTP("smtp.mail.yahoo.com", 587)
     server.ehlo()
     server.starttls()
-    server.login("kenshin421","sircadgon2.")
+    server.login("kenshin421","ctfbhsgpqibquoxw")
     try:
         server.sendmail(fromaddress, toaddress, msg)
         print "Everything went well! Email sent!"
@@ -86,11 +86,7 @@ def novelUpdate(searchItem):
     output = grabContent.find_all("td")
     count = 0
     inputNovel = searchItem
-
-    subject = "Update Running"
-    messageContent = "VoHiYo I'm checking VoHiYo..."
-    emailMessage(messageContent, subject)
-
+    
     for chapter in output:
         Title = chapter.get_text()
         count = count + 1
