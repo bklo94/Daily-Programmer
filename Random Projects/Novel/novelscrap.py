@@ -139,6 +139,13 @@ def gatherOnlineNovelNames():
     novelNames = [novels[0] for novels in result]
     return novelNames
 
+#Gathers the chapter numbers only
+def gatherOnlineChapters(name):
+    c.execute("""SELECT NOVEL_LATEST FROM ONLINE_NOVELS WHERE NOVEL_NAME = ?""", (name.upper(),))
+    result = c.fetchall()
+    novelChaps = [novels[0] for novels in result]
+    return novelChaps
+
 #Deletes a certain novel from the online table
 def deleteOnlineRow(idNovel):
     c.execute("""DELETE FROM ONLINE_NOVELS WHERE id = ?""", (idNovel,))
@@ -246,15 +253,19 @@ def novelUpdate(searchItem):
             chapterNumber = output[count].get_text().split("c")
             #reads the outputted list to get the chapter number
             finalChapterNumber = chapterNumber[1]
-            webLink = output[count].find_all("a")
+            currentFinalChapterNumber = gatherOnlineChapters(Title)[0]
+            if (int(finalChapterNumber[0]) > int(currentFinalChapterNumber)):
+                webLink = output[count].find_all("a")
 
-            #reads the outputted list to get the web link
-            finalWebLink = webLink[1]['href']
-            updateLatestOnlineNovel(Title.upper(),finalChapterNumber,finalWebLink)
+                #reads the outputted list to get the web link
+                finalWebLink = webLink[1]['href']
+                updateLatestOnlineNovel(Title.upper(),finalChapterNumber,finalWebLink)
 
-            subject = "Your novel " + Title.upper() + " has been updated!"
-            messageContent = "Your novel "+ Title.upper() +" has been updated! \nThe new chapter is on " + str(finalChapterNumber) + ".\nAt this link "+ finalWebLink +"\nI am your faithful servent. You fucking weeb. \n~SneakyWeeb."
-            emailMessage(messageContent, subject)
+                subject = "Your novel " + Title.upper() + " has been updated!"
+                messageContent = "Your novel "+ Title.upper() +" has been updated! \nThe new chapter is on " + str(finalChapterNumber) + ".\nAt this link "+ finalWebLink +"\nI am your faithful servent. You fucking weeb. \n~SneakyWeeb."
+                emailMessage(messageContent, subject)
+            else:
+                pass
 
 #Uses novel update to search for a novel and then add it
 def novelSearch(searchTerm):
@@ -382,6 +393,7 @@ def main():
                 novelList = gatherOnlineNovelNames()
                 for items in novelList:
                     novelUpdate(items)
+                print "Novel update is complete!"
             elif (option == "3"):
                 print "Real Novels List\n"
                 showRealTable()

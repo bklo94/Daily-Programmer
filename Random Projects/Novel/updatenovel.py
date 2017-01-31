@@ -38,6 +38,13 @@ def gatherOnlineNovelNames():
     novelNames = [novels[0] for novels in result]
     return novelNames
 
+#Gathers the chapter numbers only
+def gatherOnlineChapters(name):
+    c.execute("""SELECT NOVEL_LATEST FROM ONLINE_NOVELS WHERE NOVEL_NAME = ?""", (name.upper(),))
+    result = c.fetchall()
+    novelChaps = [novels[0] for novels in result]
+    return novelChaps
+
 #for the email
 import smtplib
 
@@ -80,6 +87,10 @@ def novelUpdate(searchItem):
     count = 0
     inputNovel = searchItem
 
+    subject = "Update Running"
+    messageContent = "VoHiYo I'm checking VoHiYo..."
+    emailMessage(messageContent, subject)
+
     for chapter in output:
         Title = chapter.get_text()
         count = count + 1
@@ -87,15 +98,19 @@ def novelUpdate(searchItem):
             chapterNumber = output[count].get_text().split("c")
             #reads the outputted list to get the chapter number
             finalChapterNumber = chapterNumber[1]
-            webLink = output[count].find_all("a")
+            currentFinalChapterNumber = gatherOnlineChapters(Title)[0]
+            if (int(finalChapterNumber[0]) > int(currentFinalChapterNumber)):
+                webLink = output[count].find_all("a")
 
-            #reads the outputted list to get the web link
-            finalWebLink = webLink[1]['href']
-            updateLatestOnlineNovel(Title.upper(),finalChapterNumber,finalWebLink)
+                #reads the outputted list to get the web link
+                finalWebLink = webLink[1]['href']
+                updateLatestOnlineNovel(Title.upper(),finalChapterNumber,finalWebLink)
 
-            subject = "Your novel " + Title.upper() + " has been updated!"
-            messageContent = "Your novel "+ Title.upper() +" has been updated! \nThe new chapter is on " + str(finalChapterNumber) + ".\nAt this link "+ finalWebLink +"\nI am your faithful servent. You fucking weeb. \n~SneakyWeeb."
-            emailMessage(messageContent, subject)
+                subject = "Your novel " + Title.upper() + " has been updated!"
+                messageContent = "Your novel "+ Title.upper() +" has been updated! \nThe new chapter is on " + str(finalChapterNumber) + ".\nAt this link "+ finalWebLink +"\nI am your faithful servent. You fucking weeb. \n~SneakyWeeb."
+                emailMessage(messageContent, subject)
+            else:
+                pass
 
 #Main function. Has a commented out area for debugging.
 def main():
