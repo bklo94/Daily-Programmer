@@ -1,55 +1,119 @@
-// "turn" is called at each turn of the game
-// your goal is to move the vehicles in order to bring people to their destination
-// you can only:
-//  - move vehicles (up, down, left or right, not in diagonal)
-//  - select which people you want to pick up
-//
-// a vehicle can pick-up / drop people only when it's on the same
-// coordinates as the building of origin / destination
-//
-// Examples of moving a vehicle:
-//  vehicles[0].moveUp();
-//  vehicles[0].moveDown();
-//  vehicles[0].moveLeft();
-//  vehicles[0].moveRight();
-//  and very handy:
-//  vehicles[0].moveTo(buildings[0]); >> moves 1px toward the target
-//
-// Picking up someone:
-//  You can ask a vehicle to pick someone by doing something like:
-//   vehicles[0].pick(peoples[0]);
-//  If the vehicle is on the same building as the people during that turn, it will pick him/her up
-//  You can pick 4 peoples max in a vehicle
-//  Note: the vehicle will pick people up before they can move
-//
-// Dropping someone:
-//  Dropping off is automatic: whenever a vehicle contains someone that has
-//  reached destination it drops him off.
-//  This is when you earn $50
-//
-// Time:
-//  each people has a people.time, which represent the time (in turns) left
-//  to bring them to the correct destination.
-//  If they feel they're late, they'll go by foot.
-//  They go at a speed of 1px every 2 turns
-//
-//
-// "turn" function's params :
-//
-// vehicles is an array of vehicle
-//  vehicle.x/vehicle.y is the position of the vehicle
-//  vehicle.peoples is an array of people in the vehicle (must be <=4)
-//
-// peoples is an array of people who are currently not in a vehicle
-//  people.x/people.y is the position of the people
-//  people.destination is a string representing the name of a building
-//
-// buildings are the buildings
-//  building.x/building.y is the position of the building
-//  building.name is the name of the building
-//
-// You can add your own parameters to each variable, they will be copied from turn to turn.
-// https://www.getlocalmotion.com/code-challenge
 
 function turn(vehicles,peoples,buildings){
+    var i;
+    var tempList = [];
+    for (i = 0; i < vehicles.length; i++){
+        //if it is the start of the challenge, start moving the taxis to some buildings
+        getPassAndPath(vehicles[i],peoples,buildings);
+        if (isEmpty(vehicles[i]) == true){
+            vehicles[i].name = i;
+            vehicles[i].destination = buildings[i];
+        }
+        else{
+            vehicles[i].destination = buildings[vehicles[i].path[0]];
+            vehicles[i].path = vehicles[i].path.slice(0,1);
+        }
+        vehicles[i].moveTo(vehicles[i].destination);
+    }
+ }
+
+function getPassAndPath(vehicles,peoples,buildings){
+    var j;
+    var passBuildList = [];
+    for (j = 0; j < buildings.length; j++){
+        if (checkLocation(vehicles,buildings[j]) == true){
+            passBuildList = passInBuild(peoples,buildings[j]);
+            pickUpPass(vehicles,peoples,passBuildList,buildings);
+        }
+    }
+}
+
+function pickUpPass(taxi,peoples,list,buildings){
+    var i;
+    var taxiPath = [];
+    if (isFull(taxi) != true){
+        for (i = 0;i < (list.length); i++){
+            taxi.pick(peoples[list[i]]);
+            taxiPath.push(peoples[list[i]].destination);
+            taxi.path = convertPath(buildings,taxiPath);
+        }
+    }
+}
+
+function convertPath(buildings,pathList){
+    var tempList = [];
+    var i,j;
+    for (i = 0; i < buildings.length;i++){
+        for (j = 0; j < pathList.length;j++){
+            if (buildings[i].name == pathList[j]){
+                tempList.push(i);
+            }
+        }
+    }
+    return tempList;
+}
+
+ //initialize a dictionary of buildings
+ function initCurrDest(vehicles,buildings){
+     var i;
+     var dict = {};
+     for (i = 0; i < vehicles.length; i++){
+         dict[i] = initBuildingDict(buildings);
+     }
+     return dict;
+ }
+
+//initialize a dictionary of buildings
+function initBuildingDict(buildings){
+    var i;
+    var dict = {};
+    for (i = 0; i < buildings.length; i++){
+        dict[buildings.name] = 0;
+    }
+    return dict;
+}
+
+
+//determine if a vehicle is full or not
+//returns true if the taxi is too full
+//returns false if the taxi is not full
+function isEmpty(taxi){
+    return taxi.peoples.length == 0;
+}
+
+//determine if a vehicle is full or not
+//returns true if the taxi is too full
+//returns false if the taxi is not full
+function isFull(taxi){
+    return taxi.peoples.length == 4;
+}
+
+//finds the number of passengers per buildings
+function passInBuild(pass,places){
+    var i,a;
+    var list = [];
+    for(i = 0; i < pass.length;i++){
+        if (pass[i].x == places.x && pass[i].y == places.y && pass[i].origin == places.name){
+            list.push(i);
+        }
+    }
+    return list;
+}
+
+//finds the number of people's destination from each building
+function checkLocation(a,b){
+    return (a.x == b.x) && (a.y == b.y);
+}
+
+function checkDistance(a,b){
+    return Math.abs(a.x-b.x) + Math.abs(a.y-b.y);
+}
+
+function checkBuilding(place,buildings){
+    var i;
+    for (i = 0; i < buildings.length; i++){
+        if (buildings[i].name == place){
+            return i;
+        }
+    }
 }
