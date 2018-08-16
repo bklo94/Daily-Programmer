@@ -25,7 +25,7 @@ def getFiles(directory):
         j-=1
 
 def main():
-    getFiles("/home/bklo/Documents/Test/Test/")
+    getFiles("/home/bklo/Github/Daily-Programmer/Coding Challenges/SwapTimings/Test/")
 
 #time in milliseconds
 if __name__ == '__main__':

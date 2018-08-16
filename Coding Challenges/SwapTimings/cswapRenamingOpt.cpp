@@ -13,8 +13,8 @@
 using namespace std;
 #define flags (RENAME_EXCHANGE)
 
-void swap(int src, const char* a, int dest, const char* b){
-    syscall(SYS_renameat2, src, a, dest, b, flags);
+void swap(const char* a, const char* b){
+    syscall(SYS_renameat2, open(a,O_PATH), a, open(b,O_PATH), b, flags);
 }
 
 void getFiles(string target){
@@ -32,11 +32,8 @@ void getFiles(string target){
     }
     int i = 0;
     int j = arr.size()-1;
-    fstream f;
     while (i < j){
-        int src = open(arr[i].c_str(),O_PATH);
-        int dest = open(arr[j].c_str(),O_PATH);
-        swap(src,arr[i].c_str(),dest,arr[j].c_str());
+        swap(arr[i].c_str(),arr[j].c_str());
         i++;
         j--;
     }
@@ -44,7 +41,7 @@ void getFiles(string target){
 
 //compile  with gcc swap.cpp -lstdc++fs
 int main(int argc, char const *argv[]){
-    string directory = "/home/bklo/Documents/Test/Test/*";
+    string directory = "/home/bklo/Github/Daily-Programmer/Coding Challenges/SwapTimings/Test/*";
     double time0 = omp_get_wtime();
     getFiles(directory);
     double time1 = omp_get_wtime();

@@ -47,7 +47,7 @@ void getFiles(string target){
 
 //compile  with gcc swap.cpp -lstdc++fs
 int main(int argc, char const *argv[]){
-    string directory = "/home/bklo/Documents/Test/Test/*";
+    string directory = "/home/bklo/Github/Daily-Programmer/Coding Challenges/SwapTimings/Test/*";
     double time0 = omp_get_wtime();
     getFiles(directory);
     double time1 = omp_get_wtime();
